@@ -1,0 +1,46 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 5,
+            "y" : 6,
+            "z" : 1
+         },
+         "color" : "0a956d",
+         "flammable" : true,
+         "name" : "obj_shootingrange_farmertarget",
+         "physicsMaterial" : "Wood",
+         "ratings" : {
+            "buoyancy" : 6,
+            "density" : 3,
+            "durability" : 6,
+            "friction" : 5
+         },
+         "renderable" : "$SURVIVAL_DATA/Objects/Renderable/shootingrange/obj_shootingrange_farmertarget.rend",
+         "rotationSet" : "PropY",
+         "sticky" : "-Y",
+         "uuid" : "8aa4459f-6c45-41ae-94f4-4ddff0279c18"
+      },
+      {
+         "box" : {
+            "x" : 5,
+            "y" : 6,
+            "z" : 1
+         },
+         "color" : "a1200bff",
+         "flammable" : true,
+         "name" : "obj_shootingrange_farmbottarget",
+         "physicsMaterial" : "Wood",
+         "ratings" : {
+            "buoyancy" : 6,
+            "density" : 3,
+            "durability" : 6,
+            "friction" : 5
+         },
+         "renderable" : "$SURVIVAL_DATA/Objects/Renderable/shootingrange/obj_shootingrange_farmbottarget.rend",
+         "rotationSet" : "PropY",
+         "sticky" : "-Y",
+         "uuid" : "f27cf05c-f6f9-43dc-93db-f810372110ec"
+      }
+   ]
+}

@@ -1,0 +1,946 @@
+{
+	"wedgeList" : 
+	[
+		{
+			"blockUuid" : "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
+			"color" : "8d8f89",
+			"frameSize" : 0.15,
+			"material" : "DifAsgNor",
+			"name" : "wdg_concrete1",
+			"physicsMaterial" : "Rock",
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "e83cd904-14b8-11ed-861d-0242ac120002",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"blockUuid" : "df953d9c-234f-4ac2-af5e-f0490b223e71",
+			"color" : "9b683a",
+			"flammable" : true,
+			"frameSize" : 0.15,
+			"material" : "DifAsgNorTiling",
+			"name" : "wdg_wood1",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "cb529af8-14b9-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+			"color" : "675f51",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_metal1",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "a358c216-14b9-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "09ca2713-28ee-4119-9622-e85490034758",
+			"color" : "ce9e0c",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_caution",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "56b4d3fc-14bc-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
+			"color" : "bfdfed",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_tiles",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "b67c82e4-14bc-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
+			"color" : "af967b",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_bricks",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "c01fbc1c-14bc-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "5f41af56-df4c-4837-9b3c-10781335757f",
+			"color" : "e4f8ff",
+			"flammable" : false,
+			"frameSize" : 0.1,
+			"material" : "Glass",
+			"name" : "wdg_glass",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 1,
+				"friction" : 3
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_nor.tga"
+			],
+			"tiling" : 
+			[
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"uuid" : "3bb5dc9e-14bd-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "749f69e0-56c9-488c-adf6-66c58531818f",
+			"color" : "c2f9ff",
+			"flammable" : false,
+			"material" : "Glass",
+			"name" : "wdg_glasstile",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 1,
+				"friction" : 3
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "46ef860a-14bd-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "073f92af-f37e-4aff-96b3-d66284d5081c",
+			"color" : "727272",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_lights",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "996b107e-14be-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
+			"color" : "820a0a",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_spaceshipmetal",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "396c8a9a-14be-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
+			"color" : "a48052",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_cardboard",
+			"physicsMaterial" : "Cardboard",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5d5144be-14be-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "1fc74a28-addb-451a-878d-c3c605d63811",
+			"color" : "cd9d71",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_scrapwood",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "a5a857de-14be-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "1897ee42-0291-43e4-9645-8c5a5d310398",
+			"color" : "dc9153",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_wood2",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae0b3a-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
+			"color" : "f2ad74",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_wood3",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 9,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete3_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_chrome_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae0d42-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
+			"color" : "df6226",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_scrapmetal",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae0e46-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "1016cafc-9f6b-40c9-8713-9019d399783f",
+			"color" : "869499",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_metal2",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_chrome_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae0f2c-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "c0dfdea5-a39d-433a-b94a-299345a5df46",
+			"color" : "88a5ac",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_metal3",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 8,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_chrome_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae1008-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "30a2288b-e88e-4a92-a916-1edbfc2b2dac",
+			"color" : "848484",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_scrapstone",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 6,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae16a2-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "ff234e42-5da4-43cc-8893-940547c97882",
+			"color" : "8d8f89",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_concrete2",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 8,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae15c6-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "e281599c-2343-4c86-886e-b2c1444e8810",
+			"color" : "c9d7dcff",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_concrete3",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 9,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete3_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_chrome_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae14e0-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "f5ceb7e3-5576-41d2-82d2-29860cf6e20e",
+			"color" : "8d8f89",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_crackedconcrete",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 6,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"restrictions" : 
+			{
+				"destructable" : true,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5dae13f0-14bf-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "cd0eff89-b693-40ee-bd4c-3500b23df44e",
+			"color" : "af967b",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_concretetiles",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 4,
+				"friction" : 7
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9404a6a2-14c0-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "220b201e-aa40-4995-96c8-e6007af160de",
+			"color" : "738192",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_metalbricks",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "a29f7ce6-14c0-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
+			"color" : "858795",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_beam",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "a29f7c00-14c0-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
+			"color" : "9acfd2",
+			"flammable" : true,
+			"material" : "Glass",
+			"name" : "wdg_bubblewrap",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "5115b997-5d8c-4815-8e07-f487cc1c029f"
+		},
+		{
+			"blockUuid" : "628b2d61-5ceb-43e9-8334-a4135566df7a",
+			"color" : "0b9ade",
+			"flammable" : false,
+			"frameSize" : 0.1,
+			"material" : "DifAsgNor",
+			"name" : "wdg_plastic",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_plastic_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_plastic_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_nor.tga"
+			],
+			"uuid" : "bf3de51c-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "9be6047c-3d44-44db-b4b9-9bcf8a9aab20",
+			"color" : "fff063",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_insulation",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "bf3de7c4-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "b145d9ae-4966-4af6-9497-8fca33f9aee3",
+			"color" : "979797",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_drywall",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9acec674-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "febce8a6-6c05-4e5d-803b-dfa930286944",
+			"color" : "368085",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_carpet",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9acecbec-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "e981c337-1c8a-449c-8602-1dd990cbba3a",
+			"color" : "eeeeee",
+			"flammable" : true,
+			"material" : "DifAsgNor",
+			"name" : "wdg_plasticwall",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9acecd22-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
+			"color" : "435359",
+			"flammable" : false,
+			"material" : "DifAsgNorBackface",
+			"name" : "wdg_metalnet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9acece58-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
+			"color" : "888888",
+			"flammable" : false,
+			"material" : "DifAsgNorBackface",
+			"name" : "wdg_crossnet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "9acecf66-14c1-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "ea6864db-bb4f-4a89-b9ec-977849b6713a",
+			"color" : "888888",
+			"flammable" : false,
+			"material" : "DifAsgNorBackface",
+			"name" : "wdg_tryponet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "4e72cd24-14c7-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "a479066d-4b03-46b5-8437-e99fec3f43ee",
+			"color" : "888888",
+			"flammable" : false,
+			"material" : "DifAsgNorBackface",
+			"name" : "wdg_stripednet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "4e72ce8c-14c7-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "b4fa180c-2111-4339-b6fd-aed900b57093",
+			"color" : "c36512",
+			"flammable" : false,
+			"material" : "DifAsgNorBackface",
+			"name" : "wdg_squarenet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "27e9c9ee-14c4-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
+			"color" : "607b79",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_restroom",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 7,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "27e9cc8c-14c4-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "f7d4bfed-1093-49b9-be32-394c872a1ef4",
+			"color" : "43494d",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_treadplate",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 6
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "27e9cdcc-14c4-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c",
+			"color" : "727272",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_warehousefloor",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "27e9d236-14c4-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "d740a27d-cc0f-4866-9e07-6a5c516ad719",
+			"color" : "66837c",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_wornmetal",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "3f2e8e84-14c7-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
+			"color" : "dadada",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_spaceshipfloor",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_metal_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "3f2e9064-14c7-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
+			"color" : "c69146",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_sand",
+			"physicsMaterial" : "Sand",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_concrete_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "3f2e92d0-14c7-11ed-861d-0242ac120002"
+		},
+		{
+			"blockUuid" : "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
+			"color" : "3abfb1",
+			"flammable" : false,
+			"material" : "Glass",
+			"name" : "wdg_armoredglass",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_glass_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "32053708-14c7-11ed-861d-0242ac120002"
+		}
+	]
+}
