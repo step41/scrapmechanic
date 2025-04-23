@@ -17,25 +17,25 @@ local PerMinute = StatsTickRate / ( 40 * 60 )
 
 local FoodRecoveryThreshold = 5 -- Recover hp when food is above this value
 local FastFoodRecoveryThreshold = 50 -- Recover hp fast when food is above this value
-local HpRecovery = 50 * PerMinute
-local FastHpRecovery = 75 * PerMinute
+local HpRecovery = 100 * PerMinute
+local FastHpRecovery = 150 * PerMinute
 local FoodCostPerHpRecovery = 0.2
 local FastFoodCostPerHpRecovery = 0.2
 
 local FoodCostPerStamina = 0.02
 local WaterCostPerStamina = 0.1
-local SprintStaminaCost = 0.7 / 40 -- Per tick while sprinting
-local CarryStaminaCost = 1.4 / 40 -- Per tick while carrying
+local SprintStaminaCost = 0.1 / 40 -- Per tick while sprinting
+local CarryStaminaCost = 0.1 / 40 -- Per tick while carrying
 
-local FoodLostPerSecond = 100 / 3.5 / 24 / 60
-local WaterLostPerSecond = 100 / 2.5 / 24 / 60
+local FoodLostPerSecond = 100 / .5 / 24 / 60
+local WaterLostPerSecond = 100 / .5 / 24 / 60
 
 local BreathLostPerTick = ( 100 / 60 ) / 40
 
 local FatigueDamageHp = 1 * PerSecond
-local FatigueDamageWater = 2 * PerSecond
-local DrownDamage = 5
-local DrownDamageCooldown = 40
+local FatigueDamageWater = 1 * PerSecond
+local DrownDamage = 1
+local DrownDamageCooldown = 10
 
 local RespawnTimeout = 60 * 40
 
