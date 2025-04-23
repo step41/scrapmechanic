@@ -3644,5 +3644,94 @@
                 "itemId": "220b201e-aa40-4995-96c8-e6007af160de"
             }
         ]
+    },
+    {
+        "itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf",
+        "quantity": 1,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 5,
+                "itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+            }
+        ]
+    },
+    {
+        "itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
+        "quantity": 5,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 1,
+                "itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+            }
+        ]
+    },
+    {
+        "itemId": "e02620a5-371b-4d63-be35-fd8a0552eba9",
+        "quantity": 1,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 1,
+                "itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+            }
+        ]
+    },
+    {
+        "itemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
+        "quantity": 1,
+        "craftTime": 10,
+        "ingredientList": [
+            {
+                "quantity": 60,
+                "itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+            },
+            {
+                "quantity": 1,
+                "itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+            },
+            {
+                "quantity": 1,
+                "itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+            },
+            {
+                "quantity": 1,
+                "itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+            }
+        ]
+    },
+    {
+        "itemId": "36335664-6e61-4d44-9876-54f9660a8565",
+        "quantity": 20,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 1,
+                "itemId": "388adeab-67e5-4901-afe8-c56217754510"
+            }
+        ]
+    },
+    {
+        "itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a",
+        "quantity": 50,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 5,
+                "itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+            }
+        ]
+    },
+    {
+        "itemId": "b4fa180c-2111-4339-b6fd-aed900b57093",
+        "quantity": 10,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 5,
+                "itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a"
+            }
+        ]
     }
 ]
