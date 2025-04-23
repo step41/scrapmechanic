@@ -28,8 +28,8 @@ dofile( "$GAME_DATA/Scripts/game/managers/EventManager.lua" )
 SurvivalGame = class( nil )
 SurvivalGame.enableLimitedInventory = true
 SurvivalGame.enableRestrictions = true
-SurvivalGame.enableFuelConsumption = true
-SurvivalGame.enableAmmoConsumption = true
+SurvivalGame.enableFuelConsumption = false
+SurvivalGame.enableAmmoConsumption = false
 SurvivalGame.enableUpgrade = true
 
 g_survivalDev = true
