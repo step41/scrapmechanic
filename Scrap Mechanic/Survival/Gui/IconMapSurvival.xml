@@ -2009,6 +2009,15 @@
             <Index name="262aa73a-ca62-4d27-8c96-c3566352bd8a">
                 <Frame point="3552 1440"/>
             </Index>
+            <Index name="d739fdf9-2c61-47ea-88ab-beac6a6c35c0">
+                <Frame point="3648 1440"/>
+            </Index>
+            <Index name="d739fdf9-2c61-47ea-88ab-beac6a6c35c1">
+                <Frame point="3744 1440"/>
+            </Index>
+            <Index name="dff53b11-2d8d-4044-ad51-59321f117f8e">
+                <Frame point="3840 1440"/>
+            </Index>
         </Group>
     </Resource>
 </MyGUI>

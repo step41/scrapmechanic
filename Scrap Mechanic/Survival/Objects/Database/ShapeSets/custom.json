@@ -39,7 +39,7 @@
 				"friction": 50000,
 				"buoyancy": 6
 			},
-			"friction": 50000, //10 (10 = 1:1 with rock ice)
+			"friction": 50000,
 			"stackSize": 256
 		},
 		{
@@ -81,11 +81,10 @@
 				"friction": 50000,
 				"buoyancy": 6
 			},
-			"friction": 50000, //100000 (50k = 1:2 with smooth ice)
+			"friction": 50000,
 			"stackSize": 256
 		},
 		{
-			// Big Piston
 			"uuid": "dff53b11-2d8d-4044-ad51-59321f117f8e",
 			"name": "obj_custom_piston_large",
 			"renderable": {
