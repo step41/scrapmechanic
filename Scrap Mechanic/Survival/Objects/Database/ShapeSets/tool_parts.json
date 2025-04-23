@@ -1,6 +1,21 @@
 {
     "partList": [
         {
+            "uuid": "cf41bd2d-8bd3-432b-8a92-a36eda7e7740",
+            "name": "obj_tool_sledgehammer",
+            "renderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+            "color": "ffffff",
+            "box": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "physicsMaterial": "Plastic",
+            "ratings": {},
+            "stackSize": 1,
+            "showInInventory": false
+        },
+        {
             "uuid": "85fc5f11-722b-4723-91f2-293a81ad0800",
             "name": "obj_tool_connect",
             "renderable": "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
@@ -89,6 +104,21 @@
             "showInInventory": false,
             "ratings": {},
             "stackSize": 256
+        },
+        {
+            "uuid": "1226cfd3-4fc8-4f9e-b21a-0c9576e2ef2f",
+            "title": "obj_tool_handbook",
+            "renderable": "$GAME_DATA/Character/Char_Tools/char_handbook_preview.rend",
+            "color": "ffffff",
+            "box": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "physicsMaterial": "Plastic",
+            "ratings": {},
+            "stackSize": 1,
+            "showInInventory": false
         }
     ]
 }

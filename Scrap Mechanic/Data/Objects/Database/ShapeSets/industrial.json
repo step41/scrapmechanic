@@ -636,12 +636,12 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
+            "slant": {
                 "x": 1,
                 "y": 1,
                 "z": 1,
-                "margin": 0.001,
-                "col": "$GAME_DATA/Objects/Collision/obj_industrial_stairwedge.obj"
+                "back": "-Z",
+                "bottom": "-Y"
             },
             "rotationSet": "PropYX",
             "sticky": "-X+X-Y-Z",
@@ -685,11 +685,12 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
+            "slant": {
                 "x": 6,
                 "y": 5,
                 "z": 7,
-                "col": "$GAME_DATA/Objects/Collision/obj_industrial_platformstairsramp.obj"
+                "back": "-Z",
+                "bottom": "-Y"
             },
             "rotationSet": "PropYZXNegX",
             "sticky": "-X+X-Y-Z",

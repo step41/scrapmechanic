@@ -69,7 +69,7 @@
                                 "textureList": [
                                     "$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_dif.tga",
                                     "$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_asg.tga",
-                                    "$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_nor.tga"
+                                    "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
                                 ],
                                 "material": "UVAnimDifAsgNor",
                                 "custom": {
@@ -95,7 +95,7 @@
                                 "file": "$SURVIVAL_DATA/Character/Char_keycardreader/ani_char_keycardreader_activate.dae"
                             }
                         ],
-                        "maxViewDistance": 1000
+                        "maxViewDistance": 1000.0
                     }
                 ]
             },
@@ -242,7 +242,7 @@
                                 "textureList": [
                                     "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
                                     "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
-                                    "$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+                                    "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
                                 ],
                                 "material": "Glass"
                             },
@@ -1546,7 +1546,7 @@
                                 "file": "$SURVIVAL_DATA/Character/Char_farmerball/Animations/ani_char_famerball_velocity.dae"
                             }
                         ],
-                        "maxViewDistance": 1000
+                        "maxViewDistance": 1000.0
                     }
                 ]
             },
@@ -1583,7 +1583,7 @@
             },
             "flammable": false,
             "friction": 0.25,
-            "stackSize": 256,
+            "stackSize": 65535,
             "restrictions": {
                 "paintable": false,
                 "erasable": false,

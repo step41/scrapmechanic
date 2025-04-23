@@ -42,7 +42,7 @@
                         {
                             "name": "Hips",
                             "offset": {
-                                "x": 0,
+                                "x": 0.0,
                                 "y": -0.064,
                                 "z": -0.544
                             }
@@ -73,7 +73,7 @@
                     "exitAudio": "Seat unseated"
                 },
                 "steering": {
-                    "steerAngle": 45
+                    "steerAngle": 45.0
                 }
             },
             "rotationSet": "PropY",
@@ -123,15 +123,15 @@
                         {
                             "name": "Hips",
                             "offset": {
-                                "x": 0,
+                                "x": 0.0,
                                 "y": -0.2,
-                                "z": 0
+                                "z": 0.0
                             }
                         },
                         {
                             "name": "LeftForeArm",
                             "offset": {
-                                "x": 1,
+                                "x": 1.0,
                                 "y": -0.25,
                                 "z": 1.5
                             },
@@ -140,7 +140,7 @@
                         {
                             "name": "RightForeArm",
                             "offset": {
-                                "x": -1,
+                                "x": -1.0,
                                 "y": -0.25,
                                 "z": 1.5
                             },

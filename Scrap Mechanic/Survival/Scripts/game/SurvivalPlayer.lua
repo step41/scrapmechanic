@@ -1,10 +1,13 @@
-dofile "$SURVIVAL_DATA/Scripts/util.lua"
-dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
-dofile( "$SURVIVAL_DATA/Scripts/game/util/Timer.lua" )
-dofile( "$SURVIVAL_DATA/Scripts/game/survival_camera.lua" )
+dofile( "$GAME_DATA/Scripts/game/BasePlayer.lua" )
 dofile( "$SURVIVAL_DATA/Scripts/game/managers/QuestManager.lua" )
+dofile( "$SURVIVAL_DATA/Scripts/game/survival_camera.lua" )
+dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
+dofile( "$SURVIVAL_DATA/Scripts/game/util/Timer.lua" )
+dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
+dofile( "$SURVIVAL_DATA/scripts/game/quest_util.lua" )
 
-SurvivalPlayer = class( nil )
+
+SurvivalPlayer = class( BasePlayer )
 
 
 local StatsTickRate = 40
@@ -31,12 +34,8 @@ local BreathLostPerTick = ( 100 / 60 ) / 40
 
 local FatigueDamageHp = 1 * PerSecond
 local FatigueDamageWater = 2 * PerSecond
-local FireDamage = 10
-local FireDamageCooldown = 40
 local DrownDamage = 5
 local DrownDamageCooldown = 40
-local PoisonDamage = 10
-local PoisonDamageCooldown = 40
 
 local RespawnTimeout = 60 * 40
 
@@ -49,85 +48,49 @@ local RespawnEndDelay = 1.0 * 40
 
 local BaguetteSteps = 9
 
-local StopTumbleTimerTickThreshold = 1.0 * 40 -- Time to keep tumble active after speed is below threshold
-local MaxTumbleTimerTickThreshold = 20.0 * 40 -- Maximum time to keep tumble active before timing out
-local TumbleResistTickTime = 3.0 * 40 -- Time that the player will resist tumbling after timing out
-local MaxTumbleImpulseSpeed = 35
-local RecentTumblesTickTimeInterval = 30.0 * 40 -- Time frame to count amount of tumbles in a row
-local MaxRecentTumbles = 3
-
 function SurvivalPlayer.server_onCreate( self )
 	self.sv = {}
 	self.sv.saved = self.storage:load()
-	if self.sv.saved == nil then
-		self.sv.saved = {}
-		self.sv.saved.stats = {
-			hp = 100, maxhp = 100,
-			food = 100, maxfood = 100,
-			water = 100, maxwater = 100,
-			breath = 100, maxbreath = 100
-		}
-		self.sv.saved.isConscious = true
-		self.sv.saved.hasRevivalItem = false
-		self.sv.saved.isNewPlayer = true
-		self.sv.saved.inChemical = false
-		self.sv.saved.inOil = false
-		self.storage:save( self.sv.saved )
-	end
+	self.sv.saved = self.sv.saved or {}
+	self.sv.saved.stats = self.sv.saved.stats or {
+		hp = 100, maxhp = 100,
+		food = 100, maxfood = 100,
+		water = 100, maxwater = 100,
+		breath = 100, maxbreath = 100
+	}
+	if self.sv.saved.isConscious == nil then self.sv.saved.isConscious = true end
+	if self.sv.saved.hasRevivalItem == nil then self.sv.saved.hasRevivalItem = false end
+	if self.sv.saved.isNewPlayer == nil then self.sv.saved.isNewPlayer = true end
+	if self.sv.saved.inChemical == nil then self.sv.saved.inChemical = false end
+	if self.sv.saved.inOil == nil then self.sv.saved.inOil = false end
+	if self.sv.saved.tutorialsWatched == nil then self.sv.saved.tutorialsWatched = {} end
+	self.storage:save( self.sv.saved )
+
 	self:sv_init()
+	self.network:setClientData( self.sv.saved )
 end
 
 function SurvivalPlayer.server_onRefresh( self )
 	self:sv_init()
+	self.network:setClientData( self.sv.saved )
 end
 
 function SurvivalPlayer.sv_init( self )
+	BasePlayer.sv_init( self )
 	self.sv.staminaSpend = 0
-	self.sv.blocking = false
 
 	self.sv.statsTimer = Timer()
 	self.sv.statsTimer:start( StatsTickRate )
 
-	self.sv.damageCooldown = Timer()
-	self.sv.damageCooldown:start( 3.0 * 40 )
-
-	self.sv.impactCooldown = Timer()
-	self.sv.impactCooldown:start( 3.0 * 40 )
-
-	self.sv.fireDamageCooldown = Timer()
-	self.sv.fireDamageCooldown:start()
-
-	self.sv.poisonDamageCooldown = Timer()
-	self.sv.poisonDamageCooldown:start()
-
 	self.sv.drownTimer = Timer()
 	self.sv.drownTimer:stop()
 
-	self.sv.tumbleReset = Timer()
-	self.sv.tumbleReset:start( StopTumbleTimerTickThreshold )
-
-	self.sv.maxTumbleTimer = Timer()
-	self.sv.maxTumbleTimer:start( MaxTumbleTimerTickThreshold )
-
-	self.sv.resistTumbleTimer = Timer()
-	self.sv.resistTumbleTimer:start( TumbleResistTickTime )
-	self.sv.resistTumbleTimer.count = TumbleResistTickTime
-
-	self.sv.recentTumbles = {}
-
 	self.sv.spawnparams = {}
-
-	self.network:setClientData( self.sv.saved )
-end
-
-function SurvivalPlayer.server_onDestroy( self )
-
-	-- TODO: make this work
-	self.storage:save( self.sv.saved )
 end
 
 function SurvivalPlayer.client_onCreate( self )
-	self.cl = {}
+	BasePlayer.client_onCreate( self )
+	self.cl = self.cl or {}
 	if self.player == sm.localPlayer.getPlayer() then
 		if g_survivalHud then
 			g_survivalHud:open()
@@ -136,6 +99,8 @@ function SurvivalPlayer.client_onCreate( self )
 		self.cl.hungryEffect = sm.effect.createEffect( "Mechanic - StatusHungry" )
 		self.cl.thirstyEffect = sm.effect.createEffect( "Mechanic - StatusThirsty" )
 		self.cl.underwaterEffect = sm.effect.createEffect( "Mechanic - StatusUnderwater" )
+		self.cl.followCutscene = 0.0
+		self.cl.tutorialsWatched = {}
 	end
 
 	self:cl_init()
@@ -149,7 +114,7 @@ function SurvivalPlayer.client_onRefresh( self )
 	sm.localPlayer.setLockedControls( false )
 end
 
-function SurvivalPlayer.cl_init(self)
+function SurvivalPlayer.cl_init( self )
 	self.useCutsceneCamera = false
 	self.progress = 0
 	self.nodeIndex = 1
@@ -158,40 +123,8 @@ function SurvivalPlayer.cl_init(self)
 	self.cl.revivalChewCount = 0
 end
 
-function SurvivalPlayer.cl_n_onEvent( self, data )
-
-	local function getCharParam()
-		if self.player:isMale() then
-			return 1
-		else
-			return 2
-		end
-	end
-
-	local function playSingleHurtSound( effect, pos, damage )
-		local params = {
-			["char"] = getCharParam(),
-			["damage"] = damage
-		}
-		sm.effect.playEffect( effect, pos, sm.vec3.zero(), sm.quat.identity(), sm.vec3.one(), params )
-	end
-
-	if data.event == "drown" then
-		playSingleHurtSound( "Mechanic - HurtDrown", data.pos, data.damage )
-	elseif data.event == "fatigue" then
-		playSingleHurtSound( "Mechanic - Hurthunger", data.pos, data.damage)
-	elseif data.event == "shock" then
-		playSingleHurtSound( "Mechanic - Hurtshock", data.pos, data.damage )
-	elseif data.event == "impact" then
-		playSingleHurtSound( "Mechanic - Hurt", data.pos, data.damage )
-	elseif data.event == "fire" then
-		playSingleHurtSound( "Mechanic - HurtFire", data.pos, data.damage )
-	elseif data.event == "poison" then
-		playSingleHurtSound( "Mechanic - Hurtpoision", data.pos, data.damage )
-	end
-end
-
 function SurvivalPlayer.client_onClientDataUpdate( self, data )
+	BasePlayer.client_onClientDataUpdate( self, data )
 	if sm.localPlayer.getPlayer() == self.player then
 
 		if self.cl.stats == nil then self.cl.stats = data.stats end -- First time copy to avoid nil errors
@@ -248,28 +181,76 @@ function SurvivalPlayer.client_onClientDataUpdate( self, data )
 		self.cl.stats = data.stats
 		self.cl.isConscious = data.isConscious
 		self.cl.hasRevivalItem = data.hasRevivalItem
-		self.cl.inChemical = data.inChemical
-		self.cl.inOil = data.inOil
 
 		sm.localPlayer.setBlockSprinting( data.stats.food == 0 or data.stats.water == 0 )
+
+		for tutorialKey, _ in pairs( data.tutorialsWatched ) do
+			-- Merge saved tutorials and avoid resetting client tutorials
+			self.cl.tutorialsWatched[tutorialKey] = true
+		end
+		if not g_disableTutorialHints then
+			if not self.cl.tutorialsWatched["hunger"] then
+				if data.stats.water < 60 or data.stats.food < 60 then
+					if not self.cl.tutorialGui then
+						self.cl.tutorialGui = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Tutorial/PopUp_Tutorial.layout", true, { isHud = true, isInteractive = false, needsCursor = false } )
+						self.cl.tutorialGui:setText( "TextTitle", "#{TUTORIAL_HUNGER_AND_THIRST_TITLE}" )
+						self.cl.tutorialGui:setText( "TextMessage", "#{TUTORIAL_HUNGER_AND_THIRST_MESSAGE}" )
+						local dismissText = string.format( sm.gui.translateLocalizationTags( "#{TUTORIAL_DISMISS}" ), sm.gui.getKeyBinding( "Use" ) )
+						self.cl.tutorialGui:setText( "TextDismiss", dismissText )
+						self.cl.tutorialGui:setImage( "ImageTutorial", "gui_tutorial_image_hunger.png" )
+						self.cl.tutorialGui:setOnCloseCallback( "cl_onCloseTutorialHungerGui" )
+						self.cl.tutorialGui:open()
+					end
+				end
+			end
+		end
 	end
 end
 
-function SurvivalPlayer.client_onUpdate( self, dt )
-	if self.player == sm.localPlayer.getPlayer() then
-		self:cl_localPlayerUpdate( dt )
+function SurvivalPlayer.cl_e_tryPickupItemTutorial( self )
+	if not g_disableTutorialHints then
+		if not self.cl.tutorialsWatched["pickupitem"] then
+			if not self.cl.tutorialGui then
+				self.cl.tutorialGui = sm.gui.createGuiFromLayout( "$GAME_DATA/Gui/Layouts/Tutorial/PopUp_Tutorial.layout", true, { isHud = true, isInteractive = false, needsCursor = false } )
+				self.cl.tutorialGui:setText( "TextTitle", "#{TUTORIAL_PICKUP_ITEM_TITLE}" )
+				self.cl.tutorialGui:setText( "TextMessage", "#{TUTORIAL_PICKUP_ITEM_MESSAGE}" )
+				local dismissText = string.format( sm.gui.translateLocalizationTags( "#{TUTORIAL_DISMISS}" ), sm.gui.getKeyBinding( "Use" ) )
+				self.cl.tutorialGui:setText( "TextDismiss", dismissText )
+				self.cl.tutorialGui:setImage( "ImageTutorial", "gui_tutorial_image_pickup_items.png" )
+				self.cl.tutorialGui:setOnCloseCallback( "cl_onCloseTutorialPickupItemGui" )
+				self.cl.tutorialGui:open()
+			end
+		end
 	end
+end
+
+function SurvivalPlayer.cl_onCloseTutorialHungerGui( self )
+	self.cl.tutorialsWatched["hunger"] = true
+	self.network:sendToServer( "sv_e_watchedTutorial", { tutorialKey = "hunger" } )
+	self.cl.tutorialGui = nil
+end
+
+function SurvivalPlayer.cl_onCloseTutorialPickupItemGui( self )
+	self.cl.tutorialsWatched["pickupitem"] = true
+	self.network:sendToServer( "sv_e_watchedTutorial", { tutorialKey = "pickupitem" } )
+	self.cl.tutorialGui = nil
+end
+
+function SurvivalPlayer.sv_e_watchedTutorial( self, params, player )
+	self.sv.saved.tutorialsWatched[params.tutorialKey] = true
+	self.storage:save( self.sv.saved )
+	self.network:setClientData( self.sv.saved )
 end
 
 function SurvivalPlayer.cl_localPlayerUpdate( self, dt )
+	BasePlayer.cl_localPlayerUpdate( self, dt )
 	self:cl_updateCamera( dt )
 
 	local character = self.player:getCharacter()
 	if character and not self.cl.isConscious then
-		local keyBindingText =  sm.gui.getKeyBinding( "Use" )
+		local keyBindingText =  sm.gui.getKeyBinding( "Use", true )
 		if self.cl.hasRevivalItem then
 			if self.cl.revivalChewCount < BaguetteSteps then
-				-- sm.gui.setInteractionText( "#{INTERACTION_PRESS}", keyBindingText, "to eat ("..self.cl.revivalChewCount.."/10)" )
 				sm.gui.setInteractionText( "", keyBindingText, "#{INTERACTION_EAT} ("..self.cl.revivalChewCount.."/10)" )
 			else
 				sm.gui.setInteractionText( "", keyBindingText, "#{INTERACTION_REVIVE}" )
@@ -277,24 +258,6 @@ function SurvivalPlayer.cl_localPlayerUpdate( self, dt )
 		else
 			sm.gui.setInteractionText( "", keyBindingText, "#{INTERACTION_RESPAWN}" )
 		end
-	end
-
-	if character and character:isTumbling() then
-		if sm.camera.getCameraState() == sm.camera.state.default then
-			sm.camera.setCameraState( sm.camera.state.forcedTP )
-			self.cl.tumbleCamera = true
-		end
-	elseif self.cl.tumbleCamera then
-		if sm.camera.getCameraState() == sm.camera.state.default then
-			self.cl.tumbleCamera = false
-		elseif sm.camera.getCameraState() == sm.camera.state.forcedTP then
-			sm.camera.setCameraState( sm.camera.state.default )
-			self.cl.tumbleCamera = false
-		end
-	end
-
-	if character and character:isSwimming() and not self.cl.inChemical and not self.cl.inOil then
-		self:cl_n_fillWater()
 	end
 
 	if character then
@@ -306,12 +269,18 @@ end
 
 function SurvivalPlayer.client_onInteract( self, character, state )
 	if state == true then
+
+		--self:cl_startCutscene( { effectName = "DollyZoomCutscene", worldPosition = character.worldPosition, worldRotation = sm.quat.identity() } )
 		--self:cl_startCutscene( camera_test )
 		--self:cl_startCutscene( camera_test_joint )
 		--self:cl_startCutscene( camera_wakeup_ground )
 		--self:cl_startCutscene( camera_approach_crash )
 		--self:cl_startCutscene( camera_wakeup_crash )
 		--self:cl_startCutscene( camera_wakeup_bed )
+
+		if self.cl.tutorialGui and self.cl.tutorialGui:isActive() then
+			self.cl.tutorialGui:close()
+		end
 
 		if not self.cl.isConscious then
 			if self.cl.hasRevivalItem then
@@ -321,13 +290,14 @@ function SurvivalPlayer.client_onInteract( self, character, state )
 				self.cl.revivalChewCount = self.cl.revivalChewCount + 1
 				self.network:sendToServer( "sv_onEvent", { type = "character", data = "chew" } )
 			else
-				self.network:sendToServer( "sv_n_try_respawn" )
+				self.network:sendToServer( "sv_n_tryRespawn" )
 			end
 		end
 	end
 end
 
 function SurvivalPlayer.server_onFixedUpdate( self, dt )
+	BasePlayer.server_onFixedUpdate( self, dt )
 
 	if g_survivalDev and not self.sv.saved.isConscious and not self.sv.saved.hasRevivalItem then
 		if sm.container.canSpend( self.player:getInventory(), obj_consumable_longsandwich, 1 ) then
@@ -340,11 +310,6 @@ function SurvivalPlayer.server_onFixedUpdate( self, dt )
 				end
 			end
 		end
-	end
-
-	local character = self.player:getCharacter()
-	if character then
-		self:sv_updateTumbling()
 	end
 
 	-- Delays the respawn so clients have time to fade to black
@@ -369,15 +334,11 @@ function SurvivalPlayer.server_onFixedUpdate( self, dt )
 	if self.sv.respawnTimeoutTimer then
 		self.sv.respawnTimeoutTimer:tick()
 		if self.sv.respawnTimeoutTimer:done() then
-			self:sv_onSpawnCharacter()
+			self:sv_e_onSpawnCharacter()
 		end
 	end
 
-	self.sv.damageCooldown:tick()
-	self.sv.impactCooldown:tick()
-	self.sv.fireDamageCooldown:tick()
-	self.sv.poisonDamageCooldown:tick()
-
+	local character = self.player:getCharacter()
 	-- Update breathing
 	if character then
 		if character:isDiving() then
@@ -434,7 +395,7 @@ function SurvivalPlayer.server_onFixedUpdate( self, dt )
 				local foodSpend = math.min( recoverableHp * FoodCostPerHpRecovery, math.max( self.sv.saved.stats.food - FoodRecoveryThreshold, 0 ) )
 				local recoveredHp = foodSpend / FoodCostPerHpRecovery
 
-				self.sv.saved.stats.hp = math.min( self.sv.saved.stats.hp + foodSpend / FoodCostPerHpRecovery, self.sv.saved.stats.maxhp )
+				self.sv.saved.stats.hp = math.min( self.sv.saved.stats.hp + recoveredHp, self.sv.saved.stats.maxhp )
 				self.sv.saved.stats.food = self.sv.saved.stats.food - foodSpend
 			end
 
@@ -464,177 +425,20 @@ function SurvivalPlayer.server_onFixedUpdate( self, dt )
 	end
 end
 
-function SurvivalPlayer.server_onProjectile( self, hitPos, hitTime, hitVelocity, projectileName, attacker, damage )
-	if type( attacker ) == "Unit" or ( type( attacker ) == "Shape" and isTrapProjectile( projectileName ) ) then
-		self:sv_takeDamage( damage, "shock" )
-	end
-	if self.player.character:isTumbling() then
-		ApplyKnockback( self.player.character, hitVelocity:normalize(), 2000 )
-	end
+function SurvivalPlayer.server_onInventoryChanges( self, container, changes )
+	QuestManager.Sv_OnEvent( QuestEvent.InventoryChanges, { container = container, changes = changes } )
 
-	if projectileName == "water"  then
-		self.network:sendToClient( self.player, "cl_n_fillWater" )
-	end
-end
-
-function SurvivalPlayer.cl_n_fillWater( self )
-	if self.player == sm.localPlayer.getPlayer() then
-		if sm.localPlayer.getActiveItem() == obj_tool_bucket_empty then
-			local params = {}
-			params.playerInventory = sm.localPlayer.getInventory()
-			params.slotIndex = sm.localPlayer.getSelectedHotbarSlot()
-			params.previousUid = obj_tool_bucket_empty
-			params.nextUid = obj_tool_bucket_water
-			params.previousQuantity = 1
-			params.nextQuantity = 1
-			self.network:sendToServer( "sv_n_exchangeItem", params )
+	local obj_interactive_builderguide = sm.uuid.new( "e83a22c5-8783-413f-a199-46bc30ca8dac" )
+	if not g_survivalDev then
+		if FindInventoryChange( changes, obj_interactive_builderguide ) > 0 then
+			self.network:sendToClient( self.player, "cl_n_onMessage", { message = "#{ALERT_BUILDERGUIDE_NOT_ON_LIFT}", displayTime = 3 } )
+			QuestManager.Sv_TryActivateQuest( "quest_builder_guide" )
 		end
+		--if FindInventoryChange( changes, blk_scrapwood ) > 0 then
+		--	QuestManager.Sv_TryActivateQuest( "quest_acquire_test" )
+		--end
 	end
-end
-
-function SurvivalPlayer.sv_updateBlocking( self, blocking )
-	self.sv.blocking = blocking
-end
-
-function SurvivalPlayer.server_onMelee( self, hitPos, attacker, damage, power )
-	if not sm.exists( attacker ) then
-		return
-	end
-	local attackingCharacter = attacker:getCharacter()
-	local playerCharacter = self.player:getCharacter()
-	if attackingCharacter ~= nil and playerCharacter ~= nil then
-		local attackDirection = ( hitPos - attackingCharacter.worldPosition ):normalize()
-		local directionDiff = ( attackDirection - playerCharacter:getDirection() ):length()
-		local directionDiffThreshold = 1.6
-		if directionDiff >= directionDiffThreshold and self.sv.blocking == true then
-			print("'SurvivalPlayer' blocked melee damage")
-			sm.effect.playEffect( "SledgehammerHit - Default", playerCharacter.worldPosition + sm.vec3.new( 0, 0, 0.5 ) - ( attackDirection - playerCharacter:getDirection() ) * 0.25 )
-		else
-			print("'SurvivalPlayer' took melee damage")
-			if type( attacker ) == "Unit" then
-				self:sv_takeDamage( damage, "impact" )
-			else
-				self.network:sendToClients( "cl_n_onEvent", { event = "impact", pos = playerCharacter:getWorldPosition(), damage = damage * 0.01 } )
-			end
-
-			-- Melee impulse
-			if attacker then
-				ApplyKnockback( self.player.character, attackDirection, power )
-			end
-		end
-	end
-end
-
-function SurvivalPlayer.server_onExplosion( self, center, destructionLevel )
-	print("'SurvivalPlayer' took explosion damage")
-	self:sv_takeDamage( destructionLevel * 2, "impact" )
-	if self.player.character:isTumbling() then
-		local knockbackDirection = ( self.player.character.worldPosition - center ):normalize()
-		ApplyKnockback( self.player.character, knockbackDirection, 5000 )
-	end
-end
-
-function SurvivalPlayer.sv_startTumble( self, tumbleTickTime )
-	if not self.player.character:isDowned() and self.sv.resistTumbleTimer:done() then
-		local currentTick = sm.game.getCurrentTick()
-		self.sv.recentTumbles[#self.sv.recentTumbles+1] = currentTick
-		local recentTumbles = {}
-		for _, tumbleTickTimestamp in ipairs( self.sv.recentTumbles ) do
-			if tumbleTickTimestamp >= currentTick - RecentTumblesTickTimeInterval then
-				recentTumbles[#recentTumbles+1] = tumbleTickTimestamp
-			end
-		end
-		self.sv.recentTumbles = recentTumbles
-		if #self.sv.recentTumbles > MaxRecentTumbles then
-			-- Too many tumbles in quick succession, gain temporary tumble immunity
-			self.player.character:setTumbling( false )
-			self.sv.maxTumbleTimer:reset()
-			self.sv.tumbleReset:reset()
-			self.sv.resistTumbleTimer:reset()
-		else
-			self.player.character:setTumbling( true )
-			if tumbleTickTime then
-				self.sv.tumbleReset:start( tumbleTickTime )
-			else
-				self.sv.tumbleReset:start( StopTumbleTimerTickThreshold )
-			end
-			return true
-		end
-	end
-	return false
-end
-
-function SurvivalPlayer.sv_updateTumbling( self )
-	if not self.sv.resistTumbleTimer:done() then
-		self.sv.resistTumbleTimer:tick()
-	end
-
-	if not self.player.character:isDowned() then
-		if self.player.character:isTumbling() then
-			self.sv.maxTumbleTimer:tick()
-			if self.sv.maxTumbleTimer:done() then
-				-- Stuck in the tumble state for too long, gain temporary tumble immunity
-				self.player.character:setTumbling( false )
-				self.sv.maxTumbleTimer:reset()
-				self.sv.tumbleReset:reset()
-				self.sv.resistTumbleTimer:reset()
-			else
-				local tumbleVelocity = self.player.character:getTumblingLinearVelocity()
-				if tumbleVelocity:length() < 1.0 then
-					self.sv.tumbleReset:tick()
-
-					if self.sv.tumbleReset:done() then
-						self.player.character:setTumbling( false )
-						self.sv.tumbleReset:reset()
-					end
-				else
-					self.sv.tumbleReset:reset()
-				end
-			end
-		end
-	end
-end
-
-function SurvivalPlayer.sv_n_exchangeItem( self, params )
-	if sm.container.beginTransaction() then
-		sm.container.spendFromSlot( params.playerInventory, params.slotIndex, params.previousUid, params.previousQuantity, true )
-		sm.container.collectToSlot( params.playerInventory, params.slotIndex, params.nextUid, params.nextQuantity, true )
-		sm.container.endTransaction()
-	end
-end
-
-function SurvivalPlayer.server_onCollision( self, other, collisionPosition, selfPointVelocity, otherPointVelocity, collisionNormal  )
-
-	if not self.player.character or not sm.exists( self.player.character ) then
-		return
-	end
-
-	if not self.sv.impactCooldown:done() then
-		return
-	end
-
-	local collisionDamageMultiplier = 0.25
-	local damage, tumbleTicks, tumbleVelocity, impactReaction = CharacterCollision( self.player.character, other, collisionPosition, selfPointVelocity, otherPointVelocity, collisionNormal, self.sv.saved.stats.maxhp / collisionDamageMultiplier, 24 )
-	damage = damage * collisionDamageMultiplier
-	if damage > 0 or tumbleTicks > 0 then
-		self.sv.impactCooldown:start( 0.25 * 40 )
-	end
-	if damage > 0 then
-		print("'SurvivalPlayer' took", damage, "collision damage")
-		self:sv_takeDamage( damage, "shock" )
-	end
-	if tumbleTicks > 0 then
-		if self:sv_startTumble( tumbleTicks ) then
-			-- Limit tumble velocity
-			if tumbleVelocity:length2() > MaxTumbleImpulseSpeed * MaxTumbleImpulseSpeed then
-				tumbleVelocity = tumbleVelocity:normalize() * MaxTumbleImpulseSpeed
-			end
-			self.player.character:applyTumblingImpulse( tumbleVelocity * self.player.character.mass )
-			if type( other ) == "Shape" and sm.exists( other ) and other.body:isDynamic() then
-				sm.physics.applyImpulse( other.body, impactReaction * other.body.mass, true, collisionPosition - other.body.worldPosition )
-			end
-		end
-	end
+	self.network:sendToClient( self.player, "cl_n_onInventoryChanges", { container = container, changes = changes } )
 
 end
 
@@ -642,15 +446,8 @@ function SurvivalPlayer.sv_e_staminaSpend( self, stamina )
 	if not g_godMode then
 		if stamina > 0 then
 			self.sv.staminaSpend = self.sv.staminaSpend + stamina
-			print( "SurvivalPlayer spent:", stamina, "stamina" )
 		end
-	else
-		print( "SurvivalPlayer resisted", stamina, "stamina spend" )
 	end
-end
-
-function SurvivalPlayer.sv_e_receiveDamage( self, damageData )
-	self:sv_takeDamage( damageData.damage )
 end
 
 function SurvivalPlayer.sv_takeDamage( self, damage, source )
@@ -730,34 +527,18 @@ function SurvivalPlayer.sv_e_respawn( self )
 	end
 end
 
-function SurvivalPlayer.sv_n_try_respawn( self )
+function SurvivalPlayer.sv_n_tryRespawn( self )
 	if not self.sv.saved.isConscious and not self.sv.respawnDelayTimer and not self.sv.respawnInteractionAttempted then
 		self.sv.respawnInteractionAttempted = true
 		self.sv.respawnEndTimer = nil;
 		self.network:sendToClient( self.player, "cl_n_startFadeToBlack", { duration = RespawnFadeDuration, timeout = RespawnFadeTimeout } )
-		
+
 		self.sv.respawnDelayTimer = Timer()
 		self.sv.respawnDelayTimer:start( RespawnDelay )
 	end
 end
 
-function SurvivalPlayer.sv_startFadeToBlack( self, param )
-	self.network:sendToClient( self.player, "cl_n_startFadeToBlack", { duration = param.duration, timeout = param.timeout } )
-end
-
-function SurvivalPlayer.sv_endFadeToBlack( self, param )
-	self.network:sendToClient( self.player, "cl_n_endFadeToBlack", { duration = param.duration } )
-end
-
-function SurvivalPlayer.cl_n_startFadeToBlack( self, param )
-	sm.gui.startFadeToBlack( param.duration, param.timeout )
-end
-
-function SurvivalPlayer.cl_n_endFadeToBlack( self, param )
-	sm.gui.endFadeToBlack( param.duration )
-end
-
-function SurvivalPlayer.sv_onSpawnCharacter( self )
+function SurvivalPlayer.sv_e_onSpawnCharacter( self )
 	if self.sv.saved.isNewPlayer then
 		-- Intro cutscene for new player
 		if not g_survivalDev then
@@ -775,7 +556,7 @@ function SurvivalPlayer.sv_onSpawnCharacter( self )
 
 		self.sv.respawnEndTimer = Timer()
 		self.sv.respawnEndTimer:start( RespawnEndDelay )
-	
+
 	end
 
 	if self.sv.saved.isNewPlayer or self.sv.spawnparams.respawn then
@@ -812,6 +593,16 @@ function SurvivalPlayer.sv_onSpawnCharacter( self )
 	self.sv.spawnparams = {}
 
 	sm.event.sendToGame( "sv_e_onSpawnPlayerCharacter", self.player )
+end
+
+function SurvivalPlayer.cl_n_onInventoryChanges( self, params )
+	if params.container == sm.localPlayer.getInventory() then
+		for i, item in ipairs( params.changes ) do
+			if item.difference > 0 then
+				g_survivalHud:addToPickupDisplay( item.uuid, item.difference )
+			end
+		end
+	end
 end
 
 function SurvivalPlayer.cl_seatCharacter( self, params )
@@ -890,112 +681,13 @@ function SurvivalPlayer.sv_restoreWater( self, water )
 	end
 end
 
-function SurvivalPlayer.sv_e_setRefiningState( self, params )
-	local userPlayer = params.user:getPlayer()
-	if userPlayer then
-		if params.state == true then
-			userPlayer:sendCharacterEvent( "refine" )
-		else
-			userPlayer:sendCharacterEvent( "refineEnd" )
-		end
-	end
-end
-
-function SurvivalPlayer.sv_e_onLoot( self, params )
-	self.network:sendToClient( self.player, "cl_n_onLoot", params )
-end
-
-function SurvivalPlayer.cl_n_onLoot( self, params )
-	local message = "#{INFO_PICKED_LOOT} "
-	if params.uuid then
-		message = message .. sm.shape.getShapeTitle( params.uuid )
-	elseif params.name then
-		message = message .. params.name
-	end
-	if params.quantity and params.quantity > 1 then
-		message = message.." x"..params.quantity
-	end
-	sm.gui.displayAlertText( message, 2 )
-	local color
-	if params.uuid then
-		color = sm.shape.getShapeTypeColor( params.uuid )
-	end
-	local effectName = params.effectName or "Loot - Pickup"
-	sm.effect.playEffect( effectName, params.pos, sm.vec3.zero(), sm.quat.identity(), sm.vec3.one(), { ["Color"] = color } )
-end
-
-function SurvivalPlayer.sv_e_onMsg( self, msg )
-	self.network:sendToClient( self.player, "cl_n_onMsg", msg )
-end
-
-function SurvivalPlayer.cl_n_onMsg( self, msg )
-	sm.gui.displayAlertText( msg )
-end
-
-function SurvivalPlayer.cl_n_onEffect( self, params )
-	if params.host then
-		sm.effect.playHostedEffect( params.name, params.host, params.boneName, params.parameters )
-	else
-		sm.effect.playEffect( params.name, params.position, params.velocity, params.rotation, params.scale, params.parameters )
-	end
-end
-
-function SurvivalPlayer.sv_e_onStayPesticide( self )
-	if self.sv.poisonDamageCooldown:done() then
-		self:sv_takeDamage( PoisonDamage, "poison" )
-		self.sv.poisonDamageCooldown:start( PoisonDamageCooldown )
-	end
-end
-
-function SurvivalPlayer.sv_e_onEnterFire( self )
-	if self.sv.fireDamageCooldown:done() then
-		self:sv_takeDamage( FireDamage, "fire" )
-		self.sv.fireDamageCooldown:start( FireDamageCooldown )
-	end
-end
-
-function SurvivalPlayer.sv_e_onStayFire( self )
-	if self.sv.fireDamageCooldown:done() then
-		self:sv_takeDamage( FireDamage, "fire" )
-		self.sv.fireDamageCooldown:start( FireDamageCooldown )
-	end
-end
-
-function SurvivalPlayer.sv_e_onEnterChemical( self )
-	if self.sv.poisonDamageCooldown:done() then
-		self:sv_takeDamage( PoisonDamage, "poison" )
-		self.sv.poisonDamageCooldown:start( PoisonDamageCooldown )
-	end
-	self.sv.saved.inChemical = true
-	self.network:setClientData( self.sv.saved )
-end
-
-function SurvivalPlayer.sv_e_onStayChemical( self )
-	if self.sv.poisonDamageCooldown:done() then
-		self:sv_takeDamage( PoisonDamage, "poison" )
-		self.sv.poisonDamageCooldown:start( PoisonDamageCooldown )
-	end
-end
-
-function SurvivalPlayer.sv_e_onExitChemical( self )
-	self.sv.saved.inChemical = false
-	self.network:setClientData( self.sv.saved )
-end
-
-function SurvivalPlayer.sv_e_onEnterOil( self )
-	self.sv.saved.inOil = true
-	self.network:setClientData( self.sv.saved )
-end
-
-function SurvivalPlayer.sv_e_onExitOil( self )
-	self.sv.saved.inOil = false
-	self.network:setClientData( self.sv.saved )
-end
-
 function SurvivalPlayer.server_onShapeRemoved( self, removedShapes )
 	local numParts = 0
 	local numBlocks = 0
 	local numJoints = 0
+
+
+
 	for _, removedShapeType in ipairs( removedShapes ) do
 		if removedShapeType.type == "block"  then
 			numBlocks = numBlocks + removedShapeType.amount
@@ -1003,6 +695,10 @@ function SurvivalPlayer.server_onShapeRemoved( self, removedShapes )
 			numParts = numParts + removedShapeType.amount
 		elseif removedShapeType.type == "joint"  then
 			numJoints = numJoints + removedShapeType.amount
+
+
+
+
 		end
 	end
 
@@ -1012,7 +708,75 @@ end
 
 
 -- Camera
+function SurvivalPlayer.cl_updateCamera( self, dt )
+	if self.cl.cutsceneEffect then
 
+		local cutscenePos = self.cl.cutsceneEffect:getCameraPosition()
+		local cutsceneRotation = self.cl.cutsceneEffect:getCameraRotation()
+		local cutsceneFOV = self.cl.cutsceneEffect:getCameraFov()
+		if cutscenePos == nil then cutscenePos = sm.camera.getPosition() end
+		if cutsceneRotation == nil then cutsceneRotation = sm.camera.getRotation() end
+		if cutsceneFOV == nil then cutsceneFOV = sm.camera.getFov() end
+
+		if self.cl.cutsceneEffect:isPlaying() then
+			self.cl.followCutscene = math.min( self.cl.followCutscene + dt / CUTSCENE_FADE_IN_TIME, 1.0 )
+		else
+			self.cl.followCutscene = math.max( self.cl.followCutscene - dt / CUTSCENE_FADE_OUT_TIME, 0.0 )
+		end
+
+		local lerpedCameraPosition = sm.vec3.lerp( sm.camera.getDefaultPosition(), cutscenePos, self.cl.followCutscene )
+		local lerpedCameraRotation = sm.quat.slerp( sm.camera.getDefaultRotation(), cutsceneRotation, self.cl.followCutscene )
+		local lerpedCameraFOV = lerp( sm.camera.getDefaultFov(), cutsceneFOV, self.cl.followCutscene )
+		print(self.cl.followCutscene)
+		sm.camera.setPosition( lerpedCameraPosition )
+		sm.camera.setRotation( lerpedCameraRotation )
+		sm.camera.setFov( lerpedCameraFOV )
+
+		if self.cl.followCutscene <= 0.0 and not self.cl.cutsceneEffect:isPlaying() then
+			sm.gui.hideGui( false )
+			sm.camera.setCameraState( sm.camera.state.default )
+			--sm.localPlayer.setLockedControls( false )
+			self.cl.cutsceneEffect:destroy()
+			self.cl.cutsceneEffect = nil
+		end
+	else
+		self.cl.followCutscene = 0.0
+	end
+end
+
+function SurvivalPlayer.cl_startCutscene( self, params )
+	self.cl.cutsceneEffect = sm.effect.createEffect( params.effectName )
+	if params.worldPosition then
+		self.cl.cutsceneEffect:setPosition( params.worldPosition )
+	end
+	if params.worldRotation then
+		self.cl.cutsceneEffect:setRotation( params.worldRotation )
+	end
+	self.cl.cutsceneEffect:start()
+	sm.gui.hideGui( true )
+	sm.camera.setCameraState( sm.camera.state.cutsceneTP )
+	--sm.localPlayer.setLockedControls( true )
+
+	--local camPos = self.cl.cutsceneEffect:getCameraPosition()
+	--local camDir = self.cl.cutsceneEffect:getCameraDirection()
+	--if camPos and camDir then
+	--	sm.camera.setPosition( camPos )
+	--	if camDir:length() > FLT_EPSILON then
+	--		sm.camera.setDirection( camDir )
+	--	end
+	--end
+end
+
+function SurvivalPlayer.sv_e_startCutscene( self, params )
+	self.network:sendToClient( self.player, "cl_startCutscene", params )
+end
+
+function SurvivalPlayer.client_onCancel( self )
+	BasePlayer.client_onCancel( self )
+	g_effectManager:cl_cancelAllCinematics()
+end
+
+--[[
 function SurvivalPlayer.cl_updateCamera( self, dt )
 
 	if self.useCutsceneCamera then
@@ -1243,13 +1007,6 @@ function SurvivalPlayer.sv_e_startLocalCutscene( self, cutsceneInfoName )
 	self.network:sendToClients( "cl_startLocalCutscene", params )
 end
 
-function SurvivalPlayer.sv_onEvent( self, eventParams )
-	if eventParams.type == "character" then
-		self.player:sendCharacterEvent( eventParams.data )
-	end
-end
-
-
 function SurvivalPlayer.client_onCancel( self )
 
 	if self.useCutsceneCamera and self.currentCutscene.canSkip then
@@ -1264,7 +1021,6 @@ function SurvivalPlayer.client_onCancel( self )
 			self.nodeIndex = 1
 		end
 	end
-	
-end
 
-function SurvivalPlayer.client_onReload( self ) end
+end
+]]

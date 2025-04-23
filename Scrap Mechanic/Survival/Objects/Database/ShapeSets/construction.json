@@ -578,11 +578,13 @@
                 ]
             },
             "color": "ebb100",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 2,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_ramp02.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 1,
+                "z" : 2
             },
             "rotationSet": "PropYZ",
             "sticky": "-Y+X-X-Z",

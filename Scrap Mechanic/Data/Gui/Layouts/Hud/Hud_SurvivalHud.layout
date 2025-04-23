@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <MyGUI type="Layout" version="3.2.0">
-    <Widget type="Widget" skin="PanelEmpty" name="TimePanel" position_real="0 0 0.228125 0.0740741" >
-        <Property key="NeedKey" value="false" />
-        <Property key="NeedMouse" value="false" />
-        <Widget type="TextBox" skin="TextBox" name="Time" position_real="0.333333 0.625 0.666667 0.375">
-            <Property key="FontName" value="InventorySearchText" />
-            <Property key="Caption" value="00:00" />
-            <Property key="NeedKey" value="false" />
-            <Property key="NeedMouse" value="false" />
-            <Property key="TextShadow" value="true" />
-        </Widget>
-    </Widget>
     <Widget type="Widget" skin="PanelEmpty" name="StatusPanel" position_real="0 0.0925926 0.151042 0.117593">
         <Property key="NeedKey" value="false" />
         <Property key="NeedMouse" value="false" />
-        <Widget type="Widget" skin="HudBackgroundLarge" position_real="0.172414 0 0.827586 0.314961">
+        <Widget type="Widget" skin="HudBackgroundLarge" name="HealthBar" position_real="0.172414 0 0.827586 0.314961">
             <Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0.158333 0.05 0.833333 0.9">
                 <Widget type="ProgressBar" skin="HUDProgressBarRedLarge" name="HealthLoss" position_real="0.015 0.0833333 0.97 0.833333">
                     <Property key="Range" value="100" />
@@ -40,7 +29,7 @@
                 <Property key="ImageTexture" value="gui_icon_hud_health.png" />
             </Widget>
         </Widget>
-        <Widget type="Widget" skin="HudBackgroundSmall" position_real="0.172414 0.393701 0.827586 0.15748">
+        <Widget type="Widget" skin="HudBackgroundSmall" name="FoodBar" position_real="0.172414 0.393701 0.827586 0.15748">
             <Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.158333 0.1 0.833333 0.8">
                 <Widget type="ProgressBar" skin="HUDProgressBarRedSmall" name="FoodLoss" position_real="0.015 0.1875 0.97 0.625">
                     <Property key="Range" value="100" />
@@ -56,7 +45,7 @@
                 <Property key="ImageTexture" value="gui_icon_hud_food.png" />
             </Widget>
         </Widget>
-        <Widget type="Widget" skin="HudBackgroundSmall" position_real="0.172414 0.629921 0.827586 0.15748">
+        <Widget type="Widget" skin="HudBackgroundSmall" name="WaterBar" position_real="0.172414 0.629921 0.827586 0.15748">
             <Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.158333 0.1 0.833333 0.8">
                 <Widget type="ProgressBar" skin="HUDProgressBarRedSmall" name="WaterLoss" position_real="0.015 0.1875 0.97 0.625">
                     <Property key="Range" value="100" />
@@ -88,7 +77,7 @@
         </Widget>
         <Widget type="Button" skin="HudBackgroundIcon" align="Right Bottom" name="LogbookIconBackground" position_real="0.266055 0.316667 0.256881 0.466667">
             <Widget type="ImageBox" skin="ImageBox" name="LogbookImageBox" position_real="0.232143 0.232143 0.535714 0.535714">
-                <Property key="ImageTexture" value="gui_icon_hud_logbook_inactive.png" />
+                <Property key="ImageTexture" value="gui_icon_hud_logbook.png" />
             </Widget>
         </Widget>
         <Widget type="Button" skin="HotbarItemKeybindingBackground" align="Right Bottom" name="LogbookBinding" position_real="0.344037 0.7 0.100917 0.133333">
@@ -125,6 +114,21 @@
                 <Property key="ImageTexture" value="gui_icon_hud_breath.png" />
             </Widget>
         </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="TimePanel" position_real="0 0 0.228125 0.0740741" >
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Time" position_real="0.333333 0.625 0.666667 0.375">
+            <Property key="FontName" value="InventorySearchText" />
+            <Property key="Caption" value="00:00" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="TextShadow" value="true" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="PickupPanel" position_real="0.340625 0.0555556 0.3125 0.277778">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
     </Widget>
     <CodeGeneratorSettings />
 </MyGUI>

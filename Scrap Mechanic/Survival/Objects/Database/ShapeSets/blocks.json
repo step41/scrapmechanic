@@ -519,9 +519,9 @@
         {
             "uuid": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
             "name": "blk_spaceshipfloor",
-            "dif": "$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_vents_dif.tga",
-            "asg": "$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_vents_asg.tga",
-            "nor": "$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_vents_nor.tga",
+            "dif": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+            "asg": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+            "nor": "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
             "tiling": 8,
             "color": "dadada",
             "physicsMaterial": "Metal",

@@ -112,6 +112,13 @@
 	"1147e59d-6940-42b4-840b-07f05054f5e0": {
 		"title": "Crude Oil"
 	},
+	"120ee9c7-198b-4cb2-919d-51601ba2867e": {
+		"description": "Connect it to a trigger to close the curtains.",
+		"title": "Window With Curtains"
+	},
+	"1226cfd3-4fc8-4f9e-b21a-0c9576e2ef2f": {
+		"title": "obj_tool_handbook"
+	},
 	"126be16e-10c1-4ccd-82c5-368edc7f766a": {
 		"title": "obj_harvests_stones_p04"
 	},
@@ -202,9 +209,6 @@
 	"1e2485d7-f600-406e-b348-9f0b7c1f5077": {
 		"title": "Packing Lamp"
 	},
-	"1e89879f-1171-4bcd-9465-db7f740ab09e": {
-		"title": "obj_robotparts_tapebothead01"
-	},
 	"1f343b76-3622-4e4b-9de4-238d43d60734": {
 		"title": "Office Chair Base"
 	},
@@ -274,9 +278,6 @@
 	"23ac6823-51a4-4581-b8ca-061c76f093f6": {
 		"title": "Haystack"
 	},
-	"243afe95-8058-47b0-bccf-49cc0445cd55": {
-		"title": "obj_robotpart_totebotleg"
-	},
 	"2448a709-a8ec-4d69-a927-b9ab195cd83f": {
 		"title": "obj_spaceship_wall06"
 	},
@@ -308,6 +309,18 @@
 	},
 	"27c00cfb-4e7f-45fc-a037-f9a941464ce6": {
 		"title": "Fresh Neon Sign"
+	},
+	"27e9c9ee-14c4-11ed-861d-0242ac120002": {
+		"title": "Square Mesh Wedge"
+	},
+	"27e9cc8c-14c4-11ed-861d-0242ac120002": {
+		"title": "Restroom Wedge"
+	},
+	"27e9cdcc-14c4-11ed-861d-0242ac120002": {
+		"title": "Diamond Plate Wedge"
+	},
+	"27e9d236-14c4-11ed-861d-0242ac120002": {
+		"title": "Aluminum Wedge"
 	},
 	"286faea5-83db-4f53-8813-1ce81309a059": {
 		"title": "obj_destructable_tape_cocoon02"
@@ -388,6 +401,9 @@
 		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
 		"title": "Piston 2"
 	},
+	"32053708-14c7-11ed-861d-0242ac120002": {
+		"title": "Armored Glass Wedge"
+	},
 	"3292878f-4d1e-49e3-a80f-16b710dad42e": {
 		"title": "Large Pipe Extension"
 	},
@@ -407,9 +423,6 @@
 	"36335664-6e61-4d44-9876-54f9660a8565": {
 		"title": "Glue"
 	},
-	"369b43d3-4ed3-464d-82e8-c9aa11251afc": {
-		"title": "obj_robotparts_farmbotpart_drill"
-	},
 	"388adeab-67e5-4901-afe8-c56217754510": {
 		"title": "Glow"
 	},
@@ -422,6 +435,9 @@
 	"38ec258d-c644-4f08-8635-3f7434c884dd": {
 		"description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil.",
 		"title": "Seed Container"
+	},
+	"396c8a9a-14be-11ed-861d-0242ac120002": {
+		"title": "Spaceship Wedge"
 	},
 	"3a135dd2-510c-434b-b019-ce077042a5c8": {
 		"title": "obj_packingstation_crateload"
@@ -451,6 +467,9 @@
 	"3b972f2f-30c7-4a5e-a100-5e257e62295d": {
 		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
 		"title": "Seat 1"
+	},
+	"3bb5dc9e-14bd-11ed-861d-0242ac120002": {
+		"title": "Glass Wedge"
 	},
 	"3bd4430f-75bc-452c-9e80-1bd639898689": {
 		"title": "Stone Crate"
@@ -482,6 +501,15 @@
 	},
 	"3e6d2a8a-c836-4ae5-b6bf-9ec01c6393b0": {
 		"title": "obj_harvest_log_l02a"
+	},
+	"3f2e8e84-14c7-11ed-861d-0242ac120002": {
+		"title": "Worn Metal Wedge"
+	},
+	"3f2e9064-14c7-11ed-861d-0242ac120002": {
+		"title": "Spaceship Floor Wedge"
+	},
+	"3f2e92d0-14c7-11ed-861d-0242ac120002": {
+		"title": "Sand Wedge"
 	},
 	"3f7c3f3c-9b28-4a26-abbd-8f2948e9b027": {
 		"title": "obj_harvests_trees_pine03_p05"
@@ -546,9 +574,6 @@
 	"45ee9f5a-cfc0-4f3a-bbe8-09f2ce1dbc4c": {
 		"title": "obj_spaceship_corner01_damaged"
 	},
-	"4617f9a6-8724-43ee-97e2-20904fd660ab": {
-		"title": "obj_robotparts_haybotbody"
-	},
 	"46396518-8c29-4da9-81bb-a020f4baf5b2": {
 		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
 		"title": "Piston 3"
@@ -566,10 +591,14 @@
 	"46ac20df-dfbc-434f-aaf3-f34ddc2afb42": {
 		"title": "obj_spaceship_wall03"
 	},
+	"46ef860a-14bd-11ed-861d-0242ac120002": {
+		"title": "Glass Tile Wedge"
+	},
 	"46f4a939-b20c-4fae-bf37-8410796a05f2": {
 		"title": "obj_destructable_tape_cornertape02"
 	},
 	"47062936-5d28-43ec-81b5-8fdb619e97e4": {
+		"description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range.",
 		"title": "Ship Light"
 	},
 	"470b9a92-ed94-4ef2-b1ea-b45f47ef0982": {
@@ -637,6 +666,12 @@
 	"4e3f17bb-0169-4eb5-a4b4-84725a607b2c": {
 		"title": "obj_harvest_stonechunk02"
 	},
+	"4e72cd24-14c7-11ed-861d-0242ac120002": {
+		"title": "Punched Steel Wedge"
+	},
+	"4e72ce8c-14c7-11ed-861d-0242ac120002": {
+		"title": "Striped Net Wedge"
+	},
 	"4ec64cda-1a5b-4465-88b4-5ea452c4a556": {
 		"description": "A juicy Pineapple.",
 		"title": "Pineapple"
@@ -653,11 +688,11 @@
 	"4fcb4cb8-7623-11ea-bc55-0242ac130003": {
 		"title": "Craftbot"
 	},
-	"50380984-9ad6-4092-88e9-5a84b8212899": {
-		"title": "obj_robotparts_tapebottorso01"
-	},
 	"50668b05-41de-4b48-abf2-6a576ab550fe": {
 		"title": "obj_destructable_tape_cornertape03"
+	},
+	"5115b997-5d8c-4815-8e07-f487cc1c029f": {
+		"title": "Bubble Plastic Wedge"
 	},
 	"513530b0-61bd-4b82-83e7-191d090d25d8": {
 		"title": "Metal Storage Floor"
@@ -686,6 +721,9 @@
 	},
 	"55b19e7f-e45b-48b2-8f7c-d9e84fed0736": {
 		"title": "obj_harvests_trees_birch01_p00"
+	},
+	"56b4d3fc-14bc-11ed-861d-0242ac120002": {
+		"title": "Barrier Wedge"
 	},
 	"56cea967-a685-494d-85ef-3aa121a0c193": {
 		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -746,11 +784,39 @@
 	"5d2cdb56-2be8-4a62-8f05-ce5c9c1510ac": {
 		"title": "obj_spaceship_wall08_damaged"
 	},
-	"5de17a8f-f447-4204-886e-6ba015347f89": {
-		"title": "obj_robotparts_farmbotpart_scytharm"
+	"5d5144be-14be-11ed-861d-0242ac120002": {
+		"title": "Cardboard Wedge"
+	},
+	"5dae0b3a-14bf-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 2"
+	},
+	"5dae0d42-14bf-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 3"
+	},
+	"5dae0e46-14bf-11ed-861d-0242ac120002": {
+		"title": "Scrap Metal Wedge"
+	},
+	"5dae0f2c-14bf-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 2"
+	},
+	"5dae1008-14bf-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 3"
+	},
+	"5dae14e0-14bf-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 3"
+	},
+	"5dae15c6-14bf-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 2"
+	},
+	"5dae16a2-14bf-11ed-861d-0242ac120002": {
+		"title": "Scrap Stone Wedge"
 	},
 	"5e3dff9b-2450-44ae-ad46-d2f6b5148cbf": {
 		"title": "Warehouse Square Light"
+	},
+	"5e51e905-2092-4069-9eb5-afa67b8b2fc8": {
+		"description": "Connect it to a trigger to close the blinds.",
+		"title": "Window With Blinds"
 	},
 	"5e57e0f7-e87c-4269-b274-146fe40e1b44": {
 		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -876,9 +942,6 @@
 		"description": "A juicy Tomato.",
 		"title": "Tomato"
 	},
-	"6e480a17-57f1-4c06-9313-9b1c80e1be05": {
-		"title": "obj_robotparts_haybotpelvis"
-	},
 	"6e7eb9bb-4b8e-400a-b9c4-2e9320e03ead": {
 		"title": "obj_harvests_trees_leafy03_p04"
 	},
@@ -894,9 +957,6 @@
 	"703ca746-d802-4e76-b443-4881e83afb73": {
 		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
 		"title": "Seat 5"
-	},
-	"7085387b-a2ce-4ef5-be67-b67501754b9e": {
-		"title": "obj_robotparts_haybotfork"
 	},
 	"70a497d6-6bc2-4ee6-a381-0976d68ac980": {
 		"title": "Holder Support Leg"
@@ -975,9 +1035,6 @@
 	"7997f4a5-6f5f-492e-95cb-65a5e2a0f2f2": {
 		"title": "Generator C"
 	},
-	"79b93e3a-79fd-4a1e-88cb-1eda65d3535f": {
-		"title": "obj_robotparts_farmbotpart_cannonarm"
-	},
 	"79cc711e-7094-4029-8419-bbbf8f08c6f2": {
 		"title": "Ruin Chest"
 	},
@@ -994,9 +1051,6 @@
 	"7b2c96af-a4a1-420e-9370-ea5b58f23a7e": {
 		"title": "Warehouse Fluorescent Light"
 	},
-	"7b4d4f21-9164-4d55-854f-670afd54f1cc": {
-		"title": "obj_robotparts_farmbotpart_head"
-	},
 	"7b78d74f-c4c7-4c48-80f5-8f7f4bbd5de9": {
 		"title": "obj_harvests_trees_birch01_p03"
 	},
@@ -1005,6 +1059,9 @@
 	},
 	"7bc20d55-6b49-450c-830c-16282ce7fb2d": {
 		"title": "Road Sign Base"
+	},
+	"7c6e88a7-21a4-4e97-856f-b937264e0d7d": {
+		"title": "Broken Clock"
 	},
 	"7d601a5a-796d-4cae-be88-b47479d38d11": {
 		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -1018,9 +1075,6 @@
 	},
 	"7fa4ecf6-d8fe-49eb-a950-db1fb4590c4d": {
 		"title": "Ship Wall Panel Medium"
-	},
-	"7faccb34-95df-4f3d-9250-054bb04b2719": {
-		"title": "obj_robotparts_tapebotleftarm01"
 	},
 	"7feba511-4910-429d-a0e3-f1727259ae5c": {
 		"title": "Generator Coil Segment"
@@ -1099,6 +1153,9 @@
 	"8a4a55b0-0228-4839-933b-0716cedb3f96": {
 		"title": "Unfolded Banana Box"
 	},
+	"8aa4459f-6c45-41ae-94f4-4ddff0279c18": {
+		"title": "Farmer Target"
+	},
 	"8c0a32e1-50a4-4e23-be1d-a09d12fc65c1": {
 		"title": "obj_harvests_trees_pine03_p01"
 	},
@@ -1170,6 +1227,9 @@
 	"93e32c6b-b9de-4fed-ad9d-49f0850ee634": {
 		"title": "Scaffold Ledger"
 	},
+	"9404a6a2-14c0-11ed-861d-0242ac120002": {
+		"title": "Concrete Slab Wedge"
+	},
 	"94acfb72-c650-4cb5-a8aa-08af3e691d2e": {
 		"title": "Metal Storage Corner A"
 	},
@@ -1207,12 +1267,30 @@
 	"99477093-e819-4199-b62a-fda6143aae89": {
 		"title": "Broccoli Crate"
 	},
+	"996b107e-14be-11ed-861d-0242ac120002": {
+		"title": "Path Light Wedge"
+	},
 	"9a3058f3-6771-464f-a3e0-25d247f1422f": {
 		"title": "obj_survivalobject_cardreader_arm"
 	},
 	"9a3e478c-2224-44fa-887c-239965bd05ad": {
 		"description": "Use them on the ground to place your seeds in.",
 		"title": "Soil Bag"
+	},
+	"9acec674-14c1-11ed-861d-0242ac120002": {
+		"title": "Plaster Wedge"
+	},
+	"9acecbec-14c1-11ed-861d-0242ac120002": {
+		"title": "Carpet Wedge"
+	},
+	"9acecd22-14c1-11ed-861d-0242ac120002": {
+		"title": "Painted Wall Wedge"
+	},
+	"9acece58-14c1-11ed-861d-0242ac120002": {
+		"title": "Net Wedge"
+	},
+	"9acecf66-14c1-11ed-861d-0242ac120002": {
+		"title": "Solid Net Wedge"
 	},
 	"9b4a43c3-4950-49e2-858e-34768550a227": {
 		"title": "obj_destructable_tape_rooftape02"
@@ -1270,8 +1348,17 @@
 	"a20e79dd-d74e-4e10-845a-b101b3a95ab2": {
 		"title": "obj_harvests_trees_pine03_p02"
 	},
+	"a29f7c00-14c0-11ed-861d-0242ac120002": {
+		"title": "Extruded Metal Wedge"
+	},
+	"a29f7ce6-14c0-11ed-861d-0242ac120002": {
+		"title": "Rusted Metal Wedge"
+	},
 	"a2cf56fe-9961-481b-9a12-093f64867d9c": {
 		"title": "Packing Table Holder"
+	},
+	"a358c216-14b9-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 1"
 	},
 	"a479066d-4b03-46b5-8437-e99fec3f43ee": {
 		"title": "Striped Net Block"
@@ -1285,6 +1372,9 @@
 	"a5985971-1f95-4373-a5d9-4ce0a3e74851": {
 		"description": "Emits a tracking signal that can be toggled in the Logbook.",
 		"title": "Beacon"
+	},
+	"a5a857de-14be-11ed-861d-0242ac120002": {
+		"title": "Scrap Wood Wedge"
 	},
 	"a6523fd2-869c-4d11-ba42-dc967a8aad25": {
 		"title": "obj_harvests_trees_leafy03_p08"
@@ -1415,6 +1505,9 @@
 		"description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend.",
 		"title": "Craftbot"
 	},
+	"b67c82e4-14bc-11ed-861d-0242ac120002": {
+		"title": "Tile Wedge"
+	},
 	"b7571f6f-9d53-44ba-99d2-3b4f05e6fd0f": {
 		"title": "Craftbot"
 	},
@@ -1432,9 +1525,6 @@
 	},
 	"b95bcc20-9581-4228-b444-b1c7ebc73507": {
 		"title": "obj_harvests_trees_spruce02_p01"
-	},
-	"b9b4f8ef-9d30-4662-8696-d27a2ba0a7fa": {
-		"title": "obj_robotpart_totebotbody"
 	},
 	"ba7775ef-d03b-46bd-aa09-09015297a415": {
 		"title": "Metal Storage Beam"
@@ -1476,6 +1566,12 @@
 	"bee966b0-b5e5-41da-b992-5d363ab85ae4": {
 		"title": "Orange Seed"
 	},
+	"bf3de51c-14c1-11ed-861d-0242ac120002": {
+		"title": "Plastic Wedge"
+	},
+	"bf3de7c4-14c1-11ed-861d-0242ac120002": {
+		"title": "Insulation Wedge"
+	},
 	"bf7b6484-8b8b-4846-8110-c5d9f0b9ada7": {
 		"title": "Vacuum Pipe 4"
 	},
@@ -1489,6 +1585,9 @@
 	},
 	"c0159b96-edf3-46cd-9fbe-96ee1126304b": {
 		"title": "Master Battery Socket"
+	},
+	"c01fbc1c-14bc-11ed-861d-0242ac120002": {
+		"title": "Brick Wedge"
 	},
 	"c0dfdea5-a39d-433a-b94a-299345a5df46": {
 		"title": "Metal Block 3"
@@ -1541,6 +1640,7 @@
 		"title": "obj_harvests_trees_leafy01_p02"
 	},
 	"c563df47-9a8a-4338-9fec-06da1218c573": {
+		"description": "Take a lovely nap in this comfy bed.",
 		"title": "Bed"
 	},
 	"c56700d9-bbe5-4b17-95ed-cef05bd8be1b": {
@@ -1608,6 +1708,9 @@
 	"ca208216-99f0-43d1-900d-cb0924223b65": {
 		"title": "obj_harvests_trees_pine02_p09"
 	},
+	"cb529af8-14b9-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 1"
+	},
 	"cb7305b2-d8b5-4302-aff3-6cdd9212ca64": {
 		"description": "Mechanics love a cold sunshake when thirsty.",
 		"title": "Sunshake"
@@ -1635,6 +1738,9 @@
 	},
 	"ce66734b-2122-460e-94dc-ccc73d799e32": {
 		"title": "Slippery Surface Sign"
+	},
+	"cf41bd2d-8bd3-432b-8a92-a36eda7e7740": {
+		"title": "obj_tool_sledgehammer"
 	},
 	"cf46678b-c947-4267-ba85-f66930f5faa4": {
 		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -1686,6 +1792,7 @@
 		"title": "Gasoline"
 	},
 	"d4e6c84c-a493-44b1-81aa-4f4741ea3ed8": {
+		"description": "It's busted. Maybe it can be used as a secret storage instead?",
 		"title": "Broken Microwave"
 	},
 	"d740a27d-cc0f-4866-9e07-6a5c516ad719": {
@@ -1797,6 +1904,9 @@
 	"e7eae129-9e3f-45d2-997c-637865c60a5e": {
 		"title": "Water Tank"
 	},
+	"e83cd904-14b8-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 1"
+	},
 	"e846e3e7-b608-49c9-bbfd-e0bb859e6d3c": {
 		"title": "Warehouse Ventilation Tee"
 	},
@@ -1814,9 +1924,6 @@
 	},
 	"e9a7a26a-6e72-4bd4-8a44-7d5ab8b83f4b": {
 		"title": "obj_destructable_tape_big_walltape02"
-	},
-	"e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e": {
-		"title": "obj_robotparts_haybothead"
 	},
 	"ea10d1af-b97a-46fb-8895-dfd1becb53bb": {
 		"description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
@@ -1890,6 +1997,9 @@
 	},
 	"f1831414-735f-4323-834a-85d5953fc160": {
 		"title": "Small Steel Bracket"
+	},
+	"f27cf05c-f6f9-43dc-93db-f810372110ec": {
+		"title": "Farmbot Target"
 	},
 	"f293a245-2415-4da5-b012-01134652611f": {
 		"title": "obj_robotparts_tapebotshooter"
@@ -1990,6 +2100,39 @@
 	"fff76292-79aa-4f0d-814f-72e51159d6d7": {
 		"title": "Base Extension"
 	},
+	"243afe95-8058-47b0-bccf-49cc0445cd55": {
+		"title": "obj_robotpart_totebotleg"
+	},
+	"369b43d3-4ed3-464d-82e8-c9aa11251afc": {
+		"title": "obj_robotparts_farmbotpart_drill"
+	},
+	"4617f9a6-8724-43ee-97e2-20904fd660ab": {
+		"title": "obj_robotparts_haybotbody"
+	},
+	"50380984-9ad6-4092-88e9-5a84b8212899": {
+		"title": "obj_robotparts_tapebottorso01"
+	},
+	"6e480a17-57f1-4c06-9313-9b1c80e1be05": {
+		"title": "obj_robotparts_haybotpelvis"
+	},
+	"7085387b-a2ce-4ef5-be67-b67501754b9e": {
+		"title": "obj_robotparts_haybotfork"
+	},
+	"79b93e3a-79fd-4a1e-88cb-1eda65d3535f": {
+		"title": "obj_robotparts_farmbotpart_cannonarm"
+	},
+	"7b4d4f21-9164-4d55-854f-670afd54f1cc": {
+		"title": "obj_robotparts_farmbotpart_head"
+	},
+	"7faccb34-95df-4f3d-9250-054bb04b2719": {
+		"title": "obj_robotparts_tapebotleftarm01"
+	},
+	"b9b4f8ef-9d30-4662-8696-d27a2ba0a7fa": {
+		"title": "obj_robotpart_totebotbody"
+	},
+	"e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e": {
+		"title": "obj_robotparts_haybothead"
+	},
 	"d739fdf9-2c61-47ea-88ab-beac6a6c35c0":
 	{
 		"title": "Chained Wheel",
@@ -2003,5 +2146,8 @@
 	"dff53b11-2d8d-4044-ad51-59321f117f8e": {
 		"description": "Makes a big f'in piston that will push your nuts through your spine!",
 		"title": "Big F'in Piston"
+	},
+	"1e89879f-1171-4bcd-9465-db7f740ab09e": {
+		"title": "obj_robotparts_tapebothead01"
 	}
 }

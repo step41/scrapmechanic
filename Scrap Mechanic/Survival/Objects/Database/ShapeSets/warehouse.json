@@ -435,12 +435,13 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
-                "x": 5,
-                "y": 4,
-                "z": 8,
-                "margin": 0.001,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_bigramp.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 5,
+                "y" : 4,
+                "z" : 8
             },
             "rotationSet": "PropYZXNegX",
             "sticky": "-X+X-Y-Z",
@@ -475,12 +476,13 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
-                "x": 5,
-                "y": 1,
-                "z": 2,
-                "margin": 0.001,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_bigrampsmall.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 5,
+                "y" : 1,
+                "z" : 2
             },
             "rotationSet": "PropYZXNegX",
             "sticky": "-X+X-Y-Z",
@@ -515,12 +517,13 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
-                "x": 1,
-                "y": 4,
-                "z": 8,
-                "margin": 0.001,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_bigrampthin.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 4,
+                "z" : 8
             },
             "rotationSet": "PropYZXNegX",
             "sticky": "-X+X-Y-Z",
@@ -555,12 +558,13 @@
                 ]
             },
             "color": "c36512",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 2,
-                "margin": 0.001,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_bigrampthinsmall.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 1,
+                "z" : 2
             },
             "rotationSet": "PropYZXNegX",
             "sticky": "-X+X-Y-Z",
@@ -666,12 +670,13 @@
                 ]
             },
             "color": "5f5f5f",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 8,
-                "margin": 0.001,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container3.obj"
+            "wedge" :
+            {
+                "back" : "+X",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 1,
+                "z" : 8
             },
             "rotationSet": "PropYZ",
             "physicsMaterial": "Metal",
@@ -1712,7 +1717,7 @@
             "rotationSet": "PropZ",
             "physicsMaterial": "Metal",
             "ratings": {},
-            "density": 500,
+            "density": 500.0,
             "stackSize": 2048
         },
         {
@@ -1749,7 +1754,7 @@
             "rotationSet": "PropZ",
             "physicsMaterial": "Metal",
             "ratings": {},
-            "density": 500,
+            "density": 500.0,
             "stackSize": 2048
         },
         {

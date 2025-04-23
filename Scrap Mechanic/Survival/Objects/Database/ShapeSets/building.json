@@ -611,11 +611,13 @@
                 ]
             },
             "color": "79859c",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_office_cubiclefastener.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
             },
             "rotationSet": "PropZ",
             "sticky": "-Y+X-X-Z",

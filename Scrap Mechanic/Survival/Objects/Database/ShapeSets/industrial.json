@@ -292,11 +292,13 @@
                 ]
             },
             "color": "79859c",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "col": "$SURVIVAL_DATA/Objects/Collision/obj_industrial_encryptstandhinge.obj"
+            "wedge" :
+            {
+                "back" : "-Z",
+                "bottom" : "-Y",
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
             },
             "rotationSet": "PropYZ",
             "sticky": "-Y-Z",

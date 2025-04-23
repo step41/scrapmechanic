@@ -10,9 +10,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -71,9 +71,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -131,9 +131,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -192,9 +192,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -253,9 +253,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -314,9 +314,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -376,9 +376,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -444,9 +444,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -512,9 +512,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -580,9 +580,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -648,9 +648,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -672,9 +672,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -744,9 +744,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -768,9 +768,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -840,9 +840,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -864,9 +864,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -936,9 +936,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -998,9 +998,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1058,9 +1058,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1082,9 +1082,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1153,9 +1153,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1221,9 +1221,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1245,9 +1245,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1317,9 +1317,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1379,9 +1379,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1439,9 +1439,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1463,9 +1463,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1534,9 +1534,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1558,9 +1558,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1629,9 +1629,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1653,9 +1653,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1724,9 +1724,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1748,9 +1748,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1819,9 +1819,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1843,9 +1843,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -1914,9 +1914,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -1938,9 +1938,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2010,9 +2010,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2072,9 +2072,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2132,9 +2132,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2156,9 +2156,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2227,9 +2227,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2251,9 +2251,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2322,9 +2322,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2382,9 +2382,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2406,9 +2406,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2477,9 +2477,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2501,9 +2501,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2572,9 +2572,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2596,9 +2596,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2667,9 +2667,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2691,9 +2691,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2762,9 +2762,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2786,9 +2786,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_brownbark_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -2858,9 +2858,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2920,9 +2920,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -2980,9 +2980,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3040,9 +3040,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3108,9 +3108,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3176,9 +3176,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3200,9 +3200,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -3272,9 +3272,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3334,9 +3334,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3394,9 +3394,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3454,9 +3454,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3522,9 +3522,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3546,9 +3546,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -3617,9 +3617,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3649,9 +3649,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             }
                         },
@@ -3712,9 +3712,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -3736,9 +3736,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -3808,9 +3808,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3870,9 +3870,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3938,9 +3938,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -3962,9 +3962,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -4033,9 +4033,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4057,9 +4057,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -4128,9 +4128,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4152,9 +4152,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -4223,9 +4223,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4247,9 +4247,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -4318,9 +4318,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4342,9 +4342,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_birch_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_birch_nor.tga"
                                 ]
                             },
                             "submesh1_innerwood": {
@@ -4414,9 +4414,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -4476,9 +4476,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4544,9 +4544,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4612,9 +4612,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -4672,9 +4672,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4740,9 +4740,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -4800,9 +4800,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4824,9 +4824,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -4903,9 +4903,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -4927,9 +4927,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5006,9 +5006,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5030,9 +5030,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5109,9 +5109,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5133,9 +5133,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5212,9 +5212,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5236,9 +5236,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5315,9 +5315,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5339,9 +5339,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5419,9 +5419,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -5480,9 +5480,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5548,9 +5548,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5616,9 +5616,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -5676,9 +5676,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5744,9 +5744,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5812,9 +5812,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5880,9 +5880,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -5904,9 +5904,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -5983,9 +5983,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6007,9 +6007,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -6086,9 +6086,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6110,9 +6110,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -6189,9 +6189,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6213,9 +6213,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -6293,9 +6293,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_innerwood": {
@@ -6355,9 +6355,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6423,9 +6423,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6491,9 +6491,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6559,9 +6559,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6627,9 +6627,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6695,9 +6695,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6763,9 +6763,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6831,9 +6831,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6855,9 +6855,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -6934,9 +6934,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -6958,9 +6958,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {
@@ -7037,9 +7037,9 @@
                             "submesh0_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh0_leaves": {
@@ -7061,9 +7061,9 @@
                             "submesh1_bark": {
                                 "material": "DifAsgNor",
                                 "textureList": [
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_dif.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_asg.tga",
-                                    "$SURVIVAL_DATA/Harvestables/Textures/Trees/t_tiled_pine_nor.tga"
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
                                 ]
                             },
                             "submesh1_leaves": {

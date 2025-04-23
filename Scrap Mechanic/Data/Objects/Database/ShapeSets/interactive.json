@@ -213,7 +213,7 @@
                     {
                         "name": "Hips",
                         "offset": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": -0.064,
                             "z": -0.544
                         }
@@ -240,7 +240,7 @@
                     }
                 ],
                 "ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
-                "steerAngle": 45,
+                "steerAngle": 45.0,
                 "enterAudio": "Seat seated",
                 "exitAudio": "Seat unseated"
             },
@@ -277,7 +277,7 @@
                     {
                         "name": "LeftForeArm",
                         "offset": {
-                            "x": 1,
+                            "x": 1.0,
                             "y": -0.25,
                             "z": 1.5
                         },
@@ -286,7 +286,7 @@
                     {
                         "name": "RightForeArm",
                         "offset": {
-                            "x": -1,
+                            "x": -1.0,
                             "y": -0.25,
                             "z": 1.5
                         },
@@ -322,7 +322,7 @@
                     {
                         "name": "Hips",
                         "offset": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": 0.384,
                             "z": -0.3
                         }
@@ -349,7 +349,7 @@
                     }
                 ],
                 "ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
-                "steerAngle": 25,
+                "steerAngle": 25.0,
                 "enterAudio": "Seat seated",
                 "exitAudio": "Seat unseated"
             },
@@ -378,7 +378,7 @@
                     {
                         "name": "Hips",
                         "offset": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": 0.36,
                             "z": 0.8
                         }
@@ -432,7 +432,7 @@
                     {
                         "name": "Hips",
                         "offset": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": 0.55,
                             "z": 0.9
                         }
@@ -440,7 +440,7 @@
                     {
                         "name": "LeftForeArm",
                         "offset": {
-                            "x": 1,
+                            "x": 1.0,
                             "y": 0.5,
                             "z": 1.5
                         },
@@ -449,7 +449,7 @@
                     {
                         "name": "RightForeArm",
                         "offset": {
-                            "x": -1,
+                            "x": -1.0,
                             "y": 0.5,
                             "z": 1.5
                         },
@@ -777,7 +777,6 @@
                 "z": 1,
                 "col": "$GAME_DATA/Objects/Collision/obj_interactive_horn.obj"
             },
-            "horn": {},
             "rotationSet": "PropY",
             "sticky": "-Y",
             "physicsMaterial": "Mechanical",
@@ -786,6 +785,10 @@
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 5
+            },
+            "scripted": {
+                "filename": "$SURVIVAL_DATA/Scripts/game/interactables/Horn.lua",
+                "classname": "Horn"
             },
             "flammable": true,
             "stackSize": 256
@@ -906,7 +909,7 @@
             "name": "obj_interactive_robotsynthhead",
             "legacyId": 117,
             "renderable": "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_robotsynthhead.rend",
-            "color": "7f2418",
+            "color": "cb0a00",
             "box": {
                 "x": 2,
                 "y": 2,
@@ -983,7 +986,7 @@
                     {
                         "name": "Hips",
                         "offset": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": 0.4,
                             "z": -1.5
                         }
@@ -1050,34 +1053,34 @@
                 "defaultRange": 3,
                 "speedLevels": [
                     {
-                        "speed": 2
+                        "speed": 2.0
                     },
                     {
-                        "speed": 4
+                        "speed": 4.0
                     },
                     {
-                        "speed": 6
+                        "speed": 6.0
                     },
                     {
-                        "speed": 8
+                        "speed": 8.0
                     },
                     {
-                        "speed": 10
+                        "speed": 10.0
                     },
                     {
-                        "speed": 12
+                        "speed": 12.0
                     },
                     {
-                        "speed": 14
+                        "speed": 14.0
                     },
                     {
-                        "speed": 16
+                        "speed": 16.0
                     },
                     {
-                        "speed": 18
+                        "speed": 18.0
                     },
                     {
-                        "speed": 20
+                        "speed": 20.0
                     }
                 ],
                 "defaultSpeedLevel": 2,
@@ -1138,7 +1141,7 @@
             "sticky": "-Z-Y+Y-X+X",
             "physicsMaterial": "Mechanical",
             "ratings": {},
-            "density": 1250,
+            "density": 1250.0,
             "qualityLevel": 4,
             "stackSize": 256
         },
@@ -1168,9 +1171,9 @@
                 "classname": "Explosive",
                 "data": {
                     "destructionLevel": 7,
-                    "destructionRadius": 2,
-                    "impulseRadius": 6,
-                    "impulseMagnitude": 25,
+                    "destructionRadius": 2.0,
+                    "impulseRadius": 6.0,
+                    "impulseMagnitude": 25.0,
                     "effectExplosion": "PropaneTank - ExplosionSmall",
                     "effectActivate": "PropaneTank - ActivateSmall"
                 }
@@ -1213,9 +1216,9 @@
                 "classname": "Explosive",
                 "data": {
                     "destructionLevel": 7,
-                    "destructionRadius": 4,
-                    "impulseRadius": 12,
-                    "impulseMagnitude": 40,
+                    "destructionRadius": 4.0,
+                    "impulseRadius": 12.0,
+                    "impulseMagnitude": 40.0,
                     "effectExplosion": "PropaneTank - ExplosionBig",
                     "effectActivate": "PropaneTank - ActivateBig"
                 }

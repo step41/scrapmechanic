@@ -416,8 +416,8 @@
                         {
                             "name": "root_jnt",
                             "offset": {
-                                "x": 0,
-                                "y": 1,
+                                "x": 0.0,
+                                "y": 1.0,
                                 "z": 0.3
                             }
                         },
@@ -459,6 +459,27 @@
                 "usable": true
             },
             "stackSize": 256
+        },
+        {
+            "box" : {
+                "x" : 4,
+                "y" : 1,
+                "z" : 3
+            },
+            "color" : "ca372d00",
+            "density" : 500,
+            "physicsMaterial" : "Metal",
+            "renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_builderguideblock.rend",
+            "rotationSet" : "PropFull",
+            "scripted" : {
+                "classname" : "BuilderGuide",
+                "data" : { "filepath":"$SURVIVAL_DATA/BuilderGuides/builderguide_startercar.json" },
+                "filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuide.lua"
+            },
+            "name": "obj_interactive_builderguideblock",
+            "uuid" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
+            "carryItem": true,
+            "showInInventory": false
         }
     ]
 }
