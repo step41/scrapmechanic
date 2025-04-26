@@ -354,7 +354,7 @@ function SurvivalGame.client_showMessage( self, msg )
 end
 
 function SurvivalGame.cl_onChatCommand( self, params )
-print("params: ", ..params);
+print("cl_onChatCommand ");
 	local unitSpawnNames =
 	{
 		woc = unit_woc,
@@ -531,9 +531,9 @@ print("params: ", ..params);
 		sm.debugDraw.clear()
     elseif params[1] == "/export" then
         print( "g_survivalDev: ", g_survivalDev )
-        print( "rayCastValid: ", rayCastValid )
-        print( "rayCastResult.type: ", rayCastResult.type )
         local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+                print( "rayCastValid: ", rayCastValid )
+                print( "rayCastResult.type: ", rayCastResult.type )
         if rayCastValid and rayCastResult.type == "body" then
             local exportParams = {
                 name = params[2],
