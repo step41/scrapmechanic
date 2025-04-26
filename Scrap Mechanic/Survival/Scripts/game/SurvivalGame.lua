@@ -33,7 +33,6 @@ SurvivalGame.enableAmmoConsumption = false
 SurvivalGame.enableUpgrade = true
 
 g_survivalDev = true
-print( "g_survivalDev: ", g_survivalDev )
 
 local SyncInterval = 400 -- 400 ticks | 10 seconds
 local IntroFadeDuration = 1.1
