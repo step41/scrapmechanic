@@ -33,6 +33,7 @@ SurvivalGame.enableAmmoConsumption = false
 SurvivalGame.enableUpgrade = true
 
 g_survivalDev = true
+print( "g_survivalDev: ", g_survivalDev )
 
 local SyncInterval = 400 -- 400 ticks | 10 seconds
 local IntroFadeDuration = 1.1
@@ -354,7 +355,7 @@ function SurvivalGame.client_showMessage( self, msg )
 end
 
 function SurvivalGame.cl_onChatCommand( self, params )
-
+print("params: ", ..params);
 	local unitSpawnNames =
 	{
 		woc = unit_woc,
@@ -530,24 +531,29 @@ function SurvivalGame.cl_onChatCommand( self, params )
 	elseif params[1] == "/cleardebug" then
 		sm.debugDraw.clear()
     elseif params[1] == "/export" then
+        print( "g_survivalDev: ", g_survivalDev )
+        print( "rayCastValid: ", rayCastValid )
+        print( "rayCastResult.type: ", rayCastResult.type )
         local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
         if rayCastValid and rayCastResult.type == "body" then
             local exportParams = {
                 name = params[2],
                 body = rayCastResult:getBody()
             }
+            print( "exportParams.name: ", exportParams.name )
+            print( "exportParams.body: ", exportParams.body )
             self.network:sendToServer( "sv_exportCreation", exportParams )
         end
-	elseif params[1] == "/import" then
-		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
-		if rayCastValid then
-			local importParams = {
-				world = sm.localPlayer.getPlayer().character:getWorld(),
-				name = params[2],
-				position = rayCastResult.pointWorld
-			}
-			self.network:sendToServer( "sv_importCreation", importParams )
-		end
+    elseif params[1] == "/import" then
+        local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+        if rayCastValid then
+            local importParams = {
+                world = sm.localPlayer.getPlayer().character:getWorld(),
+                name = params[2],
+                position = rayCastResult.pointWorld
+            }
+            self.network:sendToServer( "sv_importCreation", importParams )
+        end
 	elseif params[1] == "/noaggro" then
 		if type( params[2] ) == "boolean" then
 			self.network:sendToServer( "sv_n_switchAggroMode", { aggroMode = not params[2] } )
