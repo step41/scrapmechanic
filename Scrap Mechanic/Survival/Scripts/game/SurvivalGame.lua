@@ -214,6 +214,7 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/harvestable", { { "string", "harvestableName", true } }, "cl_onChatCommand", "Create a harvestable: 'tree', 'stone'" )
 		sm.game.bindChatCommand( "/cleardebug", {}, "cl_onChatCommand", "Clear debug draw objects" )
 		sm.game.bindChatCommand( "/import", { { "string", "name", false } }, "cl_onChatCommand", "Imports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
+		sm.game.bindChatCommand( "/export", { { "string", "name", false } }, "cl_onChatCommand", "Exports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/starterkit", {}, "cl_onChatCommand", "Spawn a starter kit" )
 		sm.game.bindChatCommand( "/mechanicstartkit", {}, "cl_onChatCommand", "Spawn a starter kit for starting at mechanic station" )
 		sm.game.bindChatCommand( "/pipekit", {}, "cl_onChatCommand", "Spawn a pipe kit" )
@@ -531,11 +532,11 @@ function SurvivalGame.cl_onChatCommand( self, params )
     elseif params[1] == "/export" then
         local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
         if rayCastValid and rayCastResult.type == "body" then
-            local importParams = {
+            local exportParams = {
                 name = params[2],
                 body = rayCastResult:getBody()
             }
-            self.network:sendToServer( "sv_exportCreation", importParams )
+            self.network:sendToServer( "sv_exportCreation", exportParams )
         end
 	elseif params[1] == "/import" then
 		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
