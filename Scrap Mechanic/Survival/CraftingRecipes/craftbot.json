@@ -3426,6 +3426,17 @@
         ]
     },
     {
+        "itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+        "quantity": 1024,
+        "craftTime": 1,
+        "ingredientList": [
+            {
+                "quantity": 1,
+                "itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+            }
+        ]
+    },
+    {
         "itemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
         "quantity": 20,
         "craftTime": 1,

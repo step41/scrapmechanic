@@ -11,7 +11,7 @@
             "color": "8d8f89",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 1,
+                "density": 7,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 5
@@ -30,7 +30,7 @@
             "color": "9b683a",
             "physicsMaterial": "Wood",
             "ratings": {
-                "density": 1,
+                "density": 2,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 6
@@ -49,7 +49,7 @@
             "color": "675f51",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 1,
+                "density": 3,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 4
@@ -68,7 +68,7 @@
             "color": "ce9e0c",
             "physicsMaterial": "Plastic",
             "ratings": {
-                "density": 1,
+                "density": 2,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 7
@@ -87,7 +87,7 @@
             "color": "bfdfed",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 1,
+                "density": 7,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 5
@@ -106,7 +106,7 @@
             "color": "af967b",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 1,
+                "density": 7,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 5
@@ -125,7 +125,7 @@
             "glass": true,
             "physicsMaterial": "Glass",
             "ratings": {
-                "density": 1,
+                "density": 3,
                 "durability": 10,
                 "friction": 3,
                 "buoyancy": 5
@@ -145,7 +145,7 @@
             "glass": true,
             "physicsMaterial": "Glass",
             "ratings": {
-                "density": 1,
+                "density": 3,
                 "durability": 10,
                 "friction": 3,
                 "buoyancy": 5
@@ -163,7 +163,7 @@
             "color": "727272",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 1,
+                "density": 5,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 2
@@ -181,7 +181,7 @@
             "color": "820a0a",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 1,
+                "density": 5,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 5
