@@ -10,7 +10,7 @@
             "color": "cd9d71",
             "physicsMaterial": "Wood",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 4
@@ -28,7 +28,7 @@
             "color": "dc9153",
             "physicsMaterial": "Wood",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 8
@@ -46,7 +46,7 @@
             "color": "f2ad74",
             "physicsMaterial": "Wood",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 9
@@ -64,7 +64,7 @@
             "color": "df6226",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 5,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 2
@@ -82,7 +82,7 @@
             "color": "869499",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 5,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 5
@@ -100,7 +100,7 @@
             "color": "88a5ac",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 5,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 6
@@ -118,7 +118,7 @@
             "color": "848484",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 6,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 5
@@ -136,7 +136,7 @@
             "color": "8d8f89",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 8,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 5
@@ -154,7 +154,7 @@
             "color": "c9d7dc",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 9,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 5
@@ -172,7 +172,7 @@
             "color": "8d8f89",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 6,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 4
@@ -196,7 +196,7 @@
             "color": "af967b",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 6,
+                "density": 1,
                 "durability": 10,
                 "friction": 7,
                 "buoyancy": 1
@@ -214,7 +214,7 @@
             "color": "738192",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 4,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 1
@@ -232,7 +232,7 @@
             "color": "858795",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -269,7 +269,7 @@
             "color": "0b9ade",
             "physicsMaterial": "Plastic",
             "ratings": {
-                "density": 4,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 7
@@ -287,7 +287,7 @@
             "color": "fff063",
             "physicsMaterial": "Plastic",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 6
@@ -305,7 +305,7 @@
             "color": "979797",
             "physicsMaterial": "Rock",
             "ratings": {
-                "density": 4,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 3
@@ -323,7 +323,7 @@
             "color": "368085",
             "physicsMaterial": "Grass",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 4
@@ -341,7 +341,7 @@
             "color": "eeeeee",
             "physicsMaterial": "Grass",
             "ratings": {
-                "density": 5,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 1
@@ -360,7 +360,7 @@
             "alpha": true,
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 3,
                 "buoyancy": 1
@@ -379,7 +379,7 @@
             "alpha": true,
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -398,7 +398,7 @@
             "alpha": true,
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -417,7 +417,7 @@
             "alpha": true,
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -436,7 +436,7 @@
             "alpha": true,
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 2,
+                "density": 1,
                 "durability": 10,
                 "friction": 2,
                 "buoyancy": 2
@@ -454,7 +454,7 @@
             "color": "607b79",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 7,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 3
@@ -472,7 +472,7 @@
             "color": "43494d",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 5,
+                "density": 1,
                 "durability": 10,
                 "friction": 6,
                 "buoyancy": 2
@@ -490,7 +490,7 @@
             "color": "727272",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 6,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -508,7 +508,7 @@
             "color": "66837c",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 4,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 1
@@ -526,7 +526,7 @@
             "color": "dadada",
             "physicsMaterial": "Metal",
             "ratings": {
-                "density": 4,
+                "density": 1,
                 "durability": 10,
                 "friction": 5,
                 "buoyancy": 1
@@ -544,7 +544,7 @@
             "color": "c69146",
             "physicsMaterial": "Sand",
             "ratings": {
-                "density": 6,
+                "density": 1,
                 "durability": 10,
                 "friction": 4,
                 "buoyancy": 1
@@ -563,7 +563,7 @@
             "glass": true,
             "physicsMaterial": "Glass",
             "ratings": {
-                "density": 3,
+                "density": 1,
                 "durability": 10,
                 "friction": 3,
                 "buoyancy": 5
