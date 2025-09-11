@@ -215,6 +215,7 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/cleardebug", {}, "cl_onChatCommand", "Clear debug draw objects" )
 		sm.game.bindChatCommand( "/import", { { "string", "name", false } }, "cl_onChatCommand", "Imports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/export", { { "string", "name", false } }, "cl_onChatCommand", "Exports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
+		sm.game.bindChatCommand( "/exportbylog", {}, "cl_onChatCommand", "Exports blueprint by writing it to log" )
 		sm.game.bindChatCommand( "/starterkit", {}, "cl_onChatCommand", "Spawn a starter kit" )
 		sm.game.bindChatCommand( "/mechanicstartkit", {}, "cl_onChatCommand", "Spawn a starter kit for starting at mechanic station" )
 		sm.game.bindChatCommand( "/pipekit", {}, "cl_onChatCommand", "Spawn a pipe kit" )
@@ -543,6 +544,23 @@ print("cl_onChatCommand ");
             print( "exportParams.body: ", exportParams.body )
             self.network:sendToServer( "sv_exportCreation", exportParams )
         end
+	-- Full URL: https://github.com/Nick7903/scrap-mechanic-export-creation-new
+	-- Summary of directions for use:
+	-- 1. Go up to and point crosshair at free floating creation ( not on lift, not connected to world )
+	-- 2. Press enter to type command, type "/exportbylog", make sure it responds with "Exported creation to log file"
+	-- 3. Find the newest log file in ..\steamapps\common\Scrap Mechanic\Logs with name starting with "game-" ( NOT "mygui-" )
+	-- 4. Search the file for wrap_Log.cpp:26, and copy the rest of the line starting with where it says {"bodies":[
+	-- 5. Paste the text into a new file in ..\steamapps\common\Scrap Mechanic\Survival\LocalBlueprints with the extension .blueprint
+	-- 6. Assert that you have a file in the localBlueprints folder, with a name like mycreation.blueprint with text in it that starts with {"bodies":[ and ends with ,"version":4}
+	-- 7. Enter any Scrap Mechanic world and use the import command to import your creation: /import mycreation
+	elseif params[1] == "/exportbylog" then
+		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+		if rayCastValid and rayCastResult.type == "body" then
+			local exportbylogParams = {
+				body = rayCastResult:getBody()
+			}
+			self.network:sendToServer( "sv_exportbylogCreation", exportbylogParams )
+		end
     elseif params[1] == "/import" then
         local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
         if rayCastValid then
@@ -758,6 +776,11 @@ end
 function SurvivalGame.sv_exportCreation( self, params )
 	local obj = sm.json.parseJsonString( sm.creation.exportToString( params.body ) )
 	sm.json.save( obj, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint" )
+end
+
+function SurvivalGame.sv_exportbylogCreation( self, params )
+	sm.log.warning( sm.creation.exportToString( params.body ) )
+	self.network:sendToClients( "client_showMessage", "Exported creation to log file" )
 end
 
 function SurvivalGame.sv_importCreation( self, params )

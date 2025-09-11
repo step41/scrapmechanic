@@ -27,8 +27,8 @@ local WaterCostPerStamina = 0.1
 local SprintStaminaCost = 0.1 / 40 -- Per tick while sprinting
 local CarryStaminaCost = 0.1 / 40 -- Per tick while carrying
 
-local FoodLostPerSecond = 100 / .5 / 24 / 60
-local WaterLostPerSecond = 100 / .5 / 24 / 60
+local FoodLostPerSecond = 100 / 24 / 60 / 2
+local WaterLostPerSecond = 100 / 24 / 60 / 2
 
 local BreathLostPerTick = ( 100 / 60 ) / 40
 
