@@ -38,7 +38,7 @@
             },
             "flammable": true,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             }
@@ -81,7 +81,7 @@
             },
             "flammable": true,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             }
@@ -124,7 +124,7 @@
             },
             "flammable": false,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             }
@@ -200,7 +200,7 @@
             },
             "flammable": true,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             }
@@ -244,7 +244,7 @@
             },
             "flammable": true,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             }
@@ -296,7 +296,7 @@
             },
             "flammable": true,
             "consumable": true,
-            "stackSize": 256,
+            "stackSize": 1024,
             "restrictions": {
                 "erasable": true
             },
