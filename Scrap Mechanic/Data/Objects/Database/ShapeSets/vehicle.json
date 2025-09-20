@@ -18,7 +18,7 @@
             "ratings": {
                 "density": 7,
                 "durability": 10,
-                "friction": 5,
+                "friction": 10,
                 "buoyancy": 6
             },
             "flammable": true,
@@ -42,7 +42,7 @@
             "ratings": {
                 "density": 4,
                 "durability": 10,
-                "friction": 5,
+                "friction": 10,
                 "buoyancy": 6
             },
             "flammable": false,
