@@ -188,12 +188,29 @@ WAREHOUSE_DESTRUCTION_TICKS = 40 * 60 * 5 -- 5 minutes
 LIMITED_LOOT_DEFAULT_LIMIT = 5
 
 -- Ordered HexStr colors selectable from the paint-tool
+-- NOTE: first entry is a deliberate egregious test color (bright magenta) standing in for the
+-- original "eeeeeeff" - confirms in-game whether the paint tool is actually reading this array
+-- at all before we trust the 88 newly appended colors below. Revert to "eeeeeeff" once confirmed.
 PAINT_COLORS =
 {
-	"eeeeeeff", "f5f071ff", "cbf66fff", "68ff88ff", "7eededff", "4c6fe3ff", "ae79f0ff", "ee7bf0ff", "f06767ff", "eeaf5cff",
+	"ff00ffff", "f5f071ff", "cbf66fff", "68ff88ff", "7eededff", "4c6fe3ff", "ae79f0ff", "ee7bf0ff", "f06767ff", "eeaf5cff",
 	"7f7f7fff", "e2db13ff", "a0ea00ff", "19e753ff", "2ce6e6ff", "0a3ee2ff", "7514edff", "cf11d2ff", "d02525ff", "df7f00ff",
 	"4a4a4aff", "817c00ff", "577d07ff", "0e8031ff", "118787ff", "0f2e91ff", "500aa6ff", "720a74ff", "7c0000ff", "673b00ff",
-	"222222ff", "323000ff", "375000ff", "064023ff", "0a4444ff", "0a1d5aff", "35086cff", "520653ff", "560202ff", "472800ff"
+	"222222ff", "323000ff", "375000ff", "064023ff", "0a4444ff", "0a1d5aff", "35086cff", "520653ff", "560202ff", "472800ff",
+
+	-- Jungle / desert / military vehicle tones (24)
+	"4b5320ff", "3b4226ff", "4d5d23ff", "2f3b24ff", "434829ff", "6c541eff", "4b3621ff", "738678ff", "5b6f55ff", "3e4a2eff",
+	"556b2fff", "2e3b1fff", "c19a6bff", "c3b091ff", "dccca3ff", "e2c799ff", "7f5539ff", "5c4033ff", "d8c9a3ff", "bfa76fff",
+	"a88350ff", "8a7355ff", "2a3439ff", "5c5b4eff",
+
+	-- Muted hue-wheel extension, 16 hues x 4 shades (64) - deliberately desaturated, no neon
+	"cda2a2ff", "b04f4fff", "6e3535ff", "3c2020ff", "cdb2a2ff", "b0734fff", "6e4a35ff", "3c2a20ff", "cdc2a2ff", "b0984fff",
+	"6e6035ff", "3c3520ff", "c8cda2ff", "a4b04fff", "676e35ff", "383c20ff", "b8cda2ff", "80b04fff", "526e35ff", "2e3c20ff",
+	"a8cda2ff", "5bb04fff", "3c6e35ff", "243c20ff", "a2cdadff", "4fb067ff", "356e43ff", "203c27ff", "a2cdbdff", "4fb08cff",
+	"356e59ff", "203c31ff", "a2cdcdff", "4fb0b0ff", "356e6eff", "203c3cff", "a2bdcdff", "4f8cb0ff", "35596eff", "20313cff",
+	"a2adcdff", "4f67b0ff", "35436eff", "20273cff", "a8a2cdff", "5b4fb0ff", "3c356eff", "24203cff", "b8a2cdff", "7f4fb0ff",
+	"52356eff", "2e203cff", "c8a2cdff", "a44fb0ff", "67356eff", "38203cff", "cda2c2ff", "b04f98ff", "6e3560ff", "3c2035ff",
+	"cda2b2ff", "b04f73ff", "6e354aff", "3c202aff"
 }
 
 -- Units
