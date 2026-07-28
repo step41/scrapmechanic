@@ -1,0 +1,38 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"color" : "49642d",
+			"flammable" : false,
+			"name" : "obj_characterobject_toteboticeblock",
+			"physicsMaterial" : "Ice",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/characterobject/obj_characterobject_toteboticeblock.rend",
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "Package",
+				"data" : 
+				{
+					"unboxEffect01" : "Unbox - Totebot_iceblock",
+					"unitUuid" : "8984bdbf-521e-4eed-b3c4-2b5e287eb879"
+				},
+				"filename" : "$GAME_DATA/Scripts/game/interactable/Package.lua"
+			},
+			"sticky" : "All",
+			"uuid" : "71d3347f-baff-4f44-9ca9-dbdb3376cafc"
+		}
+	]
+}

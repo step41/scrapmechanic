@@ -1,0 +1,922 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "f57d0aff",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 1,
+				"diameter" : 3,
+				"margin" : 0.5
+			},
+			"flammable" : true,
+			"name" : "obj_rewards_lowriderwheel",
+			"physicsMaterial" : "Rubber",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_lowriderwheel.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z+Z",
+			"uuid" : "cb40d51e-86dc-4bf4-999a-879dbfe91e4b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "db2a1dff",
+			"density" : 250.0,
+			"name" : "obj_rewards_fireworks",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_fireworks.rend",
+			"rotationSet" : "PropYX",
+			"scripted" : 
+			{
+				"classname" : "FireworkLauncher",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/FireworkLauncher.lua"
+			},
+			"sticky" : "-Y+X-X+Z-Z",
+			"uuid" : "78677314-1885-4c9e-87ee-04cdc929b0dc"
+		},
+		{
+			"color" : "5d8309ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 2,
+				"margin" : 1
+			},
+			"density" : 250.0,
+			"name" : "obj_rewards_tablelamp",
+			"physicsMaterial" : "Default",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_tablelamp.rend",
+			"rotationSet" : "PropY",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_FactoryLight",
+				"glowMultiplier" : true
+			},
+			"sticky" : "-Y+Y",
+			"uuid" : "e5e81f70-6477-4099-ad77-76bf6a4f364f"
+		},
+		{
+			"color" : "4a8d00ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2
+			},
+			"density" : 250.0,
+			"name" : "obj_rewards_kitchenpot01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 1,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_kitchenpot01.rend",
+			"rotationSet" : "PropYNegY",
+			"uuid" : "d48dc62b-ae26-4b0d-bc15-939f835ae19b"
+		},
+		{
+			"color" : "d52816ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 4,
+				"diameter" : 2,
+				"margin" : 1
+			},
+			"density" : 250.0,
+			"name" : "obj_rewards_lavalamp",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_lavalamp.rend",
+			"restrictions" : 
+			{
+				"connectable" : false,
+				"usable" : false
+			},
+			"rotationSet" : "PropY",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 30,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Parteffect- Lavalamp"
+			},
+			"sticky" : "+Y-Y",
+			"uuid" : "61b0abe1-817d-416a-b49d-443b2ec13b6e"
+		},
+		{
+			"color" : "ff7700ff",
+			"density" : 250.0,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_plant01_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"impactEffect" : "Impact - plants",
+			"name" : "obj_rewards_plant01",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_plant01.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "682538ac-7a45-4f56-b500-ec5d3d5f3eb7"
+		},
+		{
+			"color" : "a86f41ff",
+			"density" : 250.0,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_plant02_col.fbx",
+				"x" : 3,
+				"y" : 6,
+				"z" : 1
+			},
+			"name" : "obj_rewards_plant02",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_plant02.rend",
+			"rotationSet" : "PropFullMinusNegZ",
+			"sticky" : "-Z-Y+Y+X-X",
+			"uuid" : "64401599-2a38-4d83-93f9-a76b137c9574"
+		},
+		{
+			"color" : "0087ffff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_plant03_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"name" : "obj_rewards_plant03",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_plant03.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "72045c19-fa44-4ce9-9f99-e9541e5a4d46"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "845e35ff",
+			"density" : 250.0,
+			"flammable" : true,
+			"name" : "obj_rewards_window",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_window.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y+X-X",
+			"uuid" : "0e6e6903-c284-40ee-9d39-b55312094dac"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "db817cff",
+			"density" : 250.0,
+			"flammable" : true,
+			"name" : "obj_rewards_pictureframe",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_pictureframe.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "cbd2c2d3-ea26-4805-b9fe-5694f89f162f"
+		},
+		{
+			"color" : "df7f01ff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_doorhandle_col.fbx",
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"lever" : {},
+			"name" : "obj_rewards_doorhandle",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_doorhandle.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "ab835444-a6b3-41b4-bf37-207031c5ff8d"
+		},
+		{
+			"color" : "5d8309ff",
+			"density" : 250.0,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_modularsofa01_col.fbx",
+				"x" : 3,
+				"y" : 4,
+				"z" : 4
+			},
+			"name" : "obj_rewards_modularsofa01",
+			"physicsMaterial" : "Fabric",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_modularsofa01.rend",
+			"rotationSet" : "PropYZX",
+			"scripted" : 
+			{
+				"classname" : "Seat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Seat.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.5,
+								"z" : 1.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.0,
+								"y" : 0.5,
+								"z" : 2.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.0,
+								"y" : 0.5,
+								"z" : 2.0
+							}
+						}
+					],
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+				}
+			},
+			"sticky" : "-Z-Y+X-X",
+			"uuid" : "3c0cf002-905f-45bc-84ef-b4fbb4549a63"
+		},
+		{
+			"color" : "5d8309ff",
+			"density" : 250.0,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_modularsofa02_col.fbx",
+				"x" : 1,
+				"y" : 3,
+				"z" : 4
+			},
+			"name" : "obj_rewards_modularsofa02",
+			"physicsMaterial" : "Fabric",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_modularsofa02.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "2fa43c38-9a66-4c03-a159-756a0c8b0078"
+		},
+		{
+			"color" : "d52816ff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_coffepot_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_rewards_coffepot",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_coffepot.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "84050f02-448f-4cc0-93b8-82876368ada6"
+		},
+		{
+			"color" : "6e8191ff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_backmirror_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_rewards_backmirror",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_backmirror.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "ea42ac82-47cc-4e13-889c-de38f8478b91"
+		},
+		{
+			"color" : "6e8191ff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_sidemirror_col.fbx",
+				"x" : 1,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_rewards_sidemirror",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_sidemirror.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Z",
+			"uuid" : "e858c1d5-8b16-4749-9119-b77e904520ac"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "3e9ffeff",
+			"density" : 250.0,
+			"name" : "obj_rewards_bowl",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_bowl.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "c2e6c7f6-6519-4e79-813d-354cc63080a8"
+		},
+		{
+			"color" : "adbac9ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 1
+			},
+			"density" : 250.0,
+			"name" : "obj_rewards_10pin",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_10pin.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "9c051125-517d-4852-9bb9-2e77f8bea55f"
+		},
+		{
+			"color" : "331958ff",
+			"density" : 250.0,
+			"name" : "obj_rewards_bowlingball",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_bowlingball.rend",
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 2
+			},
+			"uuid" : "cd5cf990-a08e-4e0b-9824-334fe13bf379"
+		},
+		{
+			"color" : "324955ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_anvil_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 6
+			},
+			"name" : "obj_rewards_anvil",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 10,
+				"durability" : 5,
+				"friction" : 8
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_anvil.rend",
+			"rotationSet" : "PropYNegYZX",
+			"sticky" : "+Y-Y-Z",
+			"uuid" : "17c301ae-1d51-445c-9c72-6f40ec386dba"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 4
+			},
+			"chest" : 
+			{
+				"slots" : 6
+			},
+			"color" : "455552ff",
+			"name" : "obj_rewards_safe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 10,
+				"durability" : 9,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_safe.rend",
+			"rotationSet" : "PropY",
+			"uuid" : "198c8b79-1f02-49fc-aacf-f8cacca7a3a7"
+		},
+		{
+			"color" : "b63929ff",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_ivypipe01_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_rewards_ivypipe01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_ivypipe01.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "f57e4a93-f61b-4418-83c1-3d8cbcd6322a"
+		},
+		{
+			"color" : "b63929ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 1
+			},
+			"flammable" : true,
+			"name" : "obj_rewards_ivypipe02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_ivypipe02.rend",
+			"rotationSet" : "PropYNegY",
+			"sticky" : "+Y-Y",
+			"uuid" : "63910258-85da-45eb-8108-bb5c489695a0"
+		},
+		{
+			"color" : "b63929ff",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_ivypipe04_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_rewards_ivypipe04",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_ivypipe04.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "20d4a103-c842-40d7-9df8-0ba0f9000752"
+		},
+		{
+			"box" : 
+			{
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "5bbfb5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carfrontpanel_col.fbx",
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_rewards_carfrontpanel",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 7,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carfrontpanel.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "eb3d3125-d022-4624-a8bc-55b085ef8bd2"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carbumper_col.fbx",
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_rewards_carbumper.blueprint"
+			},
+			"name" : "obj_rewards_carbumper",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 8,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carbumper.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "6b19e80c-dbc3-4a84-be37-54646f39f23d"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carwindshield_rightpart_col.fbx",
+				"x" : 1,
+				"y" : 4,
+				"z" : 2
+			},
+			"name" : "obj_rewards_windshield_rightpart",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carwindshield_rightpart.rend",
+			"rotationSet" : "PropYZX",
+			"showInInventory" : false,
+			"uuid" : "8e7f019d-d5ac-4f1c-8f26-95664548a41b"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carwindshield_leftpart_col.fbx",
+				"x" : 1,
+				"y" : 4,
+				"z" : 2
+			},
+			"name" : "obj_rewards_windshield_leftpart",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carwindshield_leftpart.rend",
+			"rotationSet" : "PropYZX",
+			"showInInventory" : false,
+			"uuid" : "f74dc766-3d8b-4f63-925c-dce2e3227133"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carwindshield_middlepart_col.fbx",
+				"x" : 8,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_rewards_windshield_middlepart",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carwindshield_middlepart.rend",
+			"rotationSet" : "PropYZX",
+			"showInInventory" : false,
+			"uuid" : "3cee1dde-7858-4086-9dc9-a488041cb358"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carwindshield_lowpart_col.fbx",
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_rewards_windshield_lowpart.blueprint"
+			},
+			"name" : "obj_rewards_windshield",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carwindshield_lowpart.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "8b4bd31f-cb1e-42ae-ac33-b2f951609bd2"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carwindshield_middlepart_col.fbx",
+				"x" : 8,
+				"y" : 1,
+				"z" : 2
+			},
+			"name" : "obj_rewards_windshield_toppart",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carwindshield_toppart.rend",
+			"rotationSet" : "PropYZX",
+			"showInInventory" : false,
+			"uuid" : "c256423e-0ec5-4206-a7a6-996d039ba476"
+		},
+		{
+			"box" : 
+			{
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "5bbfb5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carbackpanel_col.fbx",
+				"x" : 10,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_rewards_carbackpanel",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 7,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carbackpanel.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "02e1af8e-090f-432f-9ad4-1bb41add0d4b"
+		},
+		{
+			"color" : "ffffffff",
+			"flammable" : true,
+			"name" : "obj_rewards_beachball",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 10,
+				"density" : 1,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_beachball.rend",
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 3
+			},
+			"uuid" : "e8d88e1f-7025-4911-8d8a-d77574343632"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carbumpersidepart01_col.fbx",
+				"x" : 1,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_rewards_carbumpersidepart01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 8,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carbumpersidepart01.rend",
+			"rotationSet" : "PropYNegYZ",
+			"showInInventory" : false,
+			"sticky" : "+X-X+Y-Y",
+			"uuid" : "1366666f-a1c8-4676-9b14-614a67796aa8"
+		},
+		{
+			"color" : "747c92ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/rewards/obj_rewards_carbumpersidepart02_col.fbx",
+				"x" : 1,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_rewards_carbumpersidepart02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 8,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/rewards/obj_rewards_carbumpersidepart02.rend",
+			"rotationSet" : "PropYNegYZ",
+			"showInInventory" : false,
+			"sticky" : "+X-X+Y-Y",
+			"uuid" : "abf92fdd-a3e6-4faa-b0b2-f5c57aca6262"
+		}
+	]
+}

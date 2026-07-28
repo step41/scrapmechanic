@@ -1,0 +1,33 @@
+{
+	"wedgeList" : 
+	[
+		{
+			"blockUuid" : "87de6612-06c2-43c7-a4aa-652c0eb1dd18",
+			"color" : "42b12bff",
+			"flammable" : false,
+			"material" : "DifAsgNor",
+			"name" : "wdg_undergroundstation4x",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"textureList" : 
+			[
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_dif.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_asg.tga",
+				"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+			],
+			"uuid" : "320539c4-14c7-11ed-861d-0242ac120002"
+		}
+	]
+}

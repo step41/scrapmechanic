@@ -1,0 +1,145 @@
+{
+	"partList": [
+		{
+			"uuid": "d739fdf9-2c61-47ea-88ab-beac6a6c35c0",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_chain_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_chain_nor.png"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/custom/obj_custom_chained_wheel.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"cylinder": { "diameter": 5, "depth": 2, "margin": 0.5, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z",
+			"qualityLevel": 3,
+			"ratings": {
+				"density": 4,
+				"durability": 10,
+				"friction": 50000,
+				"buoyancy": 6
+			},
+			"friction": 50000,
+			"stackSize": 256
+		},
+		{
+			"uuid": "d739fdf9-2c61-47ea-88ab-beac6a6c35c1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/custom/obj_custom_spiked_wheel.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"cylinder": { "diameter": 5, "depth": 2, "margin": 0.5, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z",
+			"qualityLevel": 3,
+			"ratings": {
+				"density": 4,
+				"durability": 10,
+				"friction": 50000,
+				"buoyancy": 6
+			},
+			"friction": 50000,
+			"stackSize": 256
+		},
+		{
+			"uuid": "dff53b11-2d8d-4044-ad51-59321f117f8e",
+			"name": "obj_custom_piston_large",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_piston_large_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_piston_large_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/custom/obj_custom_piston_large_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/custom/obj_custom_piston_large_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/custom/obj_custom_piston_large_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYmmZ",
+			"color": "df7f01",
+			"box": { "x": 3, "y": 1, "z": 3 },
+			"qualityLevel": 0,
+			"physicsMaterial": "Metal",
+			"piston": {
+				"length": 165,
+				"defaultRange": 165,
+				"speedLevels": [
+					{ "speed": 0.5 },
+					{ "speed": 1.0 },
+					{ "speed": 2.0 },
+					{ "speed": 3.0 },
+					{ "speed": 4.0 },
+					{ "speed": 6.0 },
+					{ "speed": 8.0 },
+					{ "speed": 10.0 },
+					{ "speed": 12.0 },
+					{ "speed": 14.0 },
+					{ "speed": 16.0 },
+					{ "speed": 18.0 },
+					{ "speed": 20.0 },
+					{ "speed": 22.0 },
+					{ "speed": 24.0 },
+					{ "speed": 30.0 },
+					{ "speed": 35.0 },
+					{ "speed": 40.0 },
+					{ "speed": 50.0 }
+				],
+				"defaultSpeedLevel": 25,
+				"force": 999999999999999999.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ],
+			"stackSize": 256
+		}
+	]
+}

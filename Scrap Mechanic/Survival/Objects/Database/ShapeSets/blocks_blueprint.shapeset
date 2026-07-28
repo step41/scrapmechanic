@@ -1,0 +1,42 @@
+{
+	"blockList" : 
+	[
+		{
+			"asg" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_noexport_asg.tga",
+			"color" : "ffffff",
+			"dif" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_noexport_dif.tga",
+			"glass" : true,
+			"nor" : "$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+			"physicsMaterial" : "Metal",
+			"tiling" : 1,
+			"uuid" : "1babcbfe-4585-46a9-afdf-b71dd0ab5396"
+		},
+		{
+			"asg" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_metalbricks_asg.tga",
+			"color" : "8c7e6d",
+			"dif" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_metalbricks_dif.tga",
+			"flammable" : false,
+			"name" : "blk_framework",
+			"nor" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_metalbricks_nor.tga",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 10,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"tiling" : 8,
+			"uuid" : "c4a2ffa8-c245-41fb-9496-966c6ee4648b"
+		}
+	]
+}

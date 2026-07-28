@@ -1,0 +1,813 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Harvestables/Collision/Breakable/hvs_breakable_sapphire_col.fbx",
+				"x" : 16,
+				"y" : 16,
+				"z" : 16
+			},
+			"name" : "obj_harvests_nonepart_sapphire",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvestablePart",
+				"data" : 
+				{
+					"blowupHarvestablePart" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"onExplosionBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/harvestable_breakable_mineral4.blueprint"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvestablePart.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "11805d14-8dc0-4372-b08d-e1c70392cba8"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p01_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p01",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p01.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "72f12b82-c169-4d2e-9f9b-44ef38d51aaa"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p02_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p02",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p02.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "381e18f8-9491-41ef-9cf4-82488cbcff04"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p03_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p03",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p03.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "c06f9ee5-0da5-46b0-b0b0-d26dcb332e2e"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p04_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p04",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p04.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "167ec3ff-5506-496a-be16-db2937a9061e"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p05_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p05",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p05.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "208e8a82-9c0a-4fe4-87bc-0aec363172ea"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p06_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p06",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p06.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "79804453-e6d1-4a85-9944-db50d13b27cf"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p07_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p07",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p07.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "3d83f236-0a89-4599-b641-3c470f339574"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_sapphire_p08_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_sapphire_p08",
+			"physicsMaterial" : "Matrixium",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_sapphire_p08.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"lootSource" : "lootsource_mineral_04"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "57b7e02c-b787-45a5-a250-3d750cfe04aa"
+		},
+		{
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_col.fbx",
+				"x" : 16,
+				"y" : 16,
+				"z" : 16
+			},
+			"name" : "obj_harvests_nonepart_tier5",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvestablePart",
+				"data" : 
+				{
+					"blowupHarvestablePart" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"onExplosionBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/harvestable_breakable_t5.blueprint"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvestablePart.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "1215bcc1-b11f-4787-9bea-ff80641a6d19"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p01_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p01",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p01.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "40223a65-8a5d-479f-b278-6329082b02b9"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p02_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p02",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p02.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "5c5800f6-c6e0-4af5-b655-0c920b8ffa19"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p03_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p03",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p03.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "71fece72-28cb-4732-a0cb-00140170f2b0"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p04_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p04",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p04.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "5240e55e-663e-43fa-aac2-40974d29ab36"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p05_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p05",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p05.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "de9ede75-5759-4d49-b3f1-6b274716945d"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p06_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p06",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p06.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "9a9e40b9-b887-4387-870d-6d8e75656aea"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p07_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p07",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p07.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "c9ce53cc-5838-4ae0-9feb-8ee6b6a01a5b"
+		},
+		{
+			"carryItem" : true,
+			"color" : "493c28",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Harvests_nonepart/obj_harvests_nonepart_tier5_p08_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_harvests_nonepart_tier5_p08",
+			"physicsMaterial" : "Disconite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_nonepart/obj_harvests_nonepart_tier5_p08.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "BlowupHarvest",
+				"data" : 
+				{
+					"blowupHarvest" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"lootSource" : "lootsource_tier5"
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BlowupHarvest.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "640574ae-f55c-460b-9070-030877f7afa5"
+		}
+	]
+}

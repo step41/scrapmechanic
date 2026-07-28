@@ -1,0 +1,160 @@
+{
+	"partList" : 
+	[
+		{
+			"angularDamping" : 0.050000001,
+			"color" : "0d7eb6ff",
+			"flammable" : false,
+			"linearDamping" : 0.100000001,
+			"name" : "obj_moltenorb_t1",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 1,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/moltenorb/obj_moltenorb_t1.rend",
+			"restitution" : 0.5,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 8
+			},
+			"stackSize" : 10,
+			"uuid" : "008d3f17-3bef-439d-8111-13a8c35c8787"
+		},
+		{
+			"angularDamping" : 0.050000001,
+			"color" : "e5a319ff",
+			"flammable" : false,
+			"linearDamping" : 0.100000001,
+			"name" : "obj_moltenorb_t2",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 1,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/moltenorb/obj_moltenorb_t2.rend",
+			"restitution" : 0.5,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 8
+			},
+			"stackSize" : 10,
+			"uuid" : "b8982b4d-1deb-47c8-932e-622a0c8889f3"
+		},
+		{
+			"angularDamping" : 0.050000001,
+			"color" : "f93b70ff",
+			"flammable" : false,
+			"linearDamping" : 0.100000001,
+			"name" : "obj_moltenorb_t3",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 1,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/moltenorb/obj_moltenorb_t3.rend",
+			"restitution" : 0.5,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 8
+			},
+			"stackSize" : 10,
+			"uuid" : "26768efb-a090-44ce-9397-6a295b73eaf8"
+		},
+		{
+			"angularDamping" : 0.050000001,
+			"color" : "10f76aff",
+			"flammable" : false,
+			"linearDamping" : 0.100000001,
+			"name" : "obj_moltenorb_t4",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 1,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/moltenorb/obj_moltenorb_t4.rend",
+			"restitution" : 0.5,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 8
+			},
+			"stackSize" : 10,
+			"uuid" : "0bdbde72-41a4-4295-b31d-5de814b9ed62"
+		},
+		{
+			"angularDamping" : 0.050000001,
+			"color" : "8205ffff",
+			"flammable" : false,
+			"linearDamping" : 0.100000001,
+			"name" : "obj_moltenorb_t5",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 1,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/moltenorb/obj_moltenorb_t5.rend",
+			"restitution" : 0.5,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"sphere" : 
+			{
+				"diameter" : 8
+			},
+			"stackSize" : 10,
+			"uuid" : "6c4072a2-3260-4042-8a16-b4f257869d3a"
+		}
+	]
+}

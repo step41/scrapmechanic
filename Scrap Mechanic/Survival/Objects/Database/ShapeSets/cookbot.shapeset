@@ -1,0 +1,36 @@
+{
+	"partList" : 
+	[
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/char_cookbot_col.obj",
+				"x" : 3,
+				"y" : 6,
+				"z" : 4
+			},
+			"name" : "obj_craftbot_cookbot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Cookbot/char_cookbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Cookbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Cookbot.lua"
+			},
+			"sticky" : "-Y",
+			"uuid" : "2af00456-b22e-4743-b338-a91934aba7c5"
+		}
+	]
+}

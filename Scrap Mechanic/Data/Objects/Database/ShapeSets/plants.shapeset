@@ -1,0 +1,398 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "dadac9",
+			"flammable" : true,
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 700,
+			"name" : "obj_plants_growbox",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/plants/obj_plants_grasscontainer.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+X-X-Y-Z+Z",
+			"uuid" : "13ffabca-91ec-48ce-9dd6-4f6660714701"
+		},
+		{
+			"color" : "be6740",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 4,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"destroyEffect" : "Destruction - plants_plants",
+			"flammable" : true,
+			"legacyId" : 701,
+			"name" : "obj_plants_leafplant",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_leafplant.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlpha",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "df3734e2-f04b-443f-b568-fe5b076646c7"
+		},
+		{
+			"color" : "be6740",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"destroyEffect" : "Destruction - plants_plants",
+			"flammable" : true,
+			"legacyId" : 702,
+			"name" : "obj_plants_succulent",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_succulent.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlpha",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5"
+		},
+		{
+			"color" : "be6740",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 6,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"destroyEffect" : "Destruction - plants_plants",
+			"flammable" : true,
+			"legacyId" : 703,
+			"name" : "obj_plants_poleplant",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_poleplant.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "cec1d36c-b48a-43d2-9667-5e53b62dd4c5"
+		},
+		{
+			"color" : "af4200",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 3,
+				"margin" : 0.5
+			},
+			"flammable" : true,
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 704,
+			"name" : "obj_plants_bigpot",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_emptypot.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y",
+			"uuid" : "7826f497-426b-42cb-a857-0d784f3ab2f3"
+		},
+		{
+			"color" : "af4200",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 2,
+				"margin" : 0.04
+			},
+			"flammable" : true,
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 705,
+			"name" : "obj_plants_seedplant",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_seedplant.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "c4609540-bc32-4c3f-83b8-3b6926878012"
+		},
+		{
+			"color" : "9c251c",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_plants_ballcactus.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 706,
+			"name" : "obj_plants_ballcactus",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_ballcactus.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "d1421af8-6f80-4413-8099-2c6b217fb929"
+		},
+		{
+			"color" : "9c251c",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_plants_barbarycactus.obj",
+				"x" : 1,
+				"y" : 3,
+				"z" : 1
+			},
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 707,
+			"name" : "obj_plants_barbarycactus",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_barbarycactus.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlpha",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f"
+		},
+		{
+			"color" : "9c251c",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_plants_blueflower.obj",
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"impactEffect" : "Impact - plants",
+			"legacyId" : 708,
+			"name" : "obj_plants_blueflower",
+			"physicsMaterial" : "Grass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/plants/obj_plants_blueflower.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNorAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f"
+		}
+	]
+}

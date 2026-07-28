@@ -1,0 +1,74 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "char_npc_scoutfarmer_binoculars",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/char_npc_scoutfarmer/char_npc_scoutfarmer_binoculars.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "f8b43c14-1594-480f-9032-9d726b2f17df"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "char_npc_scoutfarmer_binoculars",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/char_npc_scoutfarmer/char_npc_scoutfarmer_walkytalky.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "a9193ac7-be8a-423c-920e-7a1305465e27"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "char_npc_scoutfarmer_binoculars",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/char_npc_scoutfarmer/char_npc_scoutfarmer_whistle.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "1311538d-9003-47dc-a16d-323794c049d1"
+		}
+	]
+}

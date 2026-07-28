@@ -1,0 +1,89 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "9ea5ae",
+			"name" : "obj_voxelmaterial_rich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_mud.rend",
+			"showInInventory" : false,
+			"stackSize" : 65535,
+			"uuid" : "dbe08d9e-6d19-4475-b820-ce35733fa5fc"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c04be1",
+			"name" : "obj_voxelmaterial_t1",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_mud.rend",
+			"showInInventory" : false,
+			"stackSize" : 65535,
+			"uuid" : "ce7b8345-9f10-42fe-a185-aa229d05f473"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "2b89da",
+			"name" : "obj_voxelmaterial_t3",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_mud.rend",
+			"showInInventory" : false,
+			"stackSize" : 65535,
+			"uuid" : "a3fce2c1-6a0f-4025-ba0d-4b8a618edd7d"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c04be1",
+			"name" : "obj_voxelmaterial_t4",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_mud.rend",
+			"showInInventory" : false,
+			"stackSize" : 65535,
+			"uuid" : "f81851f6-a7a6-4dd3-b36c-b5d735f88128"
+		}
+	]
+}

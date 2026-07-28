@@ -1,0 +1,258 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farming/hvs_farming_soil.fbx",
+						"subMeshMap" : 
+						{
+							"Soil" : 
+							{
+								"custom" : 
+								{
+									"uv0" : 
+									{
+										"u" : 1,
+										"v" : 0.1
+									}
+								},
+								"material" : "UVAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "42c8e4fc-0c38-4aa8-80ea-1835dd982d7c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Cookbot/cookbot_food_01.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "4d807f6b-7cdb-41e8-81e2-d87a599422a7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Cookbot/cookbot_food_02.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "b5cf212b-331e-46e3-9a72-5e8bc2b9a5b7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Cookbot/cookbot_food_03.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "86128cfa-5c90-4d7c-a9eb-fff9490f9ef9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Cookbot/cookbot_food_04.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "d22164ab-fba8-4243-9059-77abc82eb995"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickywheel_line.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "70673852-7f5e-4731-8c75-c1b9fdf0008b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickywheel_blob.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "f7744922-3b4d-4deb-a593-129c449acd09"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/effectproxies_trashballl_green.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "d76d0639-4b04-4fb2-8338-ff4f7bde5ea0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/effectproxies_trashballl_purple.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "af5afd6c-6fd5-43ab-818a-803c5674c006"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_trashbot_line.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "f876dd01-e276-46ea-acbb-7b3dc46e6ba1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_trashbot_blob.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "99926542-be5f-4642-8525-e7e9557083a0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 6,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Projectiles/Renderables/projectile_scannerbot_missile.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "f993ed50-f6db-4f38-a559-d86dd1efda2a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickypaint_line.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "9483438c-bb40-4cd6-8f34-1a1a250d622a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickypaint_blob.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "f3012975-5006-4a3a-b441-14f433070600"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickytrash_line.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "dd42e167-4dc8-4023-a65d-6966cb6415a1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cbcbcb",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_stickytrash_blob.rend",
+			"rotationSet" : "PropZY",
+			"showInInventory" : false,
+			"uuid" : "0637b64b-b6aa-49b9-9d20-72d565b42ed8"
+		}
+	]
+}

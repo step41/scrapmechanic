@@ -1,0 +1,17 @@
+// this file is generated
+{
+	"craftbot_beams": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_beams.json",
+	"craftbot_building": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_building.json",
+	"craftbot_core": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_core.json",
+	"craftbot_decor": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_decor.json",
+	"craftbot_generatorpipes": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_generatorpipes.json",
+	"craftbot_industrial": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_industrial.json",
+	"craftbot_lights": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_lights.json",
+	"craftbot_manmade": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_manmade.json",
+	"craftbot_other": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_other.json",
+	"craftbot_pipes": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_pipes.json",
+	"craftbot_plants": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_plants.json",
+	"craftbot_rewards": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_rewards.json",
+	"craftbot_small_pipes": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_small_pipes.json",
+	"craftbot_treasures": "$SURVIVAL_DATA/CraftingRecipes/craftbot/craftbot_treasures.json"
+}

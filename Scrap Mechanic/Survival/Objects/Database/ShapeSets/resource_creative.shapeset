@@ -1,0 +1,30 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "608e05ff",
+			"destroyEffect" : "Destruction - Wonkstonks",
+			"destroyTime" : 0.35,
+			"flammable" : true,
+			"name" : "obj_resource_wonkstonks",
+			"physicsMaterial" : "Cardboard",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_wonkstonks.rend",
+			"rotationSet" : "PropYmZ",
+			"stackSize" : 20,
+			"uuid" : "efb2837c-f1d2-412b-bff1-a210b3426fd9"
+		}
+	]
+}

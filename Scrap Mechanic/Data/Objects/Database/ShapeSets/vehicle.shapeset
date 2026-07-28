@@ -1,0 +1,57 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "df7f01",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 1,
+				"diameter" : 3,
+				"margin" : 0.5
+			},
+			"flammable" : true,
+			"legacyId" : 300,
+			"name" : "obj_vehicle_smallwheel",
+			"physicsMaterial" : "Rubber",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 7,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/vehicle/obj_vehicle_smallwheel.rend",
+			"rotationSet" : "PropZ",
+			"stackSize" : 5,
+			"sticky" : "-Z+Z",
+			"uuid" : "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d"
+		},
+		{
+			"color" : "df7f01",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 2,
+				"diameter" : 5,
+				"margin" : 0.5
+			},
+			"flammable" : true,
+			"legacyId" : 301,
+			"name" : "obj_vehicle_bigwheel",
+			"physicsMaterial" : "Rubber",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/vehicle/obj_vehicle_bigwheel.rend",
+			"rotationSet" : "PropZ",
+			"stackSize" : 5,
+			"sticky" : "-Z+Z",
+			"uuid" : "db66f0b1-0c50-4b74-bdc7-771374204b1f"
+		}
+	]
+}

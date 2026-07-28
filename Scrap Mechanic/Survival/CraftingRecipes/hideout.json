@@ -1,0 +1,509 @@
+// this file is generated
+[
+	{
+		"itemId": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "1d4793af-cb66-4628-804a-9d7404712643",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "d6ce5127-c5be-42e3-a55f-0261bf1ac145",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "3cdbbefe-43b4-4ad7-af47-af0b2e7563c9",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "fdfcdb68-af22-4bb3-87d6-bd44b3c8b671",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "febce8a6-6c05-4e5d-803b-dfa930286944",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "073f92af-f37e-4aff-96b3-d66284d5081c",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "d6f0de5e-8ba9-42e6-9dac-bfe5fc4606be",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "8bc24c12-e4a9-414b-8467-33736e455cb0",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "2870f2dd-ea17-44dd-8c00-8f71e8d2764c",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "e69e0466-8783-4cfd-8a0a-8794af743094",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "0cd81a8e-a4b3-4743-b507-600fe35c93ee",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"schematic": true
+	},
+	{
+		"itemId": "9baebeb4-95dc-4ee6-a1fd-c44cc67ced04",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "f2c0c91f-4547-416e-b037-f56a8f04368c",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "7b0295df-7178-4ccb-a44d-f34d6b792c57",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "4ed054a2-e354-4624-acd6-686b33d414a7",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "78062d2a-1600-4144-80b6-435560cc0df6",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "94f1f243-6f36-4cd7-9098-52849655a45d",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		],
+		"cosmetic": true
+	},
+	{
+		"itemId": "cb7305b2-d8b5-4302-aff3-6cdd9212ca64",
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "d2fab7ef-21db-4681-a22a-cd4f278fc355",
+		"quantity": 50,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+		]
+	},
+	{
+		"itemId": "3e10ef67-383a-4b60-aa5b-b1173134e437",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+		]
+	},
+	{
+		"itemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+		]
+	},
+	{
+		"itemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9",
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
+		"quantity": 500,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+			}
+		]
+	},
+	{
+		"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
+		"quantity": 250,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+		]
+	},
+	{
+		"itemId": "e28c88fc-bd6d-4b03-a799-c0d39f0a799e",
+		"quantity": 100,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			}
+		]
+	},
+	{
+		"itemId": "a3046bed-5cea-4bbb-a164-4b46448f87b3",
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			}
+		]
+	},
+	{
+		"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf",
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			}
+		]
+	},
+	{
+		"itemId": "8883e0ee-8a6e-423a-a4e0-583d9bf105bd",
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+		]
+	},
+	{
+		"itemId": "38e41fb5-dd50-4294-829d-a517f0282fed",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+		]
+	},
+	{
+		"itemId": "9c82a525-8a8b-4483-9595-505aaa042486",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+		]
+	},
+	{
+		"itemId": "64051718-a3f1-422b-bda3-277efa0c4545",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "22beade5-38ca-47b4-a2ee-32403f58a862",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+			}
+		]
+	},
+	{
+		"itemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+		]
+	},
+	{
+		"itemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			}
+		]
+	},
+	{
+		"itemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			}
+		]
+	},
+	{
+		"itemId": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a",
+		"quantity": 40,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			}
+		]
+	}
+]

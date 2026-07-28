@@ -1,0 +1,1232 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambig",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambig.rend",
+			"rotationSet" : "PropYmZm",
+			"sticky" : "-Y+Y-Z+Z",
+			"uuid" : "6130d484-775e-481a-889a-43d2e8d29058"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 6
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambiglong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambiglong.rend",
+			"rotationSet" : "PropYmZm",
+			"sticky" : "-Y+Y-Z+Z",
+			"uuid" : "a914fcb5-2509-428e-b8ad-80bf28af9f65"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambigturn",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambigturn.rend",
+			"rotationSet" : "PropYNegZ",
+			"sticky" : "+Y-Y-X+Z",
+			"uuid" : "3ac141b5-3fbe-4588-9679-c458ac07642a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambigbend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambigbend.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y+Z-Z",
+			"uuid" : "419fb889-e440-420c-b553-4cdf95e71a61"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambigsplit",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambigsplit.rend",
+			"rotationSet" : "PropYmmZm",
+			"uuid" : "04680945-5bb7-4a8a-9246-24c6c2b977d1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambigintersect",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambigintersect.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y+Z-Z",
+			"uuid" : "e2844132-31b4-4a2c-af5f-0abd173af1ef"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beambigend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beambigend.rend",
+			"rotationSet" : "PropYZmNegZm",
+			"sticky" : "-Y+Y-Z+Z",
+			"uuid" : "f5b5acb3-afd5-4755-a7fe-2151f0559d43"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beamframe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beamframe.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "82694546-92b2-47c3-894d-7fc215e2de4a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beamframelong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beamframelong.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "bdb55551-39a4-437c-aeff-f54368b19b5e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beamframeend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beamframeend.rend",
+			"rotationSet" : "PropYZmNegZmX",
+			"uuid" : "d42cae51-343e-4847-83a4-e55c1b04aa80"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_beamframeturn",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_beamframeturn.rend",
+			"rotationSet" : "PropYX",
+			"sticky" : "-Y-X+X+Z",
+			"uuid" : "176f4537-b245-4ba2-a318-da12e15bf789"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_bigramp",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 6,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_bigramp.rend",
+			"rotationSet" : "PropYZXNegX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "7f0d8b7c-861f-4597-94b4-a87978b3f750",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 5,
+				"y" : 4,
+				"z" : 8
+			}
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_bigrampsmall",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 6,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_bigrampsmall.rend",
+			"rotationSet" : "PropYZXNegX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "3b552b6f-2f32-4c1f-b9c4-ff9ff7dd0ac3",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 5,
+				"y" : 1,
+				"z" : 2
+			}
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_bigrampthin",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 6,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_bigrampthin.rend",
+			"rotationSet" : "PropYZXNegX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "60075229-2e4e-4aeb-9e64-da41b6ac9611",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 4,
+				"z" : 8
+			}
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_bigrampthinsmall",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 6,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_bigrampthinsmall.rend",
+			"rotationSet" : "PropYZXNegX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "04733746-4090-4d63-aff1-47dafae506fd",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 2
+			}
+		},
+		{
+			"color" : "999999",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container1.obj",
+				"x" : 2,
+				"y" : 1,
+				"z" : 7
+			},
+			"name" : "obj_warehouse_container1",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container1.rend",
+			"rotationSet" : "PropYNegYZ",
+			"uuid" : "43c0ca80-0980-433a-88a3-929727a62a6d"
+		},
+		{
+			"color" : "902513",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container2.obj",
+				"x" : 3,
+				"y" : 2,
+				"z" : 3
+			},
+			"name" : "obj_warehouse_container2",
+			"physicsMaterial" : "Metal",
+			"ratings" : {},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container2.rend",
+			"rotationSet" : "PropYNegY",
+			"uuid" : "94acfb72-c650-4cb5-a8aa-08af3e691d2e"
+		},
+		{
+			"color" : "5f5f5f",
+			"flammable" : false,
+			"name" : "obj_warehouse_container3",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container3.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "66affe90-4552-455e-a0b0-b203f9988790",
+			"wedge" : 
+			{
+				"back" : "+X",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 8
+			}
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "5f5f5f",
+			"flammable" : false,
+			"name" : "obj_warehouse_container3B",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container3b.rend",
+			"rotationSet" : "PropYZmNegZmX",
+			"uuid" : "b3425d6d-ea3d-45de-9078-10af2e178389"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 8
+			},
+			"color" : "5f5f5f",
+			"flammable" : false,
+			"name" : "obj_warehouse_container3C",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container3c.rend",
+			"rotationSet" : "PropYZXmNegXm",
+			"uuid" : "ba7775ef-d03b-46bd-aa09-09015297a415"
+		},
+		{
+			"color" : "5f5f5f",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container4.obj",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"name" : "obj_warehouse_container4",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container4.rend",
+			"rotationSet" : "PropYNegYZNegX",
+			"sticky" : "+X-Z+Y-Y",
+			"uuid" : "b7e60b8e-2075-4ae4-b906-53af3845e198"
+		},
+		{
+			"color" : "77777c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container5.obj",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_warehouse_container5",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container5.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "2bbaf389-4ef7-4dca-b7ee-397cc30f3862"
+		},
+		{
+			"color" : "77777c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container6.obj",
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_container6",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container6.rend",
+			"rotationSet" : "PropYNegYZNegX",
+			"sticky" : "+X-Z+Y-Y",
+			"uuid" : "fba945c7-a50f-4515-af38-57d768706078"
+		},
+		{
+			"color" : "902513",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_container7.obj",
+				"x" : 8,
+				"y" : 1,
+				"z" : 8
+			},
+			"name" : "obj_warehouse_container7",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_container7.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "513530b0-61bd-4b82-83e7-191d090d25d8"
+		},
+		{
+			"color" : "79859c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_fan.obj",
+				"x" : 7,
+				"y" : 7,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_fan",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_fan.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYmZmm",
+			"sticky" : "-Y+Y-Z+Z-X+X",
+			"uuid" : "6ad9b8c7-4006-43cd-aa95-3d63c0e5c9fb"
+		},
+		{
+			"color" : "79859c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_fancube.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_fancube",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_fancube.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_fan_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYmmNegYmmZ",
+			"stackSize" : 10,
+			"uuid" : "414854a9-77bc-48aa-a9d5-0c7cd213e4df"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_fanblade.obj",
+				"x" : 1,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_fanblade",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_fanblade.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "c2ce40b1-fc95-48bd-bd05-9c3e394a157a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 1,
+				"z" : 6
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_packingtable",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_packingtable.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtable_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtable_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtable_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYNegYZ",
+			"uuid" : "4db857f1-07dc-4ea2-9391-fd24903945d1"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_packingtablesupport.obj",
+				"x" : 1,
+				"y" : 5,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_packingtablesupport",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_packingtablesupport.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropZY",
+			"sticky" : "+Y-Y-Z+X-X",
+			"uuid" : "a2cf56fe-9961-481b-9a12-093f64867d9c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_packingtablesign",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_packingtablesign.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesign_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesign_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesign_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYZX",
+			"sticky" : "+Y-Y-Z+X-X",
+			"uuid" : "cf4daf85-36a2-479f-96dc-b6201bc12d36"
+		},
+		{
+			"color" : "6de5ff",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 4,
+				"diameter" : 1
+			},
+			"flammable" : true,
+			"name" : "obj_warehouse_packingtableroll",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_packingtableroll.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_packingtablesupport_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z+Z",
+			"uuid" : "72074131-529b-49c1-9ff3-73706f61eb06"
+		},
+		{
+			"color" : "8a0000",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_banner1.obj",
+				"x" : 6,
+				"y" : 7,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_banner1",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 6,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_banner1.rend",
+			"rotationSet" : "PropZNegY",
+			"sticky" : "+Y-Z+Z-X+X",
+			"uuid" : "efd779ef-ce99-4507-bafb-9e2c7ff8a46c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "8a0000",
+			"density" : 250.0,
+			"name" : "obj_warehouse_banner2",
+			"physicsMaterial" : "Metal",
+			"ratings" : {},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_banner2.rend",
+			"rotationSet" : "PropYmNegYmX",
+			"uuid" : "6cb18801-8284-4f27-9f2e-b9955861b605"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_doorframelight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_doorframelight.rend",
+			"rotationSet" : "PropYmZX",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_FrameBeamLight"
+			},
+			"sticky" : "-Y-Z+Z-X+X",
+			"uuid" : "abaef792-741e-4c6b-8e79-02461a37b035"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_overheadcranearm.obj",
+				"x" : 8,
+				"y" : 5,
+				"z" : 2
+			},
+			"name" : "obj_warehouse_overheadcranearm",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_overheadcranearm.rend",
+			"rotationSet" : "PropZX",
+			"sticky" : "+X-X-Z+Z",
+			"uuid" : "448d7d18-2a36-4749-8d73-3da913ae6aeb"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_overheadcranearmplate.obj",
+				"x" : 6,
+				"y" : 4,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_overheadcranearmplate",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_overheadcranearmplate.rend",
+			"rotationSet" : "PropYNegYZNegZ",
+			"uuid" : "8f5f8a39-734d-4bc3-8a9e-74026bcb3704"
+		},
+		{
+			"color" : "c36512",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 7,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"name" : "obj_warehouse_overheadcranerope",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_overheadcranerope.rend",
+			"rotationSet" : "PropYNegZ",
+			"sticky" : "+Y-Y+Z-Z",
+			"uuid" : "cbc6fc23-dcc9-4d6f-a7aa-9a3ae37ca41f"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_overheadcranearmplatform.obj",
+				"x" : 4,
+				"y" : 1,
+				"z" : 6
+			},
+			"name" : "obj_warehouse_overheadcranearmplatform",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_overheadcranearmplatform.rend",
+			"rotationSet" : "PropYNegYZX",
+			"uuid" : "54ea2236-001c-4560-8e6d-3942a885bb3b"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_overheadcranetrolley.obj",
+				"x" : 5,
+				"y" : 4,
+				"z" : 4
+			},
+			"name" : "obj_warehouse_overheadcranetrolley",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_overheadcranetrolley.rend",
+			"rotationSet" : "PropYNegYZX",
+			"uuid" : "ec334737-1467-4a29-a3b7-e04f662bca1b"
+		},
+		{
+			"color" : "4a4a4a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_cranehook.obj",
+				"x" : 3,
+				"y" : 4,
+				"z" : 1
+			},
+			"name" : "obj_warehouse_cranehook",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_cranehook.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "96392e20-12e9-4a19-8dc5-7a8e33238ae2"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_warehouse_cranehook_base.obj",
+				"x" : 3,
+				"y" : 5,
+				"z" : 3
+			},
+			"name" : "obj_warehouse_cranehook_base",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_cranehook_base.rend",
+			"rotationSet" : "PropYmNegYm",
+			"sticky" : "+Y-Y",
+			"uuid" : "b7cf1762-4010-4915-813d-dfbefb100ef5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_craneplatform",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_craneplatform.rend",
+			"rotationSet" : "PropYmZX",
+			"uuid" : "2893e707-36b3-4ff1-bb3c-ef1b5524ae13"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "4c6fe3",
+			"density" : 500.0,
+			"name" : "obj_warehouse_encryptorsign_destruction",
+			"physicsMaterial" : "Electronics",
+			"ratings" : {},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_encryptorsign_destruction.rend",
+			"rotationSet" : "PropZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_EncryptorLight"
+			},
+			"uuid" : "cc454365-7262-4953-a190-4bead4f4a260"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "c36512",
+			"density" : 500.0,
+			"name" : "obj_warehouse_encryptorsign_connection",
+			"physicsMaterial" : "Electronics",
+			"ratings" : {},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_encryptorsign_connection.rend",
+			"rotationSet" : "PropZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_EncryptorLight"
+			},
+			"uuid" : "ba79e3c0-914f-46ff-874b-243df5589e3c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "9f1515",
+			"flammable" : false,
+			"lever" : {},
+			"name" : "obj_warehouse_masterswitch",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_masterswitch.rend",
+			"rotationSet" : "PropZ",
+			"uuid" : "be744e84-f67e-4c06-a809-c247adc1babb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "c36512ff",
+			"flammable" : false,
+			"name" : "warehouse elevatorsign",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_elevatorsign.rend",
+			"rotationSet" : "PropZ",
+			"simpleInteractive" : 
+			{
+				"animationTime" : 0.01,
+				"sustainedAudio" : ""
+			},
+			"sticky" : "-X+X-Z",
+			"uuid" : "7e8c0879-9f37-417c-a89e-d630cc52130d"
+		}
+	]
+}

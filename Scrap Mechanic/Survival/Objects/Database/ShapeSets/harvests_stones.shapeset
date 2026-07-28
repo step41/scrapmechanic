@@ -1,0 +1,548 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p01",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p01.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "cd18840d-d4ee-4f36-8ab1-843c823b0dcf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 5
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p02",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p02.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "b2d9e40b-e8e8-4d1e-86f9-86d0bdc5ddc4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p03",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p03.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "c9d61f53-ebd3-4bb5-8789-43b00edbcc8b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 11,
+				"z" : 5
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p04",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p04.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "126be16e-10c1-4ccd-82c5-368edc7f766a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 11,
+				"z" : 5
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p05",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p05.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "8c0ad43a-4bc8-41ef-ab3a-de70eb9ef510"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 11,
+				"z" : 5
+			},
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_stones_p06",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stones/obj_harvests_stones_p06.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFalseYNegY",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 3
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "92bae57d-ae30-4a75-a7ad-8bf91f20d660"
+		},
+		{
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_harvest_stonechunk01_col.obj",
+				"x" : 3,
+				"y" : 8,
+				"z" : 3
+			},
+			"name" : "obj_harvest_stonechunk01",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stonechunk/obj_harvest_stonechunk01.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk01_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "0b114031-5065-4365-922d-3980d791e00d"
+		},
+		{
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_harvest_stonechunk02_col.obj",
+				"x" : 4,
+				"y" : 8,
+				"z" : 4
+			},
+			"name" : "obj_harvest_stonechunk02",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stonechunk/obj_harvest_stonechunk02.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk02_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 2
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "4e3f17bb-0169-4eb5-a4b4-84725a607b2c"
+		},
+		{
+			"color" : "8c8c8cff",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_harvest_stonechunk03_col.obj",
+				"x" : 4,
+				"y" : 8,
+				"z" : 4
+			},
+			"name" : "obj_harvest_stonechunk03",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/harvests/Stonechunk/obj_harvest_stonechunk03.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk03_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk03_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/harvests/Stonechunk/obj_harvest_stonechunk03_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropFull",
+			"scripted" : 
+			{
+				"classname" : "StoneChunk",
+				"data" : 
+				{
+					"chunkSize" : 2
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/StoneChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "4cd7a389-a1ac-47f4-8cc0-2776174985da"
+		}
+	]
+}

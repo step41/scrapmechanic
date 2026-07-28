@@ -1,0 +1,497 @@
+[
+    {
+        "itemId": "a5a857de-14be-11ed-861d-0242ac120002", //ScrapWood Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //ScrapWood
+            }
+        ]
+    },
+    {
+        "itemId": "cb529af8-14b9-11ed-861d-0242ac120002", //Wood Wedge 1
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //Wood Block 1
+            }
+        ]
+    },
+    {
+        "itemId": "5dae0b3a-14bf-11ed-861d-0242ac120002", //Wood Wedge 2
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "1897ee42-0291-43e4-9645-8c5a5d310398" //Wood Block 2
+            }
+        ]
+    },
+    {
+        "itemId": "5dae0d42-14bf-11ed-861d-0242ac120002", //Wood Wedge 3
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb" //Wood Block 3
+            }
+        ]
+    },
+    {
+        "itemId": "5dae0e46-14bf-11ed-861d-0242ac120002", //ScrapMetal Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //ScrapMetal
+            }
+        ]
+    },
+    {
+        "itemId": "a358c216-14b9-11ed-861d-0242ac120002", //Metal Wedge 1
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //Metal Block 1
+            }
+        ]
+    },
+    {
+        "itemId": "5dae0f2c-14bf-11ed-861d-0242ac120002", //Metal Wedge 2
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //Metal Block 2
+            }
+        ]
+    },
+    {
+        "itemId": "5dae1008-14bf-11ed-861d-0242ac120002", //Metal Wedge 3
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" //Metal Block 3
+            }
+        ]
+    },
+    {
+        "itemId": "5dae16a2-14bf-11ed-861d-0242ac120002", //ScrapStone Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //ScrapStone Block
+            }
+        ]
+    },
+    {
+        "itemId": "e83cd904-14b8-11ed-861d-0242ac120002", //Concrete Wedge 1
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" //Concrete Block 1
+            }
+        ]
+    },
+    {
+        "itemId": "5dae15c6-14bf-11ed-861d-0242ac120002", //Concrete Wedge 2
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "ff234e42-5da4-43cc-8893-940547c97882" //Concrete Block 2
+            }
+        ]
+    },
+    {
+        "itemId": "5dae14e0-14bf-11ed-861d-0242ac120002", //Concrete Wedge 3
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "e281599c-2343-4c86-886e-b2c1444e8810" //Concrete Block 3
+            }
+        ]
+    },
+    {
+        "itemId": "5d5144be-14be-11ed-861d-0242ac120002", //Cardboard Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa" //Cardboard Block 1
+            }
+        ]
+    },
+    {
+        "itemId": "3f2e92d0-14c7-11ed-861d-0242ac120002", //Sand Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b" //Sand Block
+            }
+        ]
+    },
+    {
+        "itemId": "bf3de51c-14c1-11ed-861d-0242ac120002", //Plastic Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //Plastic Block
+            }
+        ]
+    },
+    {
+        "itemId": "3bb5dc9e-14bd-11ed-861d-0242ac120002", //Glass Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //Glass Block
+            }
+        ]
+    },
+    {
+        "itemId": "46ef860a-14bd-11ed-861d-0242ac120002", //GlassTile Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "749f69e0-56c9-488c-adf6-66c58531818f" //GlassTile Block
+            }
+        ]
+    },
+    {
+        "itemId": "32053708-14c7-11ed-861d-0242ac120002", //ArmoredGlass Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5" //ArmoredGlass Block
+            }
+        ]
+    },
+    {
+        "itemId": "5115b997-5d8c-4815-8e07-f487cc1c029f", //BubbleWrap Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e" //BubbleWrap Block
+            }
+        ]
+    },
+    {
+        "itemId": "27e9cc8c-14c4-11ed-861d-0242ac120002", //Restroom Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6" //Restroom Block
+            }
+        ]
+    },
+    {
+        "itemId": "b67c82e4-14bc-11ed-861d-0242ac120002", //Tiles Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7" //Tiles Block
+            }
+        ]
+    },
+    {
+        "itemId": "c01fbc1c-14bc-11ed-861d-0242ac120002", //Bricks Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34" //Bricks Block
+            }
+        ]
+    },
+    {
+        "itemId": "996b107e-14be-11ed-861d-0242ac120002", //Lights Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "073f92af-f37e-4aff-96b3-d66284d5081c" //Lights Block
+            }
+        ]
+    },
+    {
+        "itemId": "56b4d3fc-14bc-11ed-861d-0242ac120002", //Caution Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "09ca2713-28ee-4119-9622-e85490034758" //Caution Block
+            }
+        ]
+    },
+    {
+        "itemId": "5dae13f0-14bf-11ed-861d-0242ac120002", //CrackedConcrete Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e" //CrackedConcrete Block
+            }
+        ]
+    },
+    {
+        "itemId": "9404a6a2-14c0-11ed-861d-0242ac120002", //ConcreteTiles/slabs Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "cd0eff89-b693-40ee-bd4c-3500b23df44e" //ConcreteTiles/slabs Block
+            }
+        ]
+    },
+    {
+        "itemId": "a29f7ce6-14c0-11ed-861d-0242ac120002", //RustedMetal Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "220b201e-aa40-4995-96c8-e6007af160de" //RustedMetal Block
+            }
+        ]
+    },
+    {
+        "itemId": "a29f7c00-14c0-11ed-861d-0242ac120002", //ExtrudedMetal Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" //ExtrudedMetal Block
+            }
+        ]
+    },
+    {
+        "itemId": "bf3de7c4-14c1-11ed-861d-0242ac120002", //Insulation Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20" //Insulation Block
+            }
+        ]
+    },
+    {
+        "itemId": "9acec674-14c1-11ed-861d-0242ac120002", //Plaster Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "b145d9ae-4966-4af6-9497-8fca33f9aee3" //Plaster Block
+            }
+        ]
+    },
+    {
+        "itemId": "9acecbec-14c1-11ed-861d-0242ac120002", //Carpet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "febce8a6-6c05-4e5d-803b-dfa930286944" //Carpet Block
+            }
+        ]
+    },
+    {
+        "itemId": "9acecd22-14c1-11ed-861d-0242ac120002", //PaintedWall Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "e981c337-1c8a-449c-8602-1dd990cbba3a" //PaintedWall Block
+            }
+        ]
+    },
+    {
+        "itemId": "9acece58-14c1-11ed-861d-0242ac120002", //net Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b" //net Block
+            }
+        ]
+    },
+    {
+        "itemId": "9acecf66-14c1-11ed-861d-0242ac120002", //CrossNet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a" //CrossNet Block
+            }
+        ]
+    },
+    {
+        "itemId": "4e72cd24-14c7-11ed-861d-0242ac120002", //PunchedSteelNet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a" //PunchedSteelNet Block
+            }
+        ]
+    },
+    {
+        "itemId": "4e72ce8c-14c7-11ed-861d-0242ac120002", //StripedNet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "a479066d-4b03-46b5-8437-e99fec3f43ee" //StripedNet Block
+            }
+        ]
+    },
+    {
+        "itemId": "27e9c9ee-14c4-11ed-861d-0242ac120002", //SquareNet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "b4fa180c-2111-4339-b6fd-aed900b57093" //SquareNet Block
+            }
+        ]
+    },
+    {
+        "itemId": "396c8a9a-14be-11ed-861d-0242ac120002", //SpaceShipMetal Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6" //SpaceShipMetal Block
+            }
+        ]
+    },
+    {
+        "itemId": "3f2e9064-14c7-11ed-861d-0242ac120002", //SpaceShipFloor Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50" //SpaceShipFloor Block
+            }
+        ]
+    },
+    {
+        "itemId": "27e9cdcc-14c4-11ed-861d-0242ac120002", //DiamondPlated Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4" //DiamondPlated Block
+            }
+        ]
+    },
+    {
+        "itemId": "27e9d236-14c4-11ed-861d-0242ac120002", //Aluminium Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c" //Aluminium Block
+            }
+        ]
+    },
+    {
+        "itemId": "3f2e8e84-14c7-11ed-861d-0242ac120002", //WornMetal Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "d740a27d-cc0f-4866-9e07-6a5c516ad719" //WornMetal Block
+            }
+        ]
+    },
+    {
+        "itemId": "320538d4-14c7-11ed-861d-0242ac120002", //FancyCarpet Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "4ae689b2-b785-4cb9-94e6-6bbe10adf926" //FancyCarpet Block
+            }
+        ]
+    },
+    {
+        "itemId": "2a583574-6419-496a-b260-3236cc1cca5d", //Ice Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "099bbf9a-6766-4e39-bd12-90d8b81771af" //Ice Block
+            }
+        ]
+    },
+    {
+        "itemId": "4f5f7175-28d0-417c-8b3b-be0b2c0b46f7", //Dekotora Wedge
+        "quantity": 10,
+        "craftTime": 12,
+        "ingredientList": [
+            {
+                "quantity": 10,
+                "itemId": "d8766548-a54d-436b-b086-c6b546a01b3b" //Dekotora Block
+            }
+        ]
+    }
+]

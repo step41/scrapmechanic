@@ -1,0 +1,412 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_woodstairs_col.fbx",
+				"x" : 8,
+				"y" : 4,
+				"z" : 8
+			},
+			"name" : "obj_structure_woodstairs",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_woodstairs.rend",
+			"rotationSet" : "PropYZX",
+			"sticky" : "-Y+Y-Z+Z+X-X",
+			"uuid" : "6bc1a2b3-0e25-4c05-9965-95ed610931d0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 4
+			},
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"name" : "obj_structure_postalcrate",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_postalcrate.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "e6796f6a-138e-4086-9fe3-da6910e00484"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 8,
+				"z" : 4
+			},
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"name" : "obj_structure_freightcrate",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_freightcrate.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "4406022d-30fb-42cd-9970-c4f5290b85a6"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 2
+			},
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"name" : "obj_structure_freightshell",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_freightshell.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "8cf2c0fb-0b04-4a31-b8af-e89a025307b4"
+		},
+		{
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_cableroll03_col.fbx",
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_structure_cableroll03.blueprint"
+			},
+			"name" : "obj_structure_cableroll03",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_cableroll03.rend",
+			"rotationSet" : "PropYmZm",
+			"uuid" : "7b2955eb-0491-46b4-b43d-b7ea4edd3852"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 8,
+				"z" : 4
+			},
+			"color" : "65ccffff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_metalcanisterframe",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_metalcannisterframe.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "5d2f2d3f-cd6b-4d84-8320-7844b672b192"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"color" : "65ccffff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_metalcube",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_metalcube.rend",
+			"rotationSet" : "PropY",
+			"uuid" : "202b1841-fd43-4993-9720-e181df634077"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 4
+			},
+			"color" : "65ccffff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_metalbarrier",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_metalbarrier.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "f4107fbf-2c39-455c-9aaf-2bb94d915ae8"
+		},
+		{
+			"box" : 
+			{
+				"x" : 16,
+				"y" : 3,
+				"z" : 5
+			},
+			"color" : "65ccffff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_metalbeam",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_metalbeam.rend",
+			"rotationSet" : "PropYmNegYmZX",
+			"uuid" : "5b8d77d3-b129-4d5c-b4c6-1d4f86b22058"
+		},
+		{
+			"color" : "65ccffff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_woodstairs_col.fbx",
+				"x" : 8,
+				"y" : 4,
+				"z" : 8
+			},
+			"name" : "obj_structure_metalstairs",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_metalstairs.rend",
+			"rotationSet" : "PropYZX",
+			"sticky" : "-Y+Y-Z+Z+X-X",
+			"uuid" : "69fffafa-8084-4de0-9368-e7954d8e1686"
+		},
+		{
+			"box" : 
+			{
+				"x" : 10,
+				"y" : 4,
+				"z" : 10
+			},
+			"color" : "9cb8b6ff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_concretefoundation02",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_concretefoundation02.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "d6f0de5e-8ba9-42e6-9dac-bfe5fc4606be"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 4,
+				"z" : 5
+			},
+			"color" : "9cb8b6ff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_concretefoundation01",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_concretefoundation01.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "8bc24c12-e4a9-414b-8467-33736e455cb0"
+		},
+		{
+			"color" : "9cb8b6ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"name" : "obj_structure_concretepillar",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_concretepillar.rend",
+			"rotationSet" : "PropYmmZm",
+			"uuid" : "2870f2dd-ea17-44dd-8c00-8f71e8d2764c"
+		},
+		{
+			"color" : "9cb8b6ff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_concretebarrier02_col.fbx",
+				"x" : 8,
+				"y" : 4,
+				"z" : 3
+			},
+			"name" : "obj_structure_concretebarrier02",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_concretebarrier02.rend",
+			"rotationSet" : "PropYX",
+			"sticky" : "-Y+Y+X-X",
+			"uuid" : "e69e0466-8783-4cfd-8a0a-8794af743094"
+		},
+		{
+			"color" : "9cb8b6ff",
+			"destroyTime" : 0.8,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_concretebarrier_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 3
+			},
+			"name" : "obj_structure_concretebarrier",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_concretebarrier.rend",
+			"rotationSet" : "PropYNegYZ",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "0cd81a8e-a4b3-4743-b507-600fe35c93ee"
+		},
+		{
+			"color" : "b79b5aff",
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/structure/obj_structure_cableroll01_col.fbx",
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"name" : "obj_structure_cableroll01",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_cableroll01.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "e0ca4f27-4e44-4888-a74f-42c62a5fdf91"
+		},
+		{
+			"color" : "b79b5aff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 3
+			},
+			"destroyTime" : 0.8,
+			"flammable" : true,
+			"name" : "obj_structure_cableroll02",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/structure/obj_structure_cableroll02.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "1299a5d1-b5d3-4a1d-895a-6baf877da780"
+		}
+	]
+}

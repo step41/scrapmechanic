@@ -1,0 +1,193 @@
+{
+	"partList" : 
+	[
+		{
+			"carryItem" : true,
+			"color" : "8d8d8dff",
+			"flammable" : false,
+			"harvest" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_basiclog_col.fbx",
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_harvest_stone",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Harvests/obj_harvests_resource_stone.rend",
+			"restrictions" : 
+			{
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "HarvestCore",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestCore.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "02ee2a98-bd8d-4a09-bb69-38edaf66b8e1"
+		},
+		{
+			"carryItem" : true,
+			"color" : "bd9272ff",
+			"flammable" : true,
+			"harvest" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_basiclog_col.fbx",
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_harvest_wood",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Harvests/obj_harvests_resource_wood.rend",
+			"restrictions" : 
+			{
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "HarvestCore",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestCore.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y+Y-Z+Z",
+			"uuid" : "968de65c-75f3-471b-954e-6165a4b6d3d6"
+		},
+		{
+			"carryItem" : true,
+			"color" : "ab7247ff",
+			"flammable" : true,
+			"harvest" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_basiclog_col.fbx",
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_harvest_wood2",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Harvests/obj_harvests_resource_wood2.rend",
+			"restrictions" : 
+			{
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "HarvestCore",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestCore.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y+Y-Z+Z",
+			"uuid" : "f99ebc34-4821-4b39-a625-b839c5802ed5"
+		},
+		{
+			"carryItem" : true,
+			"color" : "e75b0f",
+			"flammable" : false,
+			"harvest" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_basiclog_col.fbx",
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_harvest_metal",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Harvests/obj_harvests_resource_scrapmetal.rend",
+			"restrictions" : 
+			{
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "HarvestCore",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestCore.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y+Y-Z+Z",
+			"uuid" : "5cb39ea5-554d-4c40-9d9a-6b2dd59de953"
+		},
+		{
+			"carryItem" : true,
+			"color" : "477f90ff",
+			"flammable" : false,
+			"harvest" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_basiclog_col.fbx",
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_harvest_metal2",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 6,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Harvests/obj_harvests_resource_metal.rend",
+			"restrictions" : 
+			{
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "HarvestCore",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/HarvestCore.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "7468db55-b29d-4ce0-82b9-2414f493a376"
+		}
+	]
+}

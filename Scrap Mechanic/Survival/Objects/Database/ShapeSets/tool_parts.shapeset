@@ -1,0 +1,165 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_sledgehammer",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "cf41bd2d-8bd3-432b-8a92-a36eda7e7740"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_connect",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "85fc5f11-722b-4723-91f2-293a81ad0800"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_paint",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_painttool_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "731c6a84-7ae7-439d-a620-128076f9985c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_weld",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_weldtool_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "836e98a2-8c8c-4a6b-9239-54acdd4f4736"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_spudgun",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "2d7f1278-ac93-4039-9eb2-d31715ea10ff"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_spudling",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_spinner_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "b633c3ee-2cda-4096-989a-60e90cd220aa"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_frier",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "3faf624b-0a95-452f-b6cd-9930ad1731c5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_handbook",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_handbook_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "1226cfd3-4fc8-4f9e-b21a-0c9576e2ef2f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_scrap_spudgun",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_scrap_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "9c54cf82-d000-4368-99f7-00ba477146fb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "ffffff",
+			"name" : "obj_tool_launcher",
+			"physicsMaterial" : "Plastic",
+			"ratings" : {},
+			"renderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_launcher_preview.rend",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "18f9185d-a047-43aa-a3c6-a8f828e04d7a"
+		}
+	]
+}

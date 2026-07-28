@@ -1,0 +1,63 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 4
+			},
+			"color" : "3e9ffe",
+			"flammable" : false,
+			"name" : "obj_interactive_watergun",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_mountablewatercanon.rend",
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "MountedWaterGun",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/MountedWaterGun.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z-Y-X+X",
+			"uuid" : "69559e81-50fa-40ae-afa2-a22c1a49eb54"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_mountableglowgun",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 7,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_mountableglowgun.rend",
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "MountedGlowstickGun",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/MountedGlowstickGun.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z-Y+Y-X+X",
+			"uuid" : "7143326d-e0b6-498b-a25b-45cda8958a0f"
+		}
+	]
+}

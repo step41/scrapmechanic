@@ -1,0 +1,392 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "981e11",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_gas",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_gas.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "f1a400",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_battery",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_battery.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "910a7f2c-52b0-46eb-8873-ad13255539af"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "3e9ffe",
+			"consumable" : true,
+			"flammable" : false,
+			"itemStack" : {},
+			"name" : "obj_consumable_water",
+			"physicsMaterial" : "Fruit",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_water.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "869d4736-289a-4952-96cd-8a40117a2d28"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "505c30",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_plantables_potato",
+			"physicsMaterial" : "Metal",
+			"plantable" : 
+			{
+				"growbed" : "d0084e20-90a8-4460-920c-f2dab4600c04",
+				"harvestable" : "ec1cf82f-e8f3-4ca6-8e35-a4bdf0e8e259"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_plantables_ammo.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 100,
+			"sticky" : "+Y-Y",
+			"uuid" : "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "495975",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_chemical",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_chemical.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "f74c2891-79a9-45e0-982e-4896651c2e25"
+		},
+		{
+			"color" : "1c8687",
+			"consumable" : true,
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_inkammo",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/consumable/obj_consumable_inkammo.mesh",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_dif.tga",
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_asg.tga",
+									"$GAME_DATA/Objects/Textures/consumable/obj_consumable_inkammo_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 100,
+			"sticky" : "-Y+Y",
+			"uuid" : "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+		},
+		{
+			"autoTool" : "9506abb9-e415-4229-a824-28a479cca788",
+			"color" : "ccffcc",
+			"consumable" : true,
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_glowstick",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_glowstick.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "3a3280e4-03b6-4a4d-9e02-e348478213c9"
+		},
+		{
+			"autoTool" : "9c47acb7-ef4c-48b3-8e08-c1ce2e8beb58",
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "387965ff",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_clay",
+			"physicsMaterial" : "Default",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/consumable/obj_consumable_clay.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 500,
+			"uuid" : "6395a2f1-4169-4a7e-be15-a9864cb6ce7e"
+		},
+		{
+			"autoTool" : "f978a804-0685-4c3e-b282-cedec6140f33",
+			"color" : "cb0a00ff",
+			"consumable" : true,
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_cornade",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_cornade.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "e3bdeea5-d349-4d08-9b5a-5695ea05537e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "a72f2fff",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_fireammo",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_fireammo.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 100,
+			"sticky" : "+Y-Y",
+			"uuid" : "68a58472-368d-4b09-ad36-9093f11d76ae"
+		},
+		{
+			"autoTool" : "2c7e0586-2534-44cc-9f4b-e28c436446b6",
+			"color" : "cb1300ff",
+			"consumable" : true,
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"itemStack" : {},
+			"name" : "obj_consumable_extinguisher",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_extinguisher.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 100,
+			"sticky" : "-Y+Y",
+			"uuid" : "d2fab7ef-21db-4681-a22a-cd4f278fc355"
+		},
+		{
+			"color" : "cb0a00ff",
+			"consumable" : false,
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : true,
+			"name" : "obj_interactive_cornade_explosive",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 8,
+				"durability" : 10,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_cornade.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "CornadeExplosive",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/CornadeExplosive.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "a4c1590f-c491-4e7f-974a-f1cd09503c18"
+		}
+	]
+}

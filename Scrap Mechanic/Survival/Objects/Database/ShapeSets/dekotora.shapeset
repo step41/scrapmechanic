@@ -1,0 +1,943 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "fc55c2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_archlight_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_archlight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_archlight.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "eb5ba645-ef8c-430c-a037-d15d752bbcd3"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_caplight_col.fbx",
+				"x" : 8,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_dekotora_caplight",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_caplight.rend",
+			"rotationSet" : "PropYNegYZX",
+			"sticky" : "+Y-Y+X-X-Z",
+			"uuid" : "7dad8565-b3c3-4ffb-aec2-6df8eb82f06e"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_ledhorn_col.fbx",
+				"x" : 4,
+				"y" : 4,
+				"z" : 4
+			},
+			"name" : "obj_dekotora_ledhorn",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_ledhorn.rend",
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "Horn",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Horn.lua"
+			},
+			"sticky" : "-Y-Z",
+			"uuid" : "967b042a-2f92-4fa1-9d7a-801b7faf4a6e"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_octalight_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 3
+			},
+			"name" : "obj_dekotora_octalight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_octalight.rend",
+			"rotationSet" : "PropYZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_HeadLight",
+				"glowMultiplier" : true
+			},
+			"sticky" : "-Y+Y+X-X-Z",
+			"uuid" : "cdd6762b-263f-4dbc-b859-bceb56dbe92d"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_starsun_col.fbx",
+				"x" : 11,
+				"y" : 5,
+				"z" : 2
+			},
+			"name" : "obj_dekotora_starsun",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_starsun.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z+Z",
+			"uuid" : "0f6cb8bb-b905-4636-8acf-614515adcae5"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_arrowlight_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 4
+			},
+			"name" : "obj_dekotora_arrowlight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_arrowlight.rend",
+			"rotationSet" : "PropYZmX",
+			"sticky" : "+X-X-Z+Y-Y",
+			"uuid" : "7b57beb6-26c2-42e1-b252-33a5441924fe"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_bulbframing01_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_bulbframing01",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_bulbframing01.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y",
+			"uuid" : "a3fd668d-7590-4ce2-bbda-7154caae6b25"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_bulbframing02_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_bulbframing02",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_bulbframing02.rend",
+			"rotationSet" : "PropYmX",
+			"sticky" : "-Y+X-X",
+			"uuid" : "eb8554ae-46de-4217-9906-3aa2d402429f"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_bulbframing03_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_bulbframing03",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_bulbframing03.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y-X",
+			"uuid" : "6e3bcef9-ce1e-427e-8c43-a14f466d63dc"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_bulbframing04_col.fbx",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_bulbframing04",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_bulbframing04.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y-Z",
+			"uuid" : "9c65d5da-453d-46a1-86f6-9c2ada653e98"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_stripelight01_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_stripelight01",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_stripelight01.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z+Z",
+			"uuid" : "85a5f261-dd80-42db-9386-cb8606382d9c"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_stripelight02_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_stripelight02",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_stripelight02.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y+Y-Z+Z",
+			"uuid" : "aba65407-60a8-4640-881f-a67cb58b5956"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_stripelight03_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_stripelight03",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_stripelight03.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y+Z-Z-X",
+			"uuid" : "e392d6d0-cfc3-48b5-8617-d5c9a7c624aa"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_stripelight04_col.fbx",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_stripelight04",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_stripelight04.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "b31b7203-44d0-4aab-93d0-843e5493ff15"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_stripelight05_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_stripelight05",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_stripelight05.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z+Z",
+			"uuid" : "3408bc45-4556-4c7e-9a89-40d520559963"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 3,
+				"z" : 6
+			},
+			"color" : "7187a0ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_arrowlightlarge_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 6
+			},
+			"name" : "obj_dekotora_arrowlight_large",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_arrowlightlarge.rend",
+			"rotationSet" : "PropFullMinusNegZ",
+			"sticky" : "+Y-Y-Z+X-X",
+			"uuid" : "1506a3ab-b545-424a-92a0-7395be9e76f6"
+		},
+		{
+			"color" : "00ffe1ff",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 1
+			},
+			"name" : "obj_dekotora_spinningsign01",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_spinningsign01.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"sticky" : "-Y+Y",
+			"uuid" : "ddc45a73-e871-4e4d-a0e6-a10f2bed6ea9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "fc55c2ff",
+			"name" : "obj_dekotora_scrollingstrip",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_scrollingstrip.rend",
+			"rotationSet" : "PropYZXNegX",
+			"uuid" : "3e2ed3ed-d1a5-4f51-8d43-e65230168f9a"
+		},
+		{
+			"color" : "fc55c2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_scrollingstripround_col.fbx",
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"name" : "obj_dekotora_scrollingstripround",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_scrollingstripround.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"sticky" : "-Y+Y",
+			"uuid" : "656eaa31-bd14-4495-8ccd-6c1e5136117b"
+		},
+		{
+			"color" : "7187a0ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_detailpiece01_col.fbx",
+				"x" : 4,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_detailpiece01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_detailpiece01.rend",
+			"rotationSet" : "PropYZNegZ",
+			"sticky" : "-Y+Z-Z",
+			"uuid" : "95365a45-83aa-4858-b792-c182be676524"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 2
+			},
+			"color" : "7187a0ff",
+			"name" : "obj_dekotora_detailpiece02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_detailpiece02.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "23bdcd57-88d1-4626-a57a-a9cca055e3d1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 8,
+				"z" : 1
+			},
+			"color" : "00ffe1ff",
+			"name" : "obj_dekotora_detailpiece03",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_detailpiece03.rend",
+			"rotationSet" : "PropYmZmXm",
+			"uuid" : "1b3eb4f7-080a-4d98-adab-f29f0444b147"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "6e8391ff",
+			"name" : "obj_dekotora_floorsquare01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_floorsquare.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "c10fd31c-6f89-4739-ae7b-23581c1c0c36"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "00ffe1ff",
+			"name" : "obj_dekotora_floorsquare02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_floorsquare02.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "e94095bb-e1aa-4ad1-bfae-85d5f7d0915a"
+		},
+		{
+			"color" : "7187a0ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_railing01_col.fbx",
+				"x" : 4,
+				"y" : 4,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_railing01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_railing01.rend",
+			"rotationSet" : "PropYNegY",
+			"uuid" : "127b9b84-74b8-4e41-a53a-b7f163287479"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "7187a0ff",
+			"name" : "obj_dekotora_railing01extension",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_railing01extension.rend",
+			"rotationSet" : "PropYX",
+			"uuid" : "5b684cc5-0af4-4dfc-a6fd-e3c441d3557a"
+		},
+		{
+			"color" : "7187a0ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_railing02_col.fbx",
+				"x" : 3,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_railing02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_railing02.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "c844468a-8a31-4306-8af2-43e3f8cf0c13"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "fc55c2ff",
+			"name" : "obj_dekotora_lightpanel01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_lightpanel01.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "382924d1-66f5-49e2-949c-aa5aa319ad72"
+		},
+		{
+			"color" : "7187a0ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_pinballflipper_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 8
+			},
+			"name" : "obj_dekotora_pinballflipper",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_pinballflipper.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "807f2819-b2f2-4db6-bd71-04add4b69634"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "fc55c2ff",
+			"name" : "obj_dekotora_exhaust",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_exhaust.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "8eb4f8d7-16fe-49c6-be8e-8c0f4350de9c"
+		},
+		{
+			"color" : "fff4b2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_sidelight_col.fbx",
+				"x" : 2,
+				"y" : 1,
+				"z" : 3
+			},
+			"name" : "obj_dekotora_sidelight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_sidelight.rend",
+			"rotationSet" : "PropY",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 30,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_HeadLight",
+				"glowMultiplier" : true
+			},
+			"sticky" : "-Y",
+			"uuid" : "d84d768a-774e-491e-8a95-da1d4afa6df7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "00ffe1ff",
+			"name" : "obj_dekotora_pillshapelight",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_pillshapelight.rend",
+			"rotationSet" : "PropYZX",
+			"uuid" : "fc0d73fa-d01f-407d-b5e2-2318a61d27df"
+		},
+		{
+			"color" : "fc55c2ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_hubcap01_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_hubcap01",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_hubcap01.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "89e040f6-6e30-41b0-9d7b-97e6bb2cc0b0"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_hubcap02_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_hubcap02",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_hubcap02.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "70a7042e-6865-4341-a481-214786653046"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_roundedlight_col.fbx",
+				"x" : 4,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_dekotora_roundedlight",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_roundedlight.rend",
+			"rotationSet" : "PropYZX",
+			"sticky" : "-Y+X-X-Z",
+			"uuid" : "64a83163-23f6-4f10-bb6b-97c43c43f601"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "fc55c2ff",
+			"name" : "obj_dekotora_lightpanel02",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_lightpanel02.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "67900105-8c85-45b4-a35c-038b69f5eacf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "00ffe1ff",
+			"name" : "obj_dekotora_scrollingstrip02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_scrollingstripsmall.rend",
+			"rotationSet" : "PropYX",
+			"uuid" : "cfeaa663-afeb-4ebb-bd3d-057b6f792382"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_star_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_dekotora_star",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_star.rend",
+			"rotationSet" : "PropYmZ",
+			"sticky" : "-Y+Z-Z",
+			"uuid" : "b8f17d3c-e07d-438d-8295-39fda96fb86b"
+		},
+		{
+			"color" : "00ffe1ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/dekotora/obj_dekotora_pyramid_col.fbx",
+				"x" : 3,
+				"y" : 2,
+				"z" : 3
+			},
+			"name" : "obj_dekotora_pyramid",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_pyramid.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "8836fff8-11fc-4596-bb8b-4bf50e79a8bf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "38fff5ff",
+			"name" : "obj_dekotora_cube",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/dekotora/obj_dekotora_cube.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "b12d7023-e9ee-4f8a-960e-2993f2dba03d"
+		}
+	]
+}

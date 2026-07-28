@@ -1,0 +1,140 @@
+{
+	"blockList" : 
+	[
+		{
+			"asg" : "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_asg.tga",
+			"color" : "dadada",
+			"dif" : "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_dif.tga",
+			"flammable" : false,
+			"name" : "blk_spaceshipfloor_restricted",
+			"nor" : "$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_vents_nor.tga",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : false
+			},
+			"stackSize" : 500,
+			"tiling" : 8,
+			"uuid" : "c8ec5c2d-968c-45c3-9a6a-1da0137d3ba1"
+		},
+		{
+			"asg" : "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+			"color" : "820a0a",
+			"dif" : "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+			"flammable" : false,
+			"name" : "blk_spaceshipmetal_resticted",
+			"nor" : "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : false
+			},
+			"stackSize" : 500,
+			"tiling" : 4,
+			"uuid" : "5fa7d58a-19b1-4ef1-a938-1406f8716941"
+		},
+		{
+			"asg" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_asg.tga",
+			"color" : "42b12bff",
+			"dif" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_dif.tga",
+			"flammable" : false,
+			"name" : "blk_undergroundstation",
+			"nor" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_nor.tga",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"stackSize" : 500,
+			"tiling" : 8,
+			"uuid" : "1ae2cbd0-bc7d-45ed-bf19-57ef5dc14391"
+		},
+		{
+			"asg" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_2x_asg.tga",
+			"color" : "42b12bff",
+			"dif" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_2x_dif.tga",
+			"flammable" : false,
+			"name" : "blk_undergroundstation2x",
+			"nor" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_2x_nor.tga",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"stackSize" : 500,
+			"tiling" : 8,
+			"uuid" : "aea10ac2-2fbb-4372-ab31-7be4bdfeec35"
+		},
+		{
+			"asg" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_4x_asg.tga",
+			"color" : "42b12bff",
+			"dif" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_4x_dif.tga",
+			"flammable" : false,
+			"name" : "blk_undergroundstation4x",
+			"nor" : "$SURVIVAL_DATA/Objects/Textures/blocks/blk_undergroundstation_4x_nor.tga",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"stackSize" : 500,
+			"tiling" : 8,
+			"uuid" : "87de6612-06c2-43c7-a4aa-652c0eb1dd18"
+		}
+	]
+}

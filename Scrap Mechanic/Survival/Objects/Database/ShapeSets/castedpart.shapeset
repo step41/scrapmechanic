@@ -1,0 +1,155 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 3,
+				"z" : 8
+			},
+			"carryItem" : true,
+			"color" : "86d4ffff",
+			"destroyTime" : 0.35,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"name" : "obj_castedpart_t1",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/castedpart/obj_castedpart_t1.rend",
+			"restrictions" : 
+			{
+				"liftable" : true,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"uuid" : "127f5ce0-09d1-4e3a-b1ac-a89f6340ddc8"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 3,
+				"z" : 8
+			},
+			"carryItem" : true,
+			"color" : "4a2d08ff",
+			"destroyTime" : 0.35,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"name" : "obj_castedpart_t2",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/castedpart/obj_castedpart_t2.rend",
+			"restrictions" : 
+			{
+				"liftable" : true,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"uuid" : "88800e74-19b2-4014-90f9-982c2667d932"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 3,
+				"z" : 8
+			},
+			"carryItem" : true,
+			"color" : "591d81ff",
+			"destroyTime" : 0.35,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"name" : "obj_castedpart_t3",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/castedpart/obj_castedpart_t3.rend",
+			"restrictions" : 
+			{
+				"liftable" : true,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"uuid" : "004da34b-7a9e-4962-b0c3-e48b514fb603"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 3,
+				"z" : 8
+			},
+			"carryItem" : true,
+			"color" : "064a39ff",
+			"destroyTime" : 0.35,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"name" : "obj_castedpart_t4",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/castedpart/obj_castedpart_t4.rend",
+			"restrictions" : 
+			{
+				"liftable" : true,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"uuid" : "9f9cd82f-8a5a-406b-b26d-d1adc289c8b4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 3,
+				"z" : 8
+			},
+			"carryItem" : true,
+			"color" : "006e79ff",
+			"destroyTime" : 0.35,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"name" : "obj_castedpart_t5",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/castedpart/obj_castedpart_t5.rend",
+			"restrictions" : 
+			{
+				"liftable" : true,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"uuid" : "cb3dc4fc-603b-4919-9a71-7ce7cb1593bb"
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/jewel/obj_jewel_crystal01_col.fbx",
+				"x" : 5,
+				"y" : 6,
+				"z" : 5
+			},
+			"name" : "obj_jewel_01",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/jewel/obj_jewel_crystal01.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"showInInventory" : true,
+			"sticky" : "-Y+Y",
+			"uuid" : "9dcd7de9-477c-4334-80e8-42e2edb221cf"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/jewel/obj_jewel_crystal02_col.fbx",
+				"x" : 5,
+				"y" : 6,
+				"z" : 5
+			},
+			"name" : "obj_jewel_02",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/jewel/obj_jewel_crystal02.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"showInInventory" : true,
+			"sticky" : "-Y+Y",
+			"uuid" : "cffd3eb7-21db-4dde-bbc3-453e6bd7d941"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/jewel/obj_jewel_crystal03_col.fbx",
+				"x" : 5,
+				"y" : 6,
+				"z" : 5
+			},
+			"name" : "obj_jewel_03",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 9,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/jewel/obj_jewel_crystal03.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"showInInventory" : true,
+			"sticky" : "-Y+Y",
+			"uuid" : "64e8cdbf-14fa-4c8d-b089-27e3e12542f7"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/jewel/obj_jewel_crystal04_col.fbx",
+				"x" : 15,
+				"y" : 10,
+				"z" : 15
+			},
+			"name" : "obj_jewel_04",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/jewel/obj_jewel_crystal04.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"showInInventory" : true,
+			"sticky" : "-Y+Y",
+			"uuid" : "1db5d0d5-44c2-424e-b74c-234da226341f"
+		}
+	]
+}

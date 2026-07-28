@@ -1,0 +1,273 @@
+{
+	"partList" : 
+	[
+		{
+			"baseUuid" : "695d66c8-b937-472d-8bc2-f3d72dd92879",
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_light_beamframelight.obj",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_survivalobject_beamframelight_warehouse",
+			"physicsMaterial" : "Electronics",
+			"previewRotation" : 
+			[
+				1,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_beamframelight_warehouse.rend",
+			"rotationSet" : "PropZX",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 40,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_WarehouseLight_medium_warehouse"
+			},
+			"stackSize" : 5,
+			"sticky" : "-X+X+Y-Z",
+			"uuid" : "71a12706-49d3-4a41-9ff1-cfd34f86fae2"
+		},
+		{
+			"baseUuid" : "5e3dff9b-2450-44ae-ad46-d2f6b5148cbf",
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 1,
+				"z" : 6
+			},
+			"color" : "eeeeee",
+			"flammable" : false,
+			"name" : "obj_survivalobject_warehousearealight_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 5,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_warehousearealight.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 60,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "AreaLight_Warehouse"
+			},
+			"sticky" : "-Y",
+			"uuid" : "2e689944-180d-4a1a-8e2d-35b162938792"
+		},
+		{
+			"baseUuid" : "da6e54df-a223-4a0e-b42f-ddeddd33f5b3",
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "ebb100",
+			"flammable" : false,
+			"name" : "obj_construction_light_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Construction/obj_construction_light.rend",
+			"rotationSet" : "PropYZ",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_ConstructionLight_warehouse"
+			},
+			"sticky" : "+Y-Y+X-X-Z",
+			"uuid" : "9d3cc7ee-a4b2-4041-b1d3-a55751002c7d"
+		},
+		{
+			"baseUuid" : "7b2c96af-a4a1-420e-9370-ea5b58f23a7e",
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "f0aa6d",
+			"flammable" : false,
+			"name" : "obj_survivalobject_fluorescentlamp_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_fluorescentlamp_warehouse.rend",
+			"rotationSet" : "PropYmZX",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_FluorescentLight_warehouse"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y+Z-Z+X-X",
+			"uuid" : "c673cca4-c363-4a21-a576-5d3451a1f33d"
+		},
+		{
+			"baseUuid" : "abaef792-741e-4c6b-8e79-02461a37b035",
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_warehouse_doorframelight_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Warehouse/obj_warehouse_doorframelight.rend",
+			"rotationSet" : "PropYmZX",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_FrameBeamLight_warehouse"
+			},
+			"sticky" : "-Y-Z+Z-X+X",
+			"uuid" : "4349bf0e-1244-4136-b597-2fa86354eb78"
+		},
+		{
+			"baseUuid" : "85339a1d-e67f-4c63-94fd-4a1cf8c25810",
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "cc5500ff",
+			"flammable" : false,
+			"name" : "obj_survivalobject_posterspotlight2_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_posterspotlight2_warehouse.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_WarehouseLight_small_warehouse"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "4e67067c-7865-4bc8-ba0d-84c5a465efab"
+		},
+		{
+			"baseUuid" : "85339a1d-e67f-4c63-94fd-4a1cf8c25810",
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_survivalobject_warehousespotligt_warehouse",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_warehousespotlight.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "PosterLight_Warehouse_warehouse"
+			},
+			"sticky" : "-Y",
+			"uuid" : "8ce25d2e-5802-4806-84cd-094b97e21863"
+		}
+	]
+}
