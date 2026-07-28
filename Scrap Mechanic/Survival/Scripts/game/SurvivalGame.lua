@@ -634,15 +634,19 @@ function SurvivalGame.cl_onChatCommand( self, params )
 		if rayCastValid and rayCastResult.type == "body" then
 			local exportParams = {
 				name = params[2],
-				body = rayCastResult:getBody()
+				body = rayCastResult:getBody(),
+				player = sm.localPlayer.getPlayer()
 			}
 			self.network:sendToServer( "sv_exportCreation", exportParams )
+		else
+			self:client_showMessage( "Export failed: look directly at a free-floating creation (not connected to the world)" )
 		end
 	elseif params[1] == "/exportbylog" then
 		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
 		if rayCastValid and rayCastResult.type == "body" then
 			local exportbylogParams = {
-				body = rayCastResult:getBody()
+				body = rayCastResult:getBody(),
+				player = sm.localPlayer.getPlayer()
 			}
 			self.network:sendToServer( "sv_exportbylogCreation", exportbylogParams )
 		end
@@ -652,7 +656,8 @@ function SurvivalGame.cl_onChatCommand( self, params )
 			local importParams = {
 				world = sm.localPlayer.getPlayer().character:getWorld(),
 				name = params[2],
-				position = rayCastResult.pointWorld
+				position = rayCastResult.pointWorld,
+				player = sm.localPlayer.getPlayer()
 			}
 			self.network:sendToServer( "sv_importCreation", importParams )
 		end
@@ -1143,17 +1148,46 @@ function SurvivalGame.sv_spawnHarvestable( self, params )
 end
 
 function SurvivalGame.sv_exportCreation( self, params )
-	local obj = sm.json.parseJsonString( sm.creation.exportToString( params.body ) )
-	sm.json.save( obj, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint" )
+	local safeName = tostring( params.name ):gsub( "[^%w_%-]", "" )
+	if safeName == "" then
+		self.network:sendToClient( params.player, "client_showMessage", "Export failed: invalid name" )
+		return
+	end
+	local success, err = pcall( function()
+		local obj = sm.json.parseJsonString( sm.creation.exportToString( params.body ) )
+		sm.json.save( obj, "$SURVIVAL_DATA/LocalBlueprints/"..safeName..".blueprint" )
+	end )
+	if success then
+		self.network:sendToClient( params.player, "client_showMessage", "Exported creation to LocalBlueprints/"..safeName..".blueprint" )
+	else
+		sm.log.error( "sv_exportCreation failed for '"..safeName.."': "..tostring( err ) )
+		self.network:sendToClient( params.player, "client_showMessage", "Export failed - check the log for details" )
+	end
 end
 
 function SurvivalGame.sv_importCreation( self, params )
-	sm.creation.importFromFile( params.world, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint", params.position )
+	local safeName = tostring( params.name ):gsub( "[^%w_%-]", "" )
+	local success, err = pcall( function()
+		sm.creation.importFromFile( params.world, "$SURVIVAL_DATA/LocalBlueprints/"..safeName..".blueprint", params.position )
+	end )
+	if success then
+		self.network:sendToClient( params.player, "client_showMessage", "Imported LocalBlueprints/"..safeName..".blueprint" )
+	else
+		sm.log.error( "sv_importCreation failed for '"..safeName.."': "..tostring( err ) )
+		self.network:sendToClient( params.player, "client_showMessage", "Import failed - check the log for details (does the file exist?)" )
+	end
 end
 
 function SurvivalGame.sv_exportbylogCreation( self, params )
-	sm.log.warning( sm.creation.exportToString( params.body ) )
-	self.network:sendToClients( "client_showMessage", "Exported creation to log file" )
+	local success, err = pcall( function()
+		sm.log.warning( sm.creation.exportToString( params.body ) )
+	end )
+	if success then
+		self.network:sendToClients( "client_showMessage", "Exported creation to log file" )
+	else
+		sm.log.error( "sv_exportbylogCreation failed: "..tostring( err ) )
+		self.network:sendToClients( "client_showMessage", "Export to log failed - check the log for details" )
+	end
 end
 
 function SurvivalGame.sv_onChatCommand( self, params, player )
