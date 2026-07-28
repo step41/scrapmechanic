@@ -55,6 +55,7 @@ local MultiDropRandomOffset = 2.0
 
 local RaidIncomingTickTime = 40 * 60.0 -- The countdown time it takes for a triggered raid to start spawning waves
 local RaidResetOnPlantTickTime = 40 * 10.0
+local MaxPathGenerationAttempts = RAID_SAMPLE_POINT_COUNT * 4 -- hard cap on path-generation ticks so a direction that can never find a spot cannot stall a raid forever
 local RaidTimeoutTickTime = RAIDER_TICK_LIFETIME -- Time before a raid will automatically end
 local TicksBetweenLockOnEffects = math.floor( 40 * 0.03 ) -- Time between lock on effects
 
@@ -791,11 +792,22 @@ function RaidManager.sv_onWorldFixedUpdate( self, world )
 					self.sv.finishedNavMeshLoads[raidKey] = nil
 				end
 
-				-- Generate 1 path per tick until enough spawn points are gathered
+				-- Generate 1 path per tick until enough spawn points are gathered. Bounded by
+				-- MaxPathGenerationAttempts so a direction that can never find a valid spot
+				-- (e.g. CreateRaidPath keeps returning nil for it) cannot stall the raid forever -
+				-- that previously left needsSpawnPoints stuck true permanently, which also blocked
+				-- planting/harvesting since the game treats the raid as still active.
 				if self.sv.raidPaths[raidKey] and self.sv.raidsPathGenerationData[raidKey] then
-					self.sv.raidPaths[raidKey][#self.sv.raidPaths[raidKey]+1] = CreateRaidPath( raid.center, world, self.sv.raidsPathGenerationData[raidKey].rotation, self.sv.raidsPathGenerationData[raidKey].currentIndex )
+					local newPath = CreateRaidPath( raid.center, world, self.sv.raidsPathGenerationData[raidKey].rotation, self.sv.raidsPathGenerationData[raidKey].currentIndex )
+					if newPath then
+						self.sv.raidPaths[raidKey][#self.sv.raidPaths[raidKey]+1] = newPath
+					end
 					self.sv.raidsPathGenerationData[raidKey].currentIndex = self.sv.raidsPathGenerationData[raidKey].currentIndex + 1
-					if #self.sv.raidPaths[raidKey] == RAID_SAMPLE_POINT_COUNT then
+
+					local reachedTarget = #self.sv.raidPaths[raidKey] == RAID_SAMPLE_POINT_COUNT
+					local exhaustedAttempts = self.sv.raidsPathGenerationData[raidKey].currentIndex > MaxPathGenerationAttempts
+
+					if reachedTarget or ( exhaustedAttempts and #self.sv.raidPaths[raidKey] > 0 ) then
 						raid.attackData.spawnPositions = FilterAndSelectPoints( self.sv.raidPaths[raidKey], world, raid.center )
 						shuffle( raid.attackData.spawnPositions )
 						raid.needsSpawnPoints = false
@@ -808,6 +820,19 @@ function RaidManager.sv_onWorldFixedUpdate( self, world )
 						self.sv.navmeshHandles[raidKey] = nil
 						self.sv.raidPaths[raidKey] = nil
 						self.sv.raidsPathGenerationData[raidKey] = nil
+					elseif exhaustedAttempts then
+						-- No valid spawn point was found in ANY sampled direction after the full retry
+						-- budget - fail the raid cleanly (same path as running out of crops) instead of
+						-- leaving it stuck, or proceeding with an empty spawnPositions list that would
+						-- error when a group later tries to index into it.
+						sm.log.error( "RaidManager: found zero valid spawn points for raid at "..tostring( raid.center )..", failing raid instead of stalling" )
+						for _,handle in ipairs( self.sv.navmeshHandles[raidKey] ) do
+							handle:release()
+						end
+						self.sv.navmeshHandles[raidKey] = nil
+						self.sv.raidPaths[raidKey] = nil
+						self.sv.raidsPathGenerationData[raidKey] = nil
+						sm.event.sendToScriptableObject( self.scriptableObject, "sv_e_failRaid", { raid = raid, worldId = worldId, raidKey = raidKey } )
 					end
 				end
 			end

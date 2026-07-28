@@ -2,6 +2,7 @@ RAID_TARGET_POINT_COUNT = 3
 RAID_SAMPLE_POINT_COUNT = 18
 local RaidCellRange = 1
 local MaxAttackRange = 45.0
+local MinAttackRange = 20.0 -- hard floor: a spawn point may never be accepted closer than this to the attack position
 local AcceptedSpawnPointOffsetSqr = 15 * 15
 local CliffIdentifierCount = 5
 local AllowedCliffPathChecks = 10
@@ -12,6 +13,21 @@ local ReversalDistance = 5.0
 local AvoidedAttackRangeSqr = ( MaxAttackRange / 2 ) * ( MaxAttackRange / 2 )
 local Degrees = 360 / RAID_SAMPLE_POINT_COUNT
 local RaycastHeightOffset = sm.vec3.new( 0, 0, 128 )
+local MinDistanceMultiplier = MinAttackRange / MaxAttackRange
+-- degrees to sweep around the circumference, at the current distance, before stepping the distance inward
+local CircumferenceSearchAngles = { 15, -15, 30, -30, 45, -45, 60, -60, 75, -75, 90, -90 }
+
+-- Precomputed distance steps from full MaxAttackRange down to the MinAttackRange floor - the floor is
+-- always included as the final, closest step so a direction never has to fall back to zero.
+local DistanceSteps = {}
+do
+	local multiplier = 1.0
+	while multiplier > MinDistanceMultiplier do
+		DistanceSteps[#DistanceSteps+1] = multiplier
+		multiplier = multiplier - 0.1
+	end
+	DistanceSteps[#DistanceSteps+1] = MinDistanceMultiplier
+end
 
 
 
@@ -105,8 +121,10 @@ local function selectPointsFromCollection( spawnPoints, world )
         selectedMainSpawns[#selectedMainSpawns+1] = spawnInfo
     end
     if #selectedMainSpawns > 0 and #selectedMainSpawns < RAID_TARGET_POINT_COUNT then
-        for i = #selectedMainSpawns + 1, RAID_TARGET_POINT_COUNT do
-            selectedMainSpawns[#selectedMainSpawns+1].path = selectedMainSpawns[i -1].path
+        local sourceCount = #selectedMainSpawns
+        for i = sourceCount + 1, RAID_TARGET_POINT_COUNT do
+            local sourceSpawn = selectedMainSpawns[( ( i - 1 ) % sourceCount ) + 1]
+            selectedMainSpawns[i] = { path = sourceSpawn.path, material = sourceSpawn.material }
         end
     end
 
@@ -139,20 +157,43 @@ function FilterAndSelectPoints( spawnPoints, world, attackPosition )
     return selectPointsFromCollection( spawnPoints, world )
 end
 
+-- Tries the base direction first, then sweeps CircumferenceSearchAngles around it at the SAME distance,
+-- so a direction that lands in water/void prefers finding dry ground nearby around the circumference
+-- (common on spits/peninsulas) over collapsing straight in toward the attack position.
+local function findGroundPointAtDistance( attackPosition, directionOffset, distanceMultiplier, world )
+    local raycastPoint = attackPosition + directionOffset * distanceMultiplier
+    local success, hitPoint = sm.physics.raycast( raycastPoint + RaycastHeightOffset, raycastPoint - RaycastHeightOffset, nil, sm.physics.filter.default - sm.physics.filter.harvestable, world )
+    if success and not sm.physics.isPointInLiquid( hitPoint.pointWorld, world ) then
+        return success, hitPoint
+    end
+
+    for _,angle in ipairs( CircumferenceSearchAngles ) do
+        local sweptOffset = directionOffset:rotateZ( math.rad( angle ) )
+        raycastPoint = attackPosition + sweptOffset * distanceMultiplier
+        success, hitPoint = sm.physics.raycast( raycastPoint + RaycastHeightOffset, raycastPoint - RaycastHeightOffset, nil, sm.physics.filter.default - sm.physics.filter.harvestable, world )
+        if success and not sm.physics.isPointInLiquid( hitPoint.pointWorld, world ) then
+            return success, hitPoint
+        end
+    end
+
+    return false, nil
+end
+
 function CreateRaidPath( attackPosition, world, rotationValue, index )
     local spawnPoint = nil
     local targetIsOnCliff = nil
     local offset = sm.vec3.new( 1, 1, 0 ):safeNormalize( sm.vec3.new( 1, 0, 0 ) ) * MaxAttackRange
     local directionOffset = offset:rotateZ( rotationValue ):rotateZ( math.rad( index * Degrees ) )
-    local raycastPoint = attackPosition + directionOffset
-    local success, hitPoint = sm.physics.raycast( raycastPoint + RaycastHeightOffset, raycastPoint - RaycastHeightOffset, nil, sm.physics.filter.default - sm.physics.filter.harvestable, world )
-    local currentDistanceMultiplier = 1.0
+    local stepIndex = 1
+    local currentDistanceMultiplier = DistanceSteps[stepIndex]
+    local success, hitPoint = findGroundPointAtDistance( attackPosition, directionOffset, currentDistanceMultiplier, world )
 
-    -- Step out of water in case we are targeting water
-    while ( success == false or sm.physics.isPointInLiquid( hitPoint.pointWorld, world ) ) and currentDistanceMultiplier > 0.0 do
-        currentDistanceMultiplier = currentDistanceMultiplier - 0.1
-        raycastPoint = attackPosition + directionOffset * currentDistanceMultiplier
-        success, hitPoint = sm.physics.raycast( raycastPoint + RaycastHeightOffset, raycastPoint - RaycastHeightOffset, nil, sm.physics.filter.default - sm.physics.filter.harvestable, world )
+    -- Step the distance inward - never below MinAttackRange (the last entry in DistanceSteps) - searching
+    -- the circumference at each distance before pulling the point any closer to the attack position.
+    while not success and stepIndex < #DistanceSteps do
+        stepIndex = stepIndex + 1
+        currentDistanceMultiplier = DistanceSteps[stepIndex]
+        success, hitPoint = findGroundPointAtDistance( attackPosition, directionOffset, currentDistanceMultiplier, world )
     end
 
 
@@ -163,7 +204,7 @@ function CreateRaidPath( attackPosition, world, rotationValue, index )
     if success then
         local spawnToTargetPointPath = sm.pathfinder.getWorldPath( world, hitPoint.pointWorld, attackPosition, { canWalk = true, canSwim = false } )
 
-        while currentDistanceMultiplier > 0.0 do
+        while stepIndex <= #DistanceSteps do
             local pathFound = false
             if #spawnToTargetPointPath > 0 then
                 local pathEnd = spawnToTargetPointPath[#spawnToTargetPointPath].toNode:getPosition()
@@ -251,9 +292,12 @@ function CreateRaidPath( attackPosition, world, rotationValue, index )
             if pathFound then
                 break
             else
-                raycastPoint = attackPosition + directionOffset * currentDistanceMultiplier
-                success, hitPoint = sm.physics.raycast( raycastPoint + RaycastHeightOffset, raycastPoint - RaycastHeightOffset, nil, sm.physics.filter.default - sm.physics.filter.harvestable, world )
-                currentDistanceMultiplier = currentDistanceMultiplier - 0.1
+                if stepIndex >= #DistanceSteps then
+                    break -- already at the MinAttackRange floor - stop retrying this direction rather than going any closer
+                end
+                stepIndex = stepIndex + 1
+                currentDistanceMultiplier = DistanceSteps[stepIndex]
+                success, hitPoint = findGroundPointAtDistance( attackPosition, directionOffset, currentDistanceMultiplier, world )
                 spawnToTargetPointPath = {}
                 if success then
                     spawnToTargetPointPath = sm.pathfinder.getWorldPath( world, hitPoint.pointWorld, attackPosition, { canWalk = true, canSwim = false } )
