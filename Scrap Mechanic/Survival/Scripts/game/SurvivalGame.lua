@@ -273,6 +273,9 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/disableraids", { { "bool", "enabled", false } }, "cl_onChatCommand", "Disable raids if true" )
 		sm.game.bindChatCommand( "/noaggro", { { "bool", "enable", true } }, "cl_onChatCommand", "Toggles the player as a target" )
 		sm.game.bindChatCommand( "/exportmultishape", {}, "cl_onChatCommand", "Exports a blueprint shape file" )
+		sm.game.bindChatCommand( "/import", { { "string", "name", false } }, "cl_onChatCommand", "Imports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
+		sm.game.bindChatCommand( "/export", { { "string", "name", false } }, "cl_onChatCommand", "Exports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
+		sm.game.bindChatCommand( "/exportbylog", {}, "cl_onChatCommand", "Exports blueprint by writing it to log" )
 		
 
 
@@ -625,6 +628,33 @@ function SurvivalGame.cl_onChatCommand( self, params )
 			self.network:sendToServer( "sv_n_switchAggroMode", { aggroMode = not params[2] } )
 		else
 			self.network:sendToServer( "sv_n_switchAggroMode", { aggroMode = not sm.game.getEnableAggro() } )
+		end
+	elseif params[1] == "/export" then
+		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+		if rayCastValid and rayCastResult.type == "body" then
+			local exportParams = {
+				name = params[2],
+				body = rayCastResult:getBody()
+			}
+			self.network:sendToServer( "sv_exportCreation", exportParams )
+		end
+	elseif params[1] == "/exportbylog" then
+		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+		if rayCastValid and rayCastResult.type == "body" then
+			local exportbylogParams = {
+				body = rayCastResult:getBody()
+			}
+			self.network:sendToServer( "sv_exportbylogCreation", exportbylogParams )
+		end
+	elseif params[1] == "/import" then
+		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+		if rayCastValid then
+			local importParams = {
+				world = sm.localPlayer.getPlayer().character:getWorld(),
+				name = params[2],
+				position = rayCastResult.pointWorld
+			}
+			self.network:sendToServer( "sv_importCreation", importParams )
 		end
 
 
@@ -1119,6 +1149,11 @@ end
 
 function SurvivalGame.sv_importCreation( self, params )
 	sm.creation.importFromFile( params.world, "$SURVIVAL_DATA/LocalBlueprints/"..params.name..".blueprint", params.position )
+end
+
+function SurvivalGame.sv_exportbylogCreation( self, params )
+	sm.log.warning( sm.creation.exportToString( params.body ) )
+	self.network:sendToClients( "client_showMessage", "Exported creation to log file" )
 end
 
 function SurvivalGame.sv_onChatCommand( self, params, player )
