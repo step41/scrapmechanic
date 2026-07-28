@@ -939,7 +939,7 @@ obj_warehouse_masterswitch = sm.uuid.new( "be744e84-f67e-4c06-a809-c247adc1babb"
 ----------------------------------------
 -- custom.json
 ----------------------------------------
-obj_custom_piston_large = sm.uuid.new( "d739fdf9-2c61-47ea-88ab-beac6a6c35c0" )
+obj_custom_piston_large = sm.uuid.new( "dff53b11-2d8d-4044-ad51-59321f117f8e" )
 obj_custom_bigwheel_chained = sm.uuid.new( "d739fdf9-2c61-47ea-88ab-beac6a6c35c0" )
 obj_custom_bigwheel_spiked = sm.uuid.new( "d739fdf9-2c61-47ea-88ab-beac6a6c35c1" )
 
