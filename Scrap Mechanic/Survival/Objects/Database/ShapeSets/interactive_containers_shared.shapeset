@@ -1,0 +1,285 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "c52319",
+			"flammable" : false,
+			"name" : "obj_container_gas",
+			"physicsMaterial" : "Metal",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -2.0,
+						"y" : 0,
+						"z" : 0
+					},
+					{
+						"side" : "Y",
+						"x" : 0.5,
+						"y" : 1.5,
+						"z" : 0
+					}
+				],
+				"type" : "Container"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Containers/obj_containers_gas.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "GasolineContainer",
+				"data" : 
+				{
+					"filterUid" : "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
+					"stackSize" : 20
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "056e5ff1-f030-40df-946a-b830bf494c92"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "f1a400",
+			"flammable" : false,
+			"name" : "obj_container_battery",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -2.0,
+						"y" : 0,
+						"z" : 0
+					},
+					{
+						"side" : "Y",
+						"x" : 0.5,
+						"y" : 1.5,
+						"z" : 0
+					}
+				],
+				"type" : "Container"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Containers/obj_containers_battery.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "BatteryContainer",
+				"data" : 
+				{
+					"filterUid" : "910a7f2c-52b0-46eb-8873-ad13255539af",
+					"stackSize" : 20
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "da4833fd-f981-4e08-a9f7-48e630a7c146"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "008ae1",
+			"flammable" : false,
+			"name" : "obj_container_water",
+			"physicsMaterial" : "Plastic",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -2.0,
+						"y" : 0,
+						"z" : 0
+					},
+					{
+						"side" : "Y",
+						"x" : 0.5,
+						"y" : 1.5,
+						"z" : 0
+					}
+				],
+				"type" : "Container"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Containers/obj_containers_water.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "WaterContainer",
+				"data" : 
+				{
+					"filterUid" : "869d4736-289a-4952-96cd-8a40117a2d28",
+					"stackSize" : 20
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "ea10d1af-b97a-46fb-8895-dfd1becb53bb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "505c30",
+			"flammable" : false,
+			"name" : "obj_container_ammo",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -2.0,
+						"y" : 0,
+						"z" : 0
+					},
+					{
+						"side" : "Y",
+						"x" : 0.5,
+						"y" : 1.5,
+						"z" : 0
+					}
+				],
+				"type" : "Container"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Containers/obj_containers_ammo.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "AmmoContainer",
+				"data" : 
+				{
+					"filterUid" : "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+					"stackSize" : 100
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "096d4daf-639e-4947-a1a6-1890eaa94464"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "495975",
+			"flammable" : false,
+			"name" : "obj_container_chemical",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -2.0,
+						"y" : 0,
+						"z" : 0
+					},
+					{
+						"side" : "Y",
+						"x" : 0.5,
+						"y" : 1.5,
+						"z" : 0
+					}
+				],
+				"type" : "Container"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Containers/obj_containers_chemical.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "ChemicalContainer",
+				"data" : 
+				{
+					"filterUid" : "f74c2891-79a9-45e0-982e-4896651c2e25",
+					"stackSize" : 20
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "be29592a-ef58-4b1d-b18c-895023abd27f"
+		}
+	]
+}

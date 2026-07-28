@@ -1,0 +1,1233 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "f3871c",
+			"flammable" : false,
+			"legacyId" : 400,
+			"name" : "obj_industrial_beam",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beam.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "87878e83-8170-4796-9401-6baba45ccef2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "f3871c",
+			"flammable" : false,
+			"legacyId" : 401,
+			"name" : "obj_industrial_beamlong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beamlong.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8"
+		},
+		{
+			"color" : "f3871c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_beambend.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 402,
+			"name" : "obj_industrial_beambend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beambend.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "+X-Z+Y-Y",
+			"uuid" : "31768765-5a08-499a-a7e6-7e7613363f75"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "f3871c",
+			"flammable" : false,
+			"legacyId" : 403,
+			"name" : "obj_industrial_beamelevation",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beamelevation.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y",
+			"uuid" : "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "f3871c",
+			"flammable" : false,
+			"legacyId" : 404,
+			"name" : "obj_industrial_beamend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beamend.rend",
+			"rotationSet" : "StaticYZmNegZmX",
+			"uuid" : "b9775316-7272-4a66-a8a9-179108d76f18"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 4
+			},
+			"color" : "408fc7",
+			"flammable" : false,
+			"legacyId" : 405,
+			"name" : "obj_industrial_beamshelf",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_beamshelf.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "c8c07259-bc23-45a1-8a4c-585962274f19"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 1,
+				"z" : 8
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 406,
+			"name" : "obj_industrial_platform",
+			"physicsMaterial" : "Fence",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platform.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "d5da6d42-69e2-49ca-8def-3339bf9f0d35"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 6
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 407,
+			"name" : "obj_industrial_platformfencelong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platformfencelong.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z+Z",
+			"uuid" : "85379fe5-da83-4aa2-b9c2-d67476ad6079"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 408,
+			"name" : "obj_industrial_platformfenceshort",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platformfenceshort.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z+Z",
+			"uuid" : "8336bf8b-cde0-46a0-b995-5000cba4f27f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 409,
+			"name" : "obj_industrial_platformfencepole",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platformfencepole.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "1ef1f0e8-389c-4eb9-b4a8-784499353f14"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 410,
+			"name" : "obj_industrial_platformfenceconnector",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platformfenceconnector.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "295451dd-f5b2-421d-9113-b3f704d799d4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 6
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 411,
+			"name" : "obj_industrial_stairplatform",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_stairplatform.rend",
+			"rotationSet" : "StaticYmZX",
+			"uuid" : "f5786e5d-8366-4ebf-be00-f3a4b036a77b"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_stairfence.obj",
+				"x" : 1,
+				"y" : 4,
+				"z" : 1
+			},
+			"legacyId" : 412,
+			"name" : "obj_industrial_stairfence",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_stairfence.rend",
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y+Z-Z",
+			"uuid" : "b50a014c-0785-4b1b-b63e-51cfdb7e49ad"
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 413,
+			"name" : "obj_industrial_stairwedge",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_stairwedge.rend",
+			"rotationSet" : "PropYX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "e02620a5-371b-4d63-be35-fd8a0552eba9",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			}
+		},
+		{
+			"color" : "c36512",
+			"flammable" : false,
+			"legacyId" : 430,
+			"name" : "obj_industrial_platformstairsramp",
+			"physicsMaterial" : "Fence",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_platformstairsramp.rend",
+			"rotationSet" : "PropYZXNegX",
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "635eee58-9a36-437f-9e30-78dab0cbcc59",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 6,
+				"y" : 5,
+				"z" : 7
+			}
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 414,
+			"name" : "obj_industrial_metalgrid",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_metalgrid.rend",
+			"rotationSet" : "StaticYZmNegZmX",
+			"uuid" : "0a597f6d-eb45-4f93-91e5-130e19e0f1f5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "ffd504",
+			"flammable" : false,
+			"legacyId" : 415,
+			"name" : "obj_industrial_railing",
+			"physicsMaterial" : "Fence",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_railing.mesh",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_railing_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_railing_asg.tga",
+									""
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "StaticYmZX",
+			"uuid" : "2228cef0-f22a-4901-93c5-48e4df52caf6"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 416,
+			"name" : "obj_industrial_metalsupport",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_metalsupport.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "c40683f3-d9ce-4067-af24-3514c1867a1a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 417,
+			"name" : "obj_industrial_supportxframe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_supportxframe.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "15a8f24b-016a-4db6-adcc-967ee1b6c7b1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 418,
+			"name" : "obj_industrial_supportvframe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_supportvframe.rend",
+			"rotationSet" : "StaticYZX",
+			"uuid" : "33d5f0c1-f80c-478a-b69d-9edafe376474"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"name" : "obj_industrial_support_quater_frame",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 6
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_support_quarter_frame.rend",
+			"rotationSet" : "StaticYZX",
+			"uuid" : "29ededf7-6436-41bf-84f4-8fb5361d29ea"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 6,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 419,
+			"name" : "obj_industrial_supportbeam",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_supportbeam.rend",
+			"rotationSet" : "StaticYZmNegZmX",
+			"uuid" : "56545d5c-556d-4cd5-9125-6e34acf37c3d"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 5,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 420,
+			"name" : "obj_industrial_supportpillar",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_supportpillar.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "6b78fb4b-2af9-4a01-a7c5-7e333d245adb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"color" : "597c8d",
+			"flammable" : false,
+			"legacyId" : 453,
+			"name" : "obj_industrial_supportxbeam",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 7
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportxbeam.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "aa5325da-03f9-46cc-9655-983ee7ac2ab2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "597c8d",
+			"flammable" : false,
+			"legacyId" : 454,
+			"name" : "obj_industrial_supportbeambase",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 4,
+				"friction" : 7
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportbeambase.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYmmNegYmm",
+			"sticky" : "+Y-Y",
+			"uuid" : "45e5c193-8896-4687-a4b0-cf4b2da047d1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "408fc7",
+			"flammable" : false,
+			"legacyId" : 421,
+			"name" : "obj_industrial_rack",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_rack.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "dbd509b5-b7cc-43cf-9a89-b3befecfe991"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "408fc7",
+			"flammable" : false,
+			"legacyId" : 422,
+			"name" : "obj_industrial_rackcube",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_rackcube.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "8d7be7bf-37c9-44d6-8adf-fc87b141cadf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "408fc7",
+			"flammable" : false,
+			"legacyId" : 423,
+			"name" : "obj_industrial_racklong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_racklong.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "f80026c5-2019-4f87-8abd-345bd23aa156"
+		},
+		{
+			"color" : "cc7f3b",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 4,
+				"diameter" : 3,
+				"margin" : 0.5
+			},
+			"flammable" : false,
+			"legacyId" : 424,
+			"name" : "obj_industrial_cylindersmall",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_cylindersmall.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "f37b101c-508b-4630-9f9d-47ef1c834183"
+		},
+		{
+			"color" : "73adb7",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 4,
+				"diameter" : 5,
+				"margin" : 0.5
+			},
+			"flammable" : false,
+			"legacyId" : 425,
+			"name" : "obj_industrial_cylindermedium",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_cylindermedium.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "d71d8897-5af6-4adc-b626-50e45f931157"
+		},
+		{
+			"color" : "73adb7",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 5,
+				"diameter" : 7,
+				"margin" : 0.5
+			},
+			"flammable" : false,
+			"legacyId" : 426,
+			"name" : "obj_industrial_cylinderlarge",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_cylinderlarge.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "68c2baa5-1274-4bfd-8b12-6e522123f4de"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 6,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 427,
+			"name" : "obj_industrial_window",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 7,
+				"durability" : 5,
+				"friction" : 7
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_window.rend",
+			"rotationSet" : "PropYXmNegXm",
+			"sticky" : "-X+X-Y+Y",
+			"uuid" : "8c4b9721-3de4-4ae3-a7d1-6f66a16d1368"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 1,
+				"z" : 8
+			},
+			"color" : "902513",
+			"flammable" : false,
+			"legacyId" : 428,
+			"name" : "obj_industrial_pallet",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_pallet.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "StaticYmZX",
+			"uuid" : "007d6afc-59ef-4fb4-9bb7-52ab9bcfec22"
+		},
+		{
+			"color" : "909090",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 1
+			},
+			"flammable" : false,
+			"legacyId" : 429,
+			"name" : "obj_industrial_rail",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_rail.rend",
+			"rotationSet" : "PropYmm",
+			"stackSize" : 10,
+			"sticky" : "+Y-Y",
+			"uuid" : "6a720005-ba27-4cfc-8fb3-b1af8b9c8bd3"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 8,
+				"z" : 3
+			},
+			"color" : "930000",
+			"flammable" : false,
+			"name" : "obj_industrial_antennatower",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_antennatower.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"uuid" : "f9e8707a-62f8-4051-84e9-c2e17b686d9e"
+		},
+		{
+			"color" : "930000",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_antennatowertop.obj",
+				"x" : 3,
+				"y" : 8,
+				"z" : 3
+			},
+			"name" : "obj_industrial_antennatowertop",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_antennatowertop.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"sticky" : "-Y+Y",
+			"uuid" : "e3e58881-69e6-4593-8211-017bcd72c907"
+		},
+		{
+			"color" : "930000",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_satellite01.obj",
+				"x" : 7,
+				"y" : 7,
+				"z" : 1
+			},
+			"name" : "obj_industrial_satellite01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_satellite01.rend",
+			"rotationSet" : "PropZmmNegZmm",
+			"sticky" : "-Z+Z",
+			"uuid" : "1daf2b8a-fd2f-4266-9942-c04feede4f7b"
+		},
+		{
+			"color" : "930000",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_satellite03.obj",
+				"x" : 5,
+				"y" : 5,
+				"z" : 3
+			},
+			"name" : "obj_industrial_satellite03",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_satellite03.rend",
+			"rotationSet" : "PropZmmNegZmm",
+			"sticky" : "-Z+Z",
+			"uuid" : "ce350b5c-cebb-42b0-b8ba-1bf084a0090c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 8,
+				"z" : 1
+			},
+			"color" : "930000",
+			"flammable" : false,
+			"name" : "obj_industrial_antenna01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_antenna01.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "e585bcd6-5828-4a37-8ec7-dffb561f0956"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 7,
+				"z" : 1
+			},
+			"color" : "930000",
+			"flammable" : false,
+			"name" : "obj_industrial_antenna02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_antenna02.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "c938e84c-ff59-4e7e-a87c-5211ac903927"
+		},
+		{
+			"color" : "65caff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_windowglass01.obj",
+				"x" : 5,
+				"y" : 2,
+				"z" : 2
+			},
+			"legacyId" : 431,
+			"name" : "obj_industrial_windowglass01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_windowglass01.rend",
+			"rotationSet" : "PropYZmX",
+			"sticky" : "+Y-Y+X-X-Z",
+			"uuid" : "57fad8e9-2aff-40c3-9d5c-8f81573b58b9"
+		},
+		{
+			"color" : "65caff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_windowglass02.obj",
+				"x" : 5,
+				"y" : 4,
+				"z" : 2
+			},
+			"legacyId" : 432,
+			"name" : "obj_industrial_windowglass02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_windowglass02.rend",
+			"rotationSet" : "PropYZmX",
+			"sticky" : "+Y-Y+X-X-Z",
+			"uuid" : "53349c8d-14e8-4055-bd79-a1ab56fe876e"
+		},
+		{
+			"color" : "65caff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_windowglass03.obj",
+				"x" : 8,
+				"y" : 4,
+				"z" : 2
+			},
+			"legacyId" : 433,
+			"name" : "obj_industrial_windowglass03",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Industrial/obj_industrial_windowglass03.rend",
+			"rotationSet" : "PropYZmX",
+			"sticky" : "+Y-Y+X-X-Z",
+			"uuid" : "763fd838-7ed5-420e-8984-c2ae86da1e5c"
+		},
+		{
+			"color" : "65caff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_windshieldlarge.obj",
+				"x" : 6,
+				"y" : 3,
+				"z" : 6
+			},
+			"legacyId" : 436,
+			"name" : "obj_industrial_windshieldlarge",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windshieldlarge.mesh",
+						"subMeshList" : 
+						[
+							{
+								"material" : "Glass",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								]
+							},
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "7a0e9041-9dd5-4cb1-b804-69ee16c45efe"
+		},
+		{
+			"color" : "65caff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_industrial_windshield.obj",
+				"x" : 4,
+				"y" : 2,
+				"z" : 5
+			},
+			"legacyId" : 437,
+			"name" : "obj_industrial_windshield",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 2
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windshield.mesh",
+						"subMeshList" : 
+						[
+							{
+								"material" : "Glass",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								]
+							},
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "50007ac9-e97d-4b32-9fd6-de919c8a34a4"
+		}
+	]
+}

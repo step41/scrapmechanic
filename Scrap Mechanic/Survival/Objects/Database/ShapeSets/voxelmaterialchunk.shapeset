@@ -1,0 +1,620 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richsmall_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"name" : "obj_voxelmaterialchunk_rich1_small",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richsmall.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Small01",
+					"drillTime" : 0.4
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "2836d007-a7b7-4b2a-8e0e-e58ca8bb64dc"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richmedium_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_voxelmaterialchunk_rich1_medium",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richmedium.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Medium01",
+					"drillTime" : 0.6
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "6083a851-5931-47f7-834d-1a953bf7a1d0"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richlarge_col.fbx",
+				"x" : 12,
+				"y" : 12,
+				"z" : 12
+			},
+			"name" : "obj_voxelmaterialchunk_rich1_large",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richlarge.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Large01",
+					"drillTime" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "1c75a433-97a2-4da3-a9c1-d47e5421fd2a"
+		},
+		{
+			"color" : "4178b8ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richsmall_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"name" : "obj_voxelmaterialchunk_rich2_small",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richsmall.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Small01",
+					"drillTime" : 0.4
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "096a0416-4e3d-4e0b-8caf-c47f2739d8e2"
+		},
+		{
+			"color" : "4178b8ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richmedium_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_voxelmaterialchunk_rich2_medium",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richmedium.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Medium01",
+					"drillTime" : 0.6
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "a8caa052-0b7c-4391-b6ce-2d20bf2dc55c"
+		},
+		{
+			"color" : "4178b8ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_richlarge_col.fbx",
+				"x" : 12,
+				"y" : 12,
+				"z" : 12
+			},
+			"name" : "obj_voxelmaterialchunk_rich2_large",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_richlarge.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - Orerich_Voxelchunk_Large01",
+					"drillTime" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "3d4f2fac-f670-48f9-b2f9-305a88ed00a7"
+		},
+		{
+			"color" : "4178b8ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t1small_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"name" : "obj_voxelmaterialchunk_t1_small",
+			"physicsMaterial" : "Voxel_Goopite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t1small.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t1_Voxelchunk_Small01",
+					"drillTime" : 0.4
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "26e7cb39-f380-4203-80c8-b1bf1b4f598d"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t1medium_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_voxelmaterialchunk_t1_medium",
+			"physicsMaterial" : "Voxel_Goopite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t1medium.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t1_Voxelchunk_Medium01",
+					"drillTime" : 0.6
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "721f9e2a-e99f-4257-9d84-ed234bd0e37f"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t1large_col.fbx",
+				"x" : 12,
+				"y" : 12,
+				"z" : 12
+			},
+			"name" : "obj_voxelmaterialchunk_t1_large",
+			"physicsMaterial" : "Voxel_Goopite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t1large.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t1_Voxelchunk_Large01",
+					"drillTime" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "036f4af6-e45e-44b9-88a3-79c96194367c"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t3small_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"name" : "obj_voxelmaterialchunk_t3_small",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t3small.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t3_Voxelchunk_Small01",
+					"drillTime" : 0.4
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "6c8401b7-302d-4ae1-b647-35ce3e4d96c7"
+		},
+		{
+			"color" : "808080ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t3medium_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_voxelmaterialchunk_t3_medium",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t3medium.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t3_Voxelchunk_Medium01",
+					"drillTime" : 0.6
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "7dd3db37-9187-4e72-8756-be1fb6f8f5e3"
+		},
+		{
+			"color" : "11755aff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t3large_col.fbx",
+				"x" : 12,
+				"y" : 12,
+				"z" : 12
+			},
+			"name" : "obj_voxelmaterialchunk_t3_large",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t3large.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t3_Voxelchunk_Large01",
+					"drillTime" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "e555a792-9d1c-4672-8a8c-08387fe2a28e"
+		},
+		{
+			"color" : "11755aff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t4small_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"name" : "obj_voxelmaterialchunk_t4_small",
+			"physicsMaterial" : "Voxel_Thornite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t4small.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t4_Voxelchunk_Small01",
+					"drillTime" : 0.4
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "90badd3e-3a45-4e3f-b197-b4859bc26ef6"
+		},
+		{
+			"color" : "11755aff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t4medium_col.fbx",
+				"x" : 8,
+				"y" : 8,
+				"z" : 8
+			},
+			"name" : "obj_voxelmaterialchunk_t4_medium",
+			"physicsMaterial" : "Voxel_Thornite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t4medium.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t4_Voxelchunk_Medium01",
+					"drillTime" : 0.6
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "125e3640-4b74-4b96-8015-32ca3d0c1a0c"
+		},
+		{
+			"color" : "11755aff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/voxelmaterialchunk/obj_voxelmaterialchunk_t4large_col.fbx",
+				"x" : 16,
+				"y" : 16,
+				"z" : 16
+			},
+			"name" : "obj_voxelmaterialchunk_t4_large",
+			"physicsMaterial" : "Voxel_Thornite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/voxelmaterialchunk/obj_voxelmaterialchunk_t4large.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "VoxelMaterialChunk",
+				"data" : 
+				{
+					"breakEffect" : "Voxeldestruct - t4_Voxelchunk_Large01",
+					"drillTime" : 1
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/VoxelMaterialChunk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "b0d6f391-452f-49c8-a821-551d32a376ea"
+		}
+	]
+}

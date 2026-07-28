@@ -1,0 +1,68 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "df7f01",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 5,
+				"margin" : 0.8
+			},
+			"flammable" : false,
+			"friction" : 0.0,
+			"name" : "obj_powertools_sawblade",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/powertools/obj_powertools_sawblade.rend",
+			"restitution" : 0.0,
+			"rotationSet" : "PropYmmNegYmm",
+			"scripted" : 
+			{
+				"classname" : "SawBlade",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/SawBlade.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y+Y",
+			"uuid" : "3e10ef67-383a-4b60-aa5b-b1173134e437"
+		},
+		{
+			"color" : "df7f01",
+			"flammable" : false,
+			"friction" : 0.1,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_powertools_drill.obj",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"name" : "obj_powertools_drill",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 2
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/powertools/obj_powertools_drill.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Drill",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "276fd55b-ae54-4a7a-ace6-fddd2d3370a5"
+		}
+	]
+}

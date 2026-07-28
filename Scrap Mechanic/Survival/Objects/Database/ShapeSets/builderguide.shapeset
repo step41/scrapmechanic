@@ -1,0 +1,1179 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Watchtower_01.blueprint"
+			},
+			"name" : "bq_watchtower_01",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_watchtower_01_locked.blueprint",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_watchtower_01_guide.json",
+					"pimpHarvestable" : "34debb7d-c7f0-49dc-b187-9370f1f66dea",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_watchtower",
+					"stageCompleteEffect" : "Builderguide - Stagecomplete"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "c3065683-98ff-4ef6-9862-ed0443ec71c2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Watchtower_02.blueprint"
+			},
+			"name" : "bq_watchtower_02",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_watchtower_02_locked.blueprint",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_watchtower_02_guide.json",
+					"pimpHarvestable" : "b58b1438-1df9-4ea0-903b-292044cda3fe",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_rebuild_watchtower",
+					"stageCompleteEffect" : "Builderguide - Stagecomplete"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "1911c3bf-d3e4-48d2-9478-ea4d6f4291fb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Compass_01.blueprint"
+			},
+			"name" : "bq_carousel_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_carousel_01_locked.blueprint",
+					"dialog" : "08cc5da2-a6eb-4774-b23f-a60f4670fcc7",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_carousel_01_guide.json",
+					"pimpHarvestable" : "33054a18-69e7-49c9-8656-13ce4da7a2bb",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_carousel",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "ed4fd579-535e-4a44-ac2c-52f805f1a875"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Compass_01.blueprint"
+			},
+			"name" : "bq_compass_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_compass_01_locked.blueprint",
+					"dialog" : "48365742-b4a7-4e52-bd73-4de6fd410fc7",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_compass_01_guide.json",
+					"pimpHarvestable" : "5ef3ef8c-d27c-4016-97b7-71009aef0408",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_compass",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "30c83521-b815-4810-9657-56a4f3e4ec51"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Sledgehammer_01.blueprint"
+			},
+			"name" : "bq_sledgehammer_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_sledgehammer_01_locked.blueprint",
+					"dialog" : "d2899ab9-237c-41d2-8287-a7b93c842af8",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_sledgehammer_01_guide.json",
+					"pimpHarvestable" : "d8b546bd-b864-4686-b39c-df727a4e6adc",
+					"platformActiveEffect" : "Builderguide Questplatform - Sledgehammer_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Sledgehammer_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Sledgehammer_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Sledgehammer_StageComplete",
+					"questName" : "quest_build_sledgehammer",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "6b3f39a4-4aa7-4787-a23d-31419fd54a70"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Nicehouse_01.blueprint"
+			},
+			"name" : "bq_nicehouse_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_nicehouse_01_locked.blueprint",
+					"dialog" : "c5cdbede-bb7e-46b2-aab1-8aac1a0fc7f9",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_nicehouse_01_guide.json",
+					"pimpHarvestable" : "1c09cea8-bbeb-4a79-b7a0-097ce881dfa8",
+					"platformActiveEffect" : "Builderguide Questplatform - NiceHouse_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - NiceHouse_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - NiceHouse_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - NiceHouse_StageComplete",
+					"questName" : "quest_build_nicehouse",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "ccf8c454-6f8a-4f22-a64f-31e854daf103"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Bigfan_01.blueprint"
+			},
+			"name" : "bq_bigfan_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_bigfan_01_locked.blueprint",
+					"dialog" : "736c01f1-37a8-4e5b-901e-1308a5aee42c",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_bigfan_01_guide.json",
+					"pimpHarvestable" : "150d29f5-a528-43df-8204-28c333709d24",
+					"platformActiveEffect" : "Builderguide Questplatform - Baguette_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Baguette_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Baguette_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Baguette_StageComplete",
+					"questName" : "quest_build_bigfan",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "5b1a0d4b-420d-4ba4-ab56-fa09c7d27291"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Cozybed_01.blueprint"
+			},
+			"name" : "bq_cozybed_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_cozybed_01_locked.blueprint",
+					"dialog" : "93957719-4372-4685-818b-67f2f6fa8c88",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_cozybed_01_guide.json",
+					"pimpHarvestable" : "58e31f83-57cf-47e3-939f-571445679e79",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_cozybed",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "05452112-f653-48b6-97ba-8c4e2c9eb04a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Crowbar_01.blueprint"
+			},
+			"name" : "bq_crowbar_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_crowbar_01_locked.blueprint",
+					"dialog" : "8edddcc1-65e0-4959-81fc-23f01a02f7e2",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_crowbar_01_guide.json",
+					"pimpHarvestable" : "bcf3c494-2916-4a51-b05d-dbb0ced205b7",
+					"platformActiveEffect" : "Builderguide Questplatform - Baguette_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Baguette_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Baguette_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Baguette_StageComplete",
+					"questName" : "quest_build_crowbar",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "3ad7a2de-5e8d-4765-b3c9-f7cfa9b05cbc"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Wochouse_01.blueprint"
+			},
+			"name" : "bq_wochouse_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_wochouse_01_locked.blueprint",
+					"dialog" : "87f15da0-27b3-45e3-ba75-f15e9daea731",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_wochouse_01_guide.json",
+					"pimpHarvestable" : "8de6a5f4-d32a-4510-8188-cbcf9b13445a",
+					"platformActiveEffect" : "Builderguide Questplatform - Baguette_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Baguette_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Baguette_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Wochouse_StageComplete",
+					"questName" : "quest_build_wochouse",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "fe7a9d5c-a44a-48f8-b29b-5ae3f2bf7449"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Catapult_01.blueprint"
+			},
+			"name" : "bq_catapult_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_catapult_01_locked.blueprint",
+					"dialog" : "018f3aec-883d-4774-ad27-d199d199e0b9",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_catapult_01_guide.json",
+					"pimpHarvestable" : "7a3beb06-52a1-4151-a6e1-214dba60f23d",
+					"platformActiveEffect" : "Builderguide Questplatform - Baguette_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Baguette_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Baguette_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Catapult_StageComplete",
+					"questName" : "quest_build_catapult",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "2c9d416b-3ffd-4aad-98b2-f246d833ef79"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Sawbladearm_01.blueprint"
+			},
+			"name" : "bq_sawbladearm_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_sawbladearm_01_locked.blueprint",
+					"dialog" : "78a428c8-5672-466b-a804-c13c6384036b",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_sawbladearm_01_guide.json",
+					"pimpHarvestable" : "549bacae-c5e1-4b1f-9bac-7a4e04064e07",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_sawbladearm",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "4c81e687-7508-4ddb-868f-fac20e44f488"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Cardboardpoop_01.blueprint"
+			},
+			"name" : "bq_cardboardpoop_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_cardboardpoop_01_locked.blueprint",
+					"dialog" : "49d37b5c-244c-478a-a864-eec7f4ee82ed",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_cardboardpoop_01_guide.json",
+					"pimpHarvestable" : "c3c0a6bb-3bb4-4c52-bade-d723e9fda411",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_cardboardpoop",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "5dc9ab5e-fefb-4264-b503-1711671e7a38"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Totebotkey_01.blueprint"
+			},
+			"name" : "bq_totebotkey_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_totebotkey_01_locked.blueprint",
+					"dialog" : "b9f4a6c8-c188-4aae-a8e0-5d80914ba4b1",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_totebotkey_01_guide.json",
+					"pimpHarvestable" : "5162eccf-3796-4c0a-afef-e1a177267969",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_totebotkey",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "46c20f58-14f5-41f8-acf7-9e487c397d06"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Garden_01.blueprint"
+			},
+			"name" : "bq_garden_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_garden_01_locked.blueprint",
+					"dialog" : "69530292-2f4f-4b06-9a7f-20c394aa900a",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_garden_01_guide.json",
+					"pimpHarvestable" : "ba5df8dd-f58d-492d-81f5-43cf9bbbca61",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_garden",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "ebb60949-9dd9-4914-b56c-2e7c974be3b7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Xylophone_01.blueprint"
+			},
+			"name" : "bq_xylophone_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_xylophone_01_locked.blueprint",
+					"dialog" : "d462e503-3591-437f-a1c6-aad2e555dcc8",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_xylophone_01_guide.json",
+					"pimpHarvestable" : "43c5f065-ae81-455b-829a-cf555793e627",
+					"platformActiveEffect" : "Builderguide Questplatform - Xylofon_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Xylofon_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Xylofon_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Xylofon_StageComplete",
+					"questName" : "quest_build_xylophone",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "555bb06d-322f-445e-a46a-18204d146304"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Steelbridge_01.blueprint"
+			},
+			"name" : "bq_steelbridge_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_steelbridge_01_locked.blueprint",
+					"dialog" : "1040ebf7-9e34-4e77-9274-dea8becf06c7",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_steelbridge_01_guide.json",
+					"pimpHarvestable" : "9f9a1015-912e-4c4b-9e2e-8ecb0e0ff6a2",
+					"platformActiveEffect" : "Builderguide Questplatform - Bridge_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Bridge_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Bridge_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Bridge_StageComplete",
+					"questName" : "quest_build_steelbridge",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "4dfa7bca-8b82-4fc4-8bb0-0f787b3c59ba"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Baguette_01.blueprint"
+			},
+			"name" : "bq_baguette_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_baguette_01_locked.blueprint",
+					"dialog" : "641e2aff-5481-46bf-95c9-e79671d2278e",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_baguette_01_guide.json",
+					"pimpHarvestable" : "b8006c19-6528-4eeb-b886-cb81b296cb3b",
+					"platformActiveEffect" : "Builderguide Questplatform - Baguette_Activate",
+					"platformBuildCompleteEffect" : "Builderguide Questplatform - Baguette_BuildComplete",
+					"platformLoopEffect" : "Builderguide Questplatform - Baguette_Loop",
+					"platformStageCompleteEffect" : "Builderguide Questplatform - Baguette_StageComplete",
+					"questName" : "quest_build_baguette",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "a22136b4-9cdc-4786-b5d4-e60248a79346"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Cornheart_01.blueprint"
+			},
+			"name" : "bq_cornheart_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_cornheart_01_locked.blueprint",
+					"dialog" : "6742fa9c-abd2-452d-8a2a-ada1c54172fc",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_cornheart_01_guide.json",
+					"pimpHarvestable" : "15577656-7c82-4f8b-b0bf-4ce9b4ead2a5",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_cornheart",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "67ec22d4-cec0-47ee-9ff6-6f5996645270"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Popcorn_01.blueprint"
+			},
+			"name" : "bq_popcorn_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_popcorn_01_locked.blueprint",
+					"dialog" : "538439eb-735c-4dcb-8fb5-f45b9b0ccf9a",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_popcorn_01_guide.json",
+					"pimpHarvestable" : "3cd21270-4bec-4090-b461-19891d155841",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_popcorn",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "65d543fd-54c4-4520-bee3-f59e1db9cce3"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Beesuit_01.blueprint"
+			},
+			"name" : "bq_beesuit_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_beesuit_01_locked.blueprint",
+					"dialog" : "adf12efb-bfa1-460a-b004-9111cf972dcb",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_beesuit_01_guide.json",
+					"pimpHarvestable" : "99736a94-37ac-49e7-bcaf-1e401ee18e82",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_beesuit",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "60268822-dff6-46bb-95e6-8db72fa5a2b4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"density" : 500,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/LocalBlueprints/BuilderQuest/BuilderQuest_Platform_Musicbox_01.blueprint"
+			},
+			"name" : "bq_musicbox_01",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"destructable" : false,
+				"erasable" : false
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuidePlatform",
+				"data" : 
+				{
+					"completeBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/BuildQuests/bq_musicbox_01_locked.blueprint",
+					"dialog" : "e33c4bf3-c49d-48ab-818d-513fea3c0eec",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/bq_musicbox_01_guide.json",
+					"pimpHarvestable" : "02d8e21e-a0bd-4876-a4f7-23db15730d84",
+					"platformActiveEffect" : "BuilderguideQuest - Active",
+					"platformBuildCompleteEffect" : "BuilderguideQuest - Buildcomplete",
+					"platformLoopEffect" : "BuilderguideQuest - Loop",
+					"platformStageCompleteEffect" : "BuilderguideQuest - StageComplete",
+					"questName" : "quest_build_musicbox",
+					"speakerName" : "#{DIALOG_NAME_FARMER}"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuidePlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "3945ccd8-5adb-417a-9ea2-5f5e080f30f4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "ca372d00",
+			"flammable" : false,
+			"name" : "obj_builderguide_dummy",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main.rend",
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "7ece7c24-a1e9-48ea-86da-7795e2d9a426"
+		},
+		{
+			"box" : 
+			{
+				"x" : 24,
+				"y" : 2,
+				"z" : 24
+			},
+			"color" : "5196d6",
+			"flammable" : false,
+			"name" : "obj_builderguide_main6x6",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main6x6.rend",
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "5627aa08-8bc4-4cf3-a6b6-101ae59e6fc6"
+		},
+		{
+			"box" : 
+			{
+				"x" : 24,
+				"y" : 2,
+				"z" : 24
+			},
+			"color" : "5196d6",
+			"flammable" : false,
+			"name" : "bq_creation_first_car",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main6x6.rend",
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuideLiftPlatform",
+				"data" : 
+				{
+					"builderGuideShape" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/builderguide_startercar.json",
+					"liftRotationIndex" : 0,
+					"questName" : "quest_build_first_car"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuideLiftPlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "46d9239a-e0b7-4baf-96d4-6a1c9f75b865"
+		},
+		{
+			"box" : 
+			{
+				"x" : 24,
+				"y" : 2,
+				"z" : 24
+			},
+			"color" : "5196d6",
+			"flammable" : false,
+			"name" : "bq_creation_harvest_car",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main6x6.rend",
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuideLiftPlatform",
+				"data" : 
+				{
+					"builderGuideShape" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/builderguide_harvest_car.json",
+					"questName" : "quest_build_harvest_car"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuideLiftPlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "691e6cf7-00b9-461c-8272-58c43e7ec630"
+		},
+		{
+			"box" : 
+			{
+				"x" : 24,
+				"y" : 2,
+				"z" : 24
+			},
+			"color" : "5196d6",
+			"flammable" : false,
+			"name" : "bq_creation_advanced_car",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Builderguide/obj_builderguide_main6x6.rend",
+			"restrictions" : 
+			{
+				"buildable" : true,
+				"connectable" : false,
+				"convertibleToDynamic" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false,
+				"usable" : true
+			},
+			"rotationSet" : "Default",
+			"scripted" : 
+			{
+				"classname" : "BuilderGuideLiftPlatform",
+				"data" : 
+				{
+					"builderGuideShape" : "e83a22c5-8783-413f-a199-46bc30ca8dac",
+					"filepath" : "$SURVIVAL_DATA/BuilderGuides/builderguide_advanced_car.json",
+					"liftRotationIndex" : 1,
+					"questName" : "quest_build_advanced_car"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/BuilderGuideLiftPlatform.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "6e8c1c32-413f-437e-b782-0c0cf889b6a7"
+		}
+	],
+	"wedgeList" : []
+}

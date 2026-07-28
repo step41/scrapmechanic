@@ -1,0 +1,112 @@
+// this file is generated
+[
+	{
+		"itemId": "20bd2885-d184-44ae-b72b-f90b786f8664",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			},
+			{
+				"quantity": 10,
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+			}
+		]
+	},
+	{
+		"itemId": "2289e96f-f9c6-440c-b7c9-ce9474da8264",
+		"quantity": 1,
+		"craftTime": 5,
+		"ingredientList": [
+			{
+				"quantity": 15,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			},
+			{
+				"quantity": 3,
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+			}
+		]
+	},
+	{
+		"itemId": "c8ca8731-3af2-4554-9019-6b941affcb16",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			},
+			{
+				"quantity": 4,
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			},
+			{
+				"quantity": 4,
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "0c07dba0-be79-40fd-9ed8-5a1c34e2d196",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			}
+		]
+	},
+	{
+		"itemId": "2aa8cb2c-2311-440c-8162-829ee394fbc2",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			}
+		]
+	},
+	{
+		"itemId": "b94a113d-ddd4-45db-844c-1d97ca0e1d61",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			}
+		]
+	}
+]

@@ -1,0 +1,1275 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 7,
+				"z" : 2
+			},
+			"chest" : 
+			{
+				"slots" : 4
+			},
+			"color" : "3e9ffe",
+			"flammable" : false,
+			"name" : "obj_interactive_locker",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_locker.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"sticky" : "-X+X-Y+Y-Z",
+			"uuid" : "d0afb527-e786-4a22-a907-6da7e7cba8cb"
+		},
+		{
+			"chest" : 
+			{
+				"slots" : 2
+			},
+			"color" : "beb16c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_interactive_filecabinet.obj",
+				"x" : 2,
+				"y" : 2,
+				"z" : 3
+			},
+			"name" : "obj_interactive_filecabinet",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 7,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_filecabinet.rend",
+			"rotationSet" : "PropYZ",
+			"stackSize" : 5,
+			"sticky" : "-Y+Y+X-X-Z",
+			"uuid" : "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"color" : "733f2e",
+			"flammable" : true,
+			"name" : "obj_topdepartment_chair",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_topdepartment_chair.rend",
+			"rotationSet" : "PropY",
+			"seat" : 
+			{
+				"bones" : 
+				[
+					{
+						"name" : "Hips",
+						"offset" : 
+						{
+							"x" : 0.0,
+							"y" : -0.5,
+							"z" : 0.75
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "LeftForeArm",
+						"offset" : 
+						{
+							"x" : 1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "RightForeArm",
+						"offset" : 
+						{
+							"x" : -1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					}
+				],
+				"enterAudio" : "event:/vehicle/seats/default",
+				"exitAudio" : "event:/vehicle/seats/default",
+				"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "992ae45d-63b5-42c5-bc58-3b6c207834d9"
+		},
+		{
+			"color" : "d37676",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_interactive_stafftoilet.obj",
+				"x" : 3,
+				"y" : 2,
+				"z" : 3
+			},
+			"name" : "obj_interactive_stafftoilet",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_stafftoilet.rend",
+			"rotationSet" : "PropZ",
+			"seat" : 
+			{
+				"bones" : 
+				[
+					{
+						"name" : "Hips",
+						"offset" : 
+						{
+							"x" : 0.0,
+							"y" : 1.5,
+							"z" : 0.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "LeftForeArm",
+						"offset" : 
+						{
+							"x" : 1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "RightForeArm",
+						"offset" : 
+						{
+							"x" : -1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					}
+				],
+				"enterAudio" : "Toilet seated",
+				"exitAudio" : "Toilet unseated",
+				"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z",
+			"uuid" : "8694192c-d91b-444c-a184-910911bbb354"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 5,
+				"z" : 1
+			},
+			"color" : "ca7b0dff",
+			"flammable" : true,
+			"name" : "obj_interactive_ladder",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_ladder.rend",
+			"rotationSet" : "PropYZX",
+			"scripted" : 
+			{
+				"classname" : "Ladder",
+				"data" : 
+				{
+					"climbableOffset" : 
+					{
+						"x" : -0.1,
+						"y" : -0.05,
+						"z" : 0.1
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Ladder.lua"
+			},
+			"stackSize" : 10,
+			"sticky" : "-X+X-Z-Y+Y",
+			"uuid" : "d6ce5127-c5be-42e3-a55f-0261bf1ac145"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "170dcaff",
+			"flammable" : true,
+			"name" : "obj_interactive_boombox",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_boombox.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Boombox",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Boombox.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "03bdd942-c808-4795-aa0b-554fa98c3c74"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "d58515ff",
+			"flammable" : false,
+			"name" : "obj_light_rangelight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_rangelight.rend",
+			"rotationSet" : "PropYZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_RangeLight_small"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z-Y-X+X",
+			"uuid" : "6620ceb4-3c35-4a61-9d98-f923d2277395"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 2
+			},
+			"color" : "d58515ff",
+			"flammable" : false,
+			"name" : "obj_light_rangelightlarge",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 7,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_rangelight_large.rend",
+			"rotationSet" : "PropYZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_RangeLight_big"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z-Y-X+X",
+			"uuid" : "13ce3374-841a-4ad2-a6c3-ad0dabc1963d"
+		},
+		{
+			"color" : "df7f01",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 3,
+				"diameter" : 5,
+				"margin" : 1.5
+			},
+			"name" : "obj_interactive_stickywheel",
+			"physicsMaterial" : "Rubber",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 4,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_stickywheel.rend",
+			"rotationSet" : "PropZ",
+			"scripted" : 
+			{
+				"classname" : "StickyWheel",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/StickyWheel.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z+Z",
+			"uuid" : "8a87566d-f540-49b6-909d-4dcfbfa007c0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "353a4f",
+			"flammable" : true,
+			"name" : "obj_topdepartment_chair_foot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_topdepartment_chair_foot.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "33739a87-babb-4731-a22b-d614a23e5e3f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_interactive_turretseat_01.blueprint"
+			},
+			"name" : "obj_interactive_turretseat_01_base",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_base.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 5,
+			"uuid" : "b8f9c227-ab51-4d38-b425-dfc208cc4dd6"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_interactive_turretseat_02.blueprint"
+			},
+			"name" : "obj_interactive_turretseat_02_base",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_base.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 5,
+			"uuid" : "8852c66b-4e8b-434a-b4e7-f494a69d17de"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_interactive_turretseat_03.blueprint"
+			},
+			"name" : "obj_interactive_turretseat_03_base",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 7,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_base.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 5,
+			"uuid" : "bc2973ca-5e68-434c-b8f2-1c9bf924d6f7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_interactive_turretseat_04.blueprint"
+			},
+			"name" : "obj_interactive_turretseat_04_base",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_base.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 5,
+			"uuid" : "fa401b4e-da43-40f2-805d-5c73ade1ac86"
+		},
+		{
+			"box" : 
+			{
+				"x" : 7,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_interactive_turretseat_05.blueprint"
+			},
+			"name" : "obj_interactive_turretseat_05_base",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_base.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 5,
+			"uuid" : "44afe29b-73a8-4892-94c9-f885b238a971"
+		},
+		{
+			"color" : "df7f01",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 1,
+				"diameter" : 1
+			},
+			"genericRotational" : 
+			{
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.75
+				],
+				"x" : 
+				{
+					"max" : 75.0,
+					"maxForce" : 250000,
+					"min" : -50.0,
+					"motor" : true
+				},
+				"y" : 
+				{
+					"max" : 0,
+					"min" : 0,
+					"motor" : false
+				},
+				"z" : 
+				{
+					"max" : 0,
+					"maxForce" : 250000,
+					"min" : 1,
+					"motor" : true
+				}
+			},
+			"name" : "jnt_gyroseat",
+			"physicsMaterial" : "Mechanical",
+			"renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_bearing.rend",
+			"rotationSet" : "PropZ",
+			"showInInventory" : false,
+			"stackSize" : 10,
+			"sticky" : "-Z",
+			"uuid" : "645a592e-b015-4ca6-b5a7-cc33612870eb"
+		},
+		{
+			"clientControlled" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_turretseat_01_sphere",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_01_sphere.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSeat.lua",
+				"gyro" : 
+				{
+					"maxSpeed" : 3.0,
+					"pitchSensitivityModifier" : 2.0,
+					"yawSensitivityModifier" : 2.0
+				},
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.2,
+								"z" : -0.35
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						}
+					],
+					"cameraPullbackRightOffset" : 0.0,
+					"cameraUpOffset" : 0.375,
+					"cameraUpOffsetMax" : 1.875,
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"phasing" : true,
+					"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 45.0
+				}
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "1786e265-cebe-4ef1-9d13-02c104c6207b"
+		},
+		{
+			"clientControlled" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_turretseat_02_sphere",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 6,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_02_sphere.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSeat.lua",
+				"gyro" : 
+				{
+					"maxSpeed" : 3.0,
+					"pitchSensitivityModifier" : 2.0,
+					"yawSensitivityModifier" : 2.0
+				},
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.2,
+								"z" : -0.35
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						}
+					],
+					"cameraPullbackRightOffset" : 0.0,
+					"cameraUpOffset" : 0.375,
+					"cameraUpOffsetMax" : 1.875,
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"phasing" : true,
+					"ragdollFile" : "$GAME_DATA/Character/bikeseat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 25.0
+				}
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "05f3a5a4-532a-4642-b648-e0dd60ce9f4d"
+		},
+		{
+			"clientControlled" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_turretseat_03_sphere",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 7,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_03_sphere.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSeat.lua",
+				"gyro" : 
+				{
+					"maxSpeed" : 3.0,
+					"pitchSensitivityModifier" : 2.0,
+					"yawSensitivityModifier" : 2.0
+				},
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.2,
+								"z" : -0.35
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						}
+					],
+					"cameraPullbackRightOffset" : 0.0,
+					"cameraUpOffset" : 0.375,
+					"cameraUpOffsetMax" : 1.875,
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"phasing" : true,
+					"ragdollFile" : "$GAME_DATA/Character/bikeseat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 25.0
+				}
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "c227ba7c-171c-4a7c-b5e4-faa84d44f03a"
+		},
+		{
+			"clientControlled" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_turretseat_04_sphere",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_04_sphere.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSeat.lua",
+				"gyro" : 
+				{
+					"maxSpeed" : 3.0,
+					"pitchSensitivityModifier" : 2.0,
+					"yawSensitivityModifier" : 2.0
+				},
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.2,
+								"z" : -0.35
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						}
+					],
+					"cameraPullbackRightOffset" : 0.0,
+					"cameraUpOffset" : 0.375,
+					"cameraUpOffsetMax" : 1.875,
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"phasing" : true,
+					"ragdollFile" : "$GAME_DATA/Character/bikeseat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 25.0
+				}
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "7f3eae8d-3dd1-47f6-94de-0450c86e4af0"
+		},
+		{
+			"clientControlled" : true,
+			"color" : "df7f01ff",
+			"flammable" : false,
+			"name" : "obj_interactive_turretseat_05_sphere",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 8,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_turretseat_05_sphere.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSeat.lua",
+				"gyro" : 
+				{
+					"maxSpeed" : 3.0,
+					"pitchSensitivityModifier" : 2.0,
+					"yawSensitivityModifier" : 2.0
+				},
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.2,
+								"z" : -0.35
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.2,
+								"y" : 0.25,
+								"z" : 1.7
+							},
+							"steers" : true
+						}
+					],
+					"cameraPullbackRightOffset" : 0.0,
+					"cameraUpOffset" : 0.375,
+					"cameraUpOffsetMax" : 1.875,
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"phasing" : true,
+					"ragdollFile" : "$GAME_DATA/Character/bikeseat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 25.0
+				}
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "42b4c02e-2de5-431e-981a-f42cb7829e68"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_bed",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_bed.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropFullMinusNegY",
+			"scripted" : 
+			{
+				"classname" : "Bed",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Bed.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "root_jnt",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 1.0,
+								"z" : 0.3
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Head",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : -0.2
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Shoulders",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.5,
+								"z" : 0.2
+							}
+						}
+					],
+					"enterAudio" : "event:/vehicle/seats/bed",
+					"exitAudio" : "event:/vehicle/seats/bed_getup",
+					"ragdollFile" : "$SURVIVAL_DATA/Character/bed_ragdoll.json"
+				}
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "b973b537-1a2c-4569-b323-1abcecca385f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_small",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_small.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 6,
+					"maxTextWidth" : 88,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "4908ecfb-ec05-42c5-a02a-7675ccc3eb19"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_large",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_large.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 11,
+					"maxTextWidth" : 148,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "a96232ef-2778-4c23-8a11-7cbc5b1de8b0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_extralarge",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_extralarge.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 18,
+					"maxTextWidth" : 256,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "46d85e5b-353c-4f06-8fd8-b9ddd3443245"
+		}
+	]
+}

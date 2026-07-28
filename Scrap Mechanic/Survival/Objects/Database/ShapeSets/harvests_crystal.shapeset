@@ -1,0 +1,695 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 4,
+				"diameter" : 3
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_medium_p00",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_medium01_p00.rend",
+			"restrictions" : 
+			{
+				"convertibleToDynamic" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "medium",
+					"stump" : true
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "+Y",
+			"uuid" : "ffdfd59f-fdf1-470f-84a9-a9789b48d5c7"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 3
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_medium_p01",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_medium01_p01.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "medium"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "6feb0f77-9a95-4bae-93d4-a2dc98745953"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 3
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_medium_p02",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_medium01_p02.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "medium"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "e85606e7-d602-40b7-9aab-4a79340971e2"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 3
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_medium_p03",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_medium01_p03.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "medium"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y",
+			"uuid" : "5d013e2f-7b7a-4652-a9c7-784123dde5fb"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests_crystal/obj_harvests_crystal_large01_p00_col.fbx",
+				"x" : 9,
+				"y" : 6,
+				"z" : 9
+			},
+			"name" : "obj_harvests_crystal_large01_p00",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large01_p00.rend",
+			"restrictions" : 
+			{
+				"convertibleToDynamic" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large",
+					"stump" : true
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "+Y",
+			"uuid" : "3d5d61ff-60ea-4546-8df0-496e69f3ea07"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests_crystal/obj_harvests_crystal_large01_p01_col.fbx",
+				"x" : 7,
+				"y" : 8,
+				"z" : 7
+			},
+			"name" : "obj_harvests_crystal_large01_p01",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large01_p01.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "d3c95e21-4608-44eb-8876-ca3f59cb7740"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large01_p02",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large01_p02.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "e49a6a73-74a1-4c30-9e32-66dd07b4843c"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large01_p03",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large01_p03.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "4de326f4-e01d-4948-9db6-a0b1b18b8e21"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 11,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large01_p04",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large01_p04.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y",
+			"uuid" : "e7847840-48b9-47ec-8b9c-79dd4c4c3cfd"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests_crystal/obj_harvests_crystal_large02_p00_col.fbx",
+				"x" : 9,
+				"y" : 6,
+				"z" : 9
+			},
+			"name" : "obj_harvests_crystal_large02_p00",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p00.rend",
+			"restrictions" : 
+			{
+				"convertibleToDynamic" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large",
+					"stump" : true
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "+Y",
+			"uuid" : "6bcba46e-12d8-4771-b703-10733224f569"
+		},
+		{
+			"color" : "FFFFFF",
+			"flammable" : false,
+			"harvestablePart" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests_crystal/obj_harvests_crystal_large02_p01_col.fbx",
+				"x" : 7,
+				"y" : 8,
+				"z" : 7
+			},
+			"name" : "obj_harvests_crystal_large02_p01",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p01.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "c91caa70-f9a6-487a-bfe1-16400e5ab482"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p02",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p02.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "b07d0eb7-10cf-489a-9624-2813173bb5e7"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p03",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p03.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "778eff91-2dab-4093-8afc-872c9f76b364"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p04",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p04.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "2440d224-8791-4587-b464-e8ccad13d3d8"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p05",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p05.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "d21fc21f-085c-4de7-a6a1-12bddead653a"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 8,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p06",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p06.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y+Y",
+			"uuid" : "fd3d0098-9b80-48dd-b82c-4a35c8093cb1"
+		},
+		{
+			"color" : "FFFFFF",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 13,
+				"diameter" : 5
+			},
+			"flammable" : false,
+			"harvestablePart" : true,
+			"name" : "obj_harvests_crystal_large02_p07",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests_crystal/obj_harvests_crystal_large02_p07.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "",
+			"scripted" : 
+			{
+				"classname" : "Crystal",
+				"data" : 
+				{
+					"size" : "large"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/harvestable/Crystal.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Y",
+			"uuid" : "71341a00-a5db-4b99-a938-b42349eea654"
+		}
+	]
+}

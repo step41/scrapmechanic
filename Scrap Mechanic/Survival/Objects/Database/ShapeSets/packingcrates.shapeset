@@ -1,0 +1,291 @@
+{
+	"partList" : 
+	[
+		{
+			"carryItem" : true,
+			"color" : "83a633",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_banana.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_banana",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_bananacrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+		},
+		{
+			"carryItem" : true,
+			"color" : "5d41d9",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_blueberry.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_blueberry",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_blueberrycrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "e77d9577-589a-446b-96c1-f6d0d7495489"
+		},
+		{
+			"carryItem" : true,
+			"color" : "7c862c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_broccoli.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_broccoli",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_broccolicrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "99477093-e819-4199-b62a-fda6143aae89"
+		},
+		{
+			"carryItem" : true,
+			"color" : "fd5d38",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_orange.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_orange",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_orangecrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+		},
+		{
+			"carryItem" : true,
+			"color" : "23b777",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_pineapple.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_pineapple",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_pineapplecrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+		},
+		{
+			"carryItem" : true,
+			"color" : "3f7abc",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_carrot.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_carrot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_carrotcrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "9cd8288c-5a19-479f-af47-9eb55230ade2"
+		},
+		{
+			"carryItem" : true,
+			"color" : "a42039",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_redbeet.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_redbeet",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_redbeetcrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "628fd350-577d-413f-82a8-7f08a83de3d8"
+		},
+		{
+			"carryItem" : true,
+			"color" : "e39c04",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_crates_tomato.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_crates_tomato",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Plantables/obj_containers_tomatocrate.rend",
+			"restrictions" : 
+			{
+				"liftable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 65535,
+			"uuid" : "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+		},
+		{
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_containers_cowcrate.obj",
+				"x" : 7,
+				"y" : 6,
+				"z" : 7
+			},
+			"name" : "obj_containers_cowcrate",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 10,
+				"friction" : 4
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_cowcrate.fbx",
+						"subMeshMap" : 
+						{
+							"cowcrate" : 
+							{
+								"material" : "DifAsgNorAlpha",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cowcrate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cowcrate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_cowcrate_nor.tga"
+								]
+							},
+							"crate" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"uuid" : "deabb19a-1acd-4bbf-8bd2-f8f17410170b"
+		}
+	]
+}

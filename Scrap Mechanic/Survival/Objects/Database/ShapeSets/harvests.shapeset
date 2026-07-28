@@ -1,0 +1,69 @@
+{
+	"partList" : 
+	[
+		{
+			"carryItem" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_quartz_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_quartz",
+			"name" : "obj_harvest_quartz",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests/obj_harvests_quartz.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropYNegY",
+			"scripted" : 
+			{
+				"classname" : "QuartzHarvest",
+				"data" : 
+				{
+					"destroyEffect" : "Quartz - Destruct_small",
+					"lootSource" : "lootsource_quartz"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/QuartzHarvest.lua"
+			},
+			"uuid" : "75a84cf4-fd68-4c60-a410-0814aad1a565"
+		},
+		{
+			"carryItem" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/harvests/obj_harvests_lemonium_col.fbx",
+				"x" : 6,
+				"y" : 5,
+				"z" : 6
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_lemonium",
+			"name" : "obj_harvest_lemonium",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/harvests/obj_harvests_lemonium.rend",
+			"restrictions" : 
+			{
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropYNegY",
+			"scripted" : 
+			{
+				"classname" : "QuartzHarvest",
+				"data" : 
+				{
+					"destroyEffect" : "Lemonium - Destruct_small",
+					"lootSource" : "lootsource_mineral_03"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/QuartzHarvest.lua"
+			},
+			"uuid" : "186b3d0d-4643-4e7a-b769-8ad3c5bc23f3"
+		}
+	]
+}

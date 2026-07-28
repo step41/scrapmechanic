@@ -1,0 +1,126 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "035cff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebotshooter.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 3,
+				"z" : 3
+			},
+			"name" : "obj_robotparts_tapebotshooter",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/robotparts/obj_robotparts_tapebotshooter.rend",
+			"restitution" : 0.75,
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"connectable" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropXmm",
+			"scripted" : 
+			{
+				"classname" : "Junk",
+				"data" : 
+				{
+					"maxExist" : 8,
+					"minExist" : 4,
+					"type" : "shooter"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "f293a245-2415-4da5-b012-01134652611f"
+		},
+		{
+			"color" : "035cff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebothead01.obj",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"name" : "obj_robotparts_cablebot",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 1,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/robotparts/obj_robotparts_cablebot.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"connectable" : false,
+				"destructable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropZ",
+			"scripted" : 
+			{
+				"classname" : "Junk",
+				"data" : 
+				{
+					"maxExist" : 8,
+					"minExist" : 4,
+					"type" : "junk"
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z",
+			"uuid" : "dba4cbca-1504-4df0-97e7-19b3efe78d32"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 6
+			},
+			"color" : "cb0a00ff",
+			"flammable" : true,
+			"name" : "obj_robotparts_minerbot_thruster",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 8,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/robotparts/obj_robotparts_minerbot_thruster.rend",
+			"showInInventory" : false,
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "MinerbotThruster",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/MinerbotThruster.lua"
+			},
+			"sticky" : "-Y",
+			"uuid" : "8062d6c3-7850-4b8f-89ec-1c171a81698a"
+		}
+	]
+}

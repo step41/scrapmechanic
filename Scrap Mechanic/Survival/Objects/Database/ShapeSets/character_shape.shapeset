@@ -1,0 +1,44 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"characterShape" : 
+			{
+				"characterUuid" : "48c03f69-3ec8-454c-8d1a-fa09083363b1",
+				"placementSphereRadius" : 0.15
+			},
+			"color" : "000000",
+			"physicsMaterial" : "Plastic",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Mesh/cube.mesh",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"uuid" : "f2aa1e44-aea8-4431-9b7e-f7e35163dd7c"
+		}
+	]
+}

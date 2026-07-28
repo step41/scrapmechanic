@@ -1,0 +1,205 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "df7f01",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_scrap_driverseat.obj",
+				"x" : 4,
+				"y" : 4,
+				"z" : 6
+			},
+			"name" : "obj_scrap_driverseat",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 5,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_driverseat_worn.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "DriverSeat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DriverSeat.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -0.064,
+								"z" : -0.544
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.172,
+								"y" : 0.968,
+								"z" : 0.968
+							},
+							"steers" : true
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.172,
+								"y" : 0.968,
+								"z" : 0.968
+							},
+							"steers" : true
+						}
+					],
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+				},
+				"steering" : 
+				{
+					"steerAngle" : 45.0
+				}
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "bd597ac9-6640-43ba-9bd8-ed584a794f13"
+		},
+		{
+			"color" : "2f7847",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/Interactive/obj_interactive_makeshiftseat_col.fbx",
+				"x" : 4,
+				"y" : 4,
+				"z" : 4
+			},
+			"name" : "obj_scrap_seat",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_makeshiftseat.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Seat",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Seat.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -0.2,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.0,
+								"y" : -0.25,
+								"z" : 1.5
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.0,
+								"y" : -0.25,
+								"z" : 1.5
+							}
+						}
+					],
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+				}
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "847daf20-02bf-4170-8699-9ab106acd29a"
+		},
+		{
+			"color" : "9f5223",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_scrap_smallwheel.obj",
+				"margin" : 0.475,
+				"x" : 3,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_scrap_smallwheel",
+			"physicsMaterial" : "Rubber",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_vehicle_smallwheel_worn.rend",
+			"rotationSet" : "PropZNegZ",
+			"stackSize" : 5,
+			"sticky" : "-Z+Z",
+			"uuid" : "59f6951a-a450-42bf-ad03-54567cb70245"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "2f7847",
+			"flammable" : true,
+			"name" : "obj_scrap_gasengine",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 8,
+				"durability" : 3,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_makeshiftengine.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GasEngine",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GasEngine.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y-Z+Z+X-X",
+			"uuid" : "c96ab903-f238-4bae-a614-28a758716d00"
+		}
+	]
+}

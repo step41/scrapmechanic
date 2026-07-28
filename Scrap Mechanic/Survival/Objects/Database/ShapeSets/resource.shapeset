@@ -1,0 +1,949 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "808080",
+			"consumable" : true,
+			"cylinder" : 
+			{
+				"axis" : "X",
+				"depth" : 4,
+				"diameter" : 2,
+				"margin" : 0.1
+			},
+			"flammable" : false,
+			"itemStack" : {},
+			"name" : "obj_resource_ember",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_ember.rend",
+			"rotationSet" : "PropYX",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y-Z+Z-X+X",
+			"uuid" : "267e0c93-62e3-45ad-9470-a14035cb9ca4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "df7f01",
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_resource_beewax",
+			"physicsMaterial" : "Fruit",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_beewax.rend",
+			"restrictions" : 
+			{
+				"paintable" : false
+			},
+			"rotationSet" : "PropYZX",
+			"stackSize" : 20,
+			"sticky" : "-X+X-Y+Y-Z+Z",
+			"uuid" : "fcf0958c-084d-4854-9b1b-b06594b4262a"
+		},
+		{
+			"autoTool" : "650f26bc-d57c-4287-b84b-737129201265",
+			"color" : "aaa8ef",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_harvest_resource_slimyclam_col.obj",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_resources_slimyclam",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_slimyclam.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "40e8bd0d-04a0-4e95-b593-4038b54b156f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "3e9ffe",
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_resource_cotton",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 1,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_cotton.rend",
+			"rotationSet" : "PropYZ",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y-Z+Z",
+			"uuid" : "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+		},
+		{
+			"autoTool" : "2bff990a-0e74-43c7-b7dc-889b3a086fa3",
+			"color" : "e6d023ff",
+			"consumable" : true,
+			"edible" : 
+			{
+				"grantPerk" : false,
+				"hpGain" : 4
+			},
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_consumable_corn_col.obj",
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_resource_corn",
+			"physicsMaterial" : "Fruit",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_corn.rend",
+			"restrictions" : 
+			{
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "-Y+Y",
+			"uuid" : "fe8bfeba-850b-4827-9785-10e2468c9c23"
+		},
+		{
+			"color" : "4bffb5",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_resources_circuitboard.obj",
+				"x" : 2,
+				"y" : 1,
+				"z" : 2
+			},
+			"name" : "obj_resource_circuitboard",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_cuircuitboard.rend",
+			"rotationSet" : "PropYZ",
+			"stackSize" : 20,
+			"uuid" : "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+		},
+		{
+			"color" : "4bffb5",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_resource_steak.obj",
+				"x" : 4,
+				"y" : 3,
+				"z" : 4
+			},
+			"name" : "obj_resource_steak",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_steak.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
+		},
+		{
+			"color" : "4bffb5",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_resource_glowpoop.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_resource_glowpoop",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_glowpoop.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y",
+			"uuid" : "388adeab-67e5-4901-afe8-c56217754510"
+		},
+		{
+			"color" : "4bffb5",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 1,
+				"margin" : 0.1
+			},
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_resource_flower",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_pigmentflower.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y",
+			"uuid" : "c9396a42-67c3-4fa3-b682-31428ff9eced"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "3da851",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_consumable_glue",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_glue.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y",
+			"uuid" : "36335664-6e61-4d44-9876-54f9660a8565"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "495975",
+			"consumable" : true,
+			"flammable" : true,
+			"itemStack" : {},
+			"name" : "obj_resource_crudeoil",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_crudeoil.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "1147e59d-6940-42b4-840b-07f05054f5e0"
+		},
+		{
+			"autoTool" : "c33273fe-9a2c-4130-a55f-d71c6e35ebd2",
+			"color" : "daa185ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_residueore01_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"itemStack" : {},
+			"name" : "obj_resource_residueore",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_residueore01.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "0f6d1667-ddf8-4ca9-b290-8bd3ec9b038b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "608e05ff",
+			"destroyEffect" : "Destruction - Wonkstonks",
+			"destroyTime" : 0.25,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : true,
+			"name" : "obj_resource_wonkstonks",
+			"physicsMaterial" : "Cardboard",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 1,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_wonkstonks.rend",
+			"rotationSet" : "PropYmZ",
+			"stackSize" : 20,
+			"uuid" : "efb2837c-f1d2-412b-bff1-a210b3426fd9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "1eb9e9ff",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelgoopite",
+			"name" : "obj_resource_drillcasingt1",
+			"physicsMaterial" : "Voxel_Goopite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt1.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "47e140e8-eec1-4066-ad75-57557ea07e9b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "5d0029ff",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelcrimsonite",
+			"name" : "obj_resource_drillcasingt3",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt3.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "32111055-2a23-413b-a490-da619b85a9bf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "001c02ff",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelthornite",
+			"name" : "obj_resource_drillcasingt4",
+			"physicsMaterial" : "Voxel_Thornite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt4.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "7aab1deb-40a1-4af1-a245-71c6c8439d2f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "aa7f7fff",
+			"destroyTime" : 0.35,
+			"name" : "obj_resource_drillcasingrich",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingrich.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "4f33ee9c-397a-4f47-b91c-32ae96cbe507"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "FFFFFF",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelgoopite",
+			"name" : "obj_resource_drillcasingmixedt1",
+			"physicsMaterial" : "Voxel_Goopite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt1.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "DrillCasing",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DrillCasing.lua"
+			},
+			"sticky" : "-Y+Y",
+			"uuid" : "4edfeea0-4dd9-4260-82b0-a812b4179296"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "5d0029ff",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelcrimsonite",
+			"name" : "obj_resource_drillcasingmixedt3",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt3.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "DrillCasing",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DrillCasing.lua"
+			},
+			"sticky" : "-Y+Y",
+			"uuid" : "ef4cc633-3cd1-4e13-9502-b498c4a4c7af"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "001c02ff",
+			"destroyTime" : 0.35,
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelthornite",
+			"name" : "obj_resource_drillcasingmixedt4",
+			"physicsMaterial" : "Voxel_Thornite",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingt4.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "DrillCasing",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DrillCasing.lua"
+			},
+			"sticky" : "-Y+Y",
+			"uuid" : "4d3d1a02-83ff-4795-9fa7-85eaee8f36f2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"carryItem" : true,
+			"color" : "aa7f7fff",
+			"destroyTime" : 0.35,
+			"name" : "obj_resource_drillcasingmixedrich",
+			"physicsMaterial" : "Voxel_Orerich",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_drillcasingrich.rend",
+			"restrictions" : 
+			{
+				"paintable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "DrillCasing",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DrillCasing.lua"
+			},
+			"sticky" : "-Y+Y",
+			"uuid" : "05a3e48b-0483-4897-b1e3-370271f815ed"
+		},
+		{
+			"color" : "a24d1bff",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_resource_glowpoop.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"itemStack" : {},
+			"name" : "obj_resource_mud",
+			"physicsMaterial" : "Dirt",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_mud.rend",
+			"restrictions" : 
+			{
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 100,
+			"uuid" : "e28c88fc-bd6d-4b03-a799-c0d39f0a799e"
+		},
+		{
+			"color" : "c5c5c5ff",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_silica_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_resource_silica",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_silica.rend",
+			"rotationSet" : "PropYZX",
+			"stackSize" : 20,
+			"sticky" : "-X+X-Y+Y-Z+Z",
+			"uuid" : "f554be5a-2012-4d2d-9a10-776d31aa1fd7"
+		},
+		{
+			"destroyTime" : 0.5,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nugget1_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelgoopite",
+			"name" : "obj_nugget_t1",
+			"physicsMaterial" : "Voxel_Goopite",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nugget1.rend",
+			"rotationSet" : "PropYNegY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "1ebed5a8-a6df-45c9-a873-75286b61d2fe"
+		},
+		{
+			"destroyTime" : 0.5,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nugget2_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_nugget_t2",
+			"physicsMaterial" : "Metal",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nugget2.rend",
+			"rotationSet" : "PropYNegY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "e1e8551d-7787-4ab2-b620-09d2cf110bba"
+		},
+		{
+			"destroyTime" : 0.5,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nugget3_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelcrimsonite",
+			"name" : "obj_nugget_t3",
+			"physicsMaterial" : "Voxel_Crimsonite",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nugget3.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"uuid" : "2c6cc263-4515-45a3-9d7a-33dd4e09634f"
+		},
+		{
+			"destroyTime" : 0.5,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nugget4_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_voxelthornite",
+			"name" : "obj_nugget_t4",
+			"physicsMaterial" : "Voxel_Thornite",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nugget4.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"uuid" : "8260108a-2943-4446-8331-b22db4547257"
+		},
+		{
+			"destroyTime" : 0.5,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nugget5_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_resource_disconite",
+			"name" : "obj_nugget_t5",
+			"physicsMaterial" : "Disconite",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nugget5.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"uuid" : "2350ac11-e6e3-46da-ac1e-62baf4d581b6"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_nimbolium_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_nimbolium",
+			"name" : "obj_resource_nimbolium",
+			"physicsMaterial" : "Voxel_Junk",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_nimbolium.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "903871bd-e71f-4681-ad56-8bf180fe4da9"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_sapphire_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_resource_matrixium",
+			"name" : "obj_resource_sapphire",
+			"physicsMaterial" : "Matrixium",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_sapphire.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "b23f64dd-8182-4d73-90bf-6ccb9dd24d4d"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_refinedsapphire_col.fbx",
+				"x" : 5,
+				"y" : 3,
+				"z" : 5
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_resource_matrixium",
+			"name" : "obj_resource_refinedsapphire",
+			"physicsMaterial" : "Matrixium",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_refinedsapphire.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "847af9bd-21ae-4d16-971f-5c8378e83f51"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_refinedcrystal_col.fbx",
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_crystal",
+			"name" : "obj_resource_refinedcrystal",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_refinedcrystal.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "a0fbc5ac-4e77-4119-b6e9-f3b6f8fbcb66"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_lemonium_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_lemonium",
+			"name" : "obj_resource_lemonium",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_lemonium.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "c5444340-52d3-44ff-bd27-c1800dd8ea7e"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_coralium_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_coralium",
+			"name" : "obj_resource_coralium",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_coralium.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "3be58cc4-04b4-455d-a9c3-8a8fd262b6d6"
+		},
+		{
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_quartz_col.fbx",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_quartz",
+			"name" : "obj_resource_quartz",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_quartz.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y",
+			"uuid" : "c108d189-87ff-41d1-8d61-667769924a34"
+		},
+		{
+			"extraIcon" : "icon_inventory_valuable.png",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_crystal_col.fbx",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_crystal",
+			"name" : "obj_resource_crystal",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_crystal.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "-Y+Y",
+			"uuid" : "84fdb4ca-46cd-424b-b608-0998741941dc"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_refinedcoralium_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_coralium",
+			"name" : "obj_resource_refinedcoralium",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_refinedcoralium.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "+Y-Y",
+			"uuid" : "41db3e10-7b8f-4ff3-81f3-4f240f1f3cce"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_refinednimbolium_col.fbx",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_nimbolium",
+			"name" : "obj_resource_refinednimbolium",
+			"physicsMaterial" : "Fruit",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_refinednimbolium.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "d69139ee-5b7f-479a-b9c1-6549017a1ea1"
+		},
+		{
+			"destroyTime" : 0.5,
+			"extraIcon" : "icon_inventory_valuable.png",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/resource/obj_resource_refinedlemonium_col.fbx",
+				"x" : 5,
+				"y" : 1,
+				"z" : 5
+			},
+			"impactEffect" : "particle:p_sledgehammer_impact_lemonium",
+			"name" : "obj_resource_refinedlemonium",
+			"physicsMaterial" : "Glass",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_refinedlemonium.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"stackSize" : 20,
+			"sticky" : "+Y-Y",
+			"uuid" : "bd4b7d66-9d4b-433e-bff9-410cb5baafc3"
+		}
+	]
+}

@@ -1,0 +1,266 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 1
+			},
+			"color" : "0a4444",
+			"destroyEffect" : "Destruction - manmade_shackwall01",
+			"flammable" : true,
+			"name" : "obj_manmade_scrapwall01",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scrapwall01.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "2aa8cb2c-2311-440c-8162-829ee394fbc2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "0a4444",
+			"destroyEffect" : "Destruction - manmade_shackwall02",
+			"destroyTime" : 1.0,
+			"flammable" : true,
+			"name" : "obj_manmade_scrapwallsmall",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scrapwallSmall.rend",
+			"rotationSet" : "PropFull",
+			"uuid" : "b94a113d-ddd4-45db-844c-1d97ca0e1d61"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 1,
+				"z" : 8
+			},
+			"color" : "0e8031",
+			"destroyEffect" : "Destruction - manmade_scraproof01",
+			"flammable" : true,
+			"name" : "obj_manmade_scraproof01",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof01.rend",
+			"rotationSet" : "PropZNegZ",
+			"sticky" : "+Z-Z",
+			"uuid" : "c8ca8731-3af2-4554-9019-6b941affcb16"
+		},
+		{
+			"color" : "0e8031",
+			"destroyEffect" : "Destruction - manmade_scraproof02",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_manmade_scraproof02.obj",
+				"x" : 8,
+				"y" : 2,
+				"z" : 8
+			},
+			"name" : "obj_manmade_scraproof02",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof02.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Y-Z",
+			"uuid" : "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 1,
+				"z" : 8
+			},
+			"color" : "3a5964",
+			"flammable" : false,
+			"name" : "obj_manmade_scraproof03",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_scraproof03.rend",
+			"rotationSet" : "PropYmNegYmZX",
+			"uuid" : "0c07dba0-be79-40fd-9ed8-5a1c34e2d196"
+		},
+		{
+			"color" : "e17f51",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_manmade_shacklight.obj",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_manmade_shacklight",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_shacklight_off.fbx",
+						"pose0" : "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_shacklight_on.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropNegY",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_ShackLight"
+			},
+			"stackSize" : 5,
+			"sticky" : "+Y",
+			"uuid" : "ebefa387-fe4a-4839-bdd9-b6b4da39368f"
+		},
+		{
+			"color" : "19f088",
+			"destroyEffect" : "Destruction - manmade_freshneonsign",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_manmade_signFresh.obj",
+				"x" : 5,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_manmade_freshsign",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_freshsign.rend",
+			"rotationSet" : "PropZ",
+			"spotlight" : 
+			{
+				"defaultLuminance" : 50,
+				"glowMultiplier" : true,
+				"direction" : 
+				{
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"effect" : "Objectlight_FreshLight"
+			},
+			"sticky" : "-Z",
+			"uuid" : "27c00cfb-4e7f-45fc-a037-f9a941464ce6"
+		},
+		{
+			"color" : "eb6a90",
+			"destroyEffect" : "Destruction - manmade_holidayposter",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_manmade_holidayposter.obj",
+				"x" : 8,
+				"y" : 5,
+				"z" : 1
+			},
+			"name" : "obj_manmade_holidayposter",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_holidayposter.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "20bd2885-d184-44ae-b72b-f90b786f8664"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "e9e9e9",
+			"flammable" : true,
+			"name" : "obj_manmade_salesign",
+			"physicsMaterial" : "Wood",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/manmade/obj_manmade_salesign.rend",
+			"rotationSet" : "PropZNegZ",
+			"sticky" : "-Z+Z-X+X",
+			"uuid" : "2289e96f-f9c6-440c-b7c9-ce9474da8264"
+		}
+	]
+}

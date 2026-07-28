@@ -1,0 +1,153 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil01_col.fbx",
+				"x" : 15,
+				"y" : 4,
+				"z" : 12
+			},
+			"name" : "obj_artifact_fossil01",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil01.rend",
+			"rotationSet" : "PropYZ",
+			"showInInventory" : true,
+			"uuid" : "c86c5cb8-7b68-4d55-b9ee-1840d1d9ea5a"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 8,
+				"diameter" : 3
+			},
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_artifact_fossil05.blueprint"
+			},
+			"name" : "obj_artifact_fossil05",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil05.rend",
+			"rotationSet" : "PropZNegZ",
+			"showInInventory" : true,
+			"uuid" : "1cb6b667-18c2-478f-b519-0b992e61349f"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil05b_col.fbx",
+				"x" : 6,
+				"y" : 8,
+				"z" : 5
+			},
+			"name" : "obj_artifact_fossil05b",
+			"physicsMaterial" : "Default",
+			"renderable" : "$GAME_DATA/Objects/Renderable/invisible/obj_invisible_triangle.rend",
+			"rotationSet" : "PropZ",
+			"showInInventory" : false,
+			"uuid" : "fa776f45-0bac-44da-ac43-543592b01a97"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil08_col.fbx",
+				"x" : 7,
+				"y" : 3,
+				"z" : 7
+			},
+			"name" : "obj_artifact_fossil08",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil08.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : true,
+			"uuid" : "13c59db3-c368-4b06-80be-c0b258df93e3"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil09_col.fbx",
+				"x" : 3,
+				"y" : 6,
+				"z" : 11
+			},
+			"name" : "obj_artifact_fossil09",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil09.rend",
+			"rotationSet" : "PropYNegZ",
+			"showInInventory" : true,
+			"uuid" : "15bc4cdd-1892-4c8e-810a-0f18063361eb"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil11_col.fbx",
+				"x" : 3,
+				"y" : 4,
+				"z" : 4
+			},
+			"multiShape" : 
+			{
+				"path" : "$SURVIVAL_DATA/Objects/MultiShape/obj_artifact_fossil11.blueprint"
+			},
+			"name" : "obj_artifact_fossil11",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil11.rend",
+			"rotationSet" : "PropYZX",
+			"uuid" : "756a3a47-0e7a-4a87-9d75-d29e790e12d9"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 4,
+				"diameter" : 1
+			},
+			"name" : "obj_artifact_fossil11b",
+			"physicsMaterial" : "Default",
+			"renderable" : "$GAME_DATA/Objects/Renderable/invisible/obj_invisible_triangle.rend",
+			"rotationSet" : "PropYZ",
+			"showInInventory" : false,
+			"uuid" : "2a8028db-9931-4d48-a2f9-bb2c1188d517"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/artifact/obj_artifact_fossil11_col.fbx",
+				"x" : 3,
+				"y" : 4,
+				"z" : 4
+			},
+			"name" : "obj_artifact_fossil11c",
+			"physicsMaterial" : "Default",
+			"renderable" : "$GAME_DATA/Objects/Renderable/invisible/obj_invisible_triangle.rend",
+			"rotationSet" : "PropFull",
+			"showInInventory" : false,
+			"uuid" : "4b3ddd03-d950-40f1-b6d0-92d59f08c8ec"
+		},
+		{
+			"color" : "c9c1a5ff",
+			"cylinder" : 
+			{
+				"axis" : "Z",
+				"depth" : 2,
+				"diameter" : 5
+			},
+			"name" : "obj_artifact_fossil13",
+			"physicsMaterial" : "Default",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/artifact/obj_artifact_fossil13.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : true,
+			"uuid" : "99b817f7-0f1f-4329-ae6b-e1f0199aa2da"
+		}
+	]
+}

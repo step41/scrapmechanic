@@ -1,0 +1,1481 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 2
+			},
+			"color" : "3e9ffe",
+			"flammable" : false,
+			"name" : "obj_interactive_fridge",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_fridge.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "FoodContainer",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-X+X-Y+Y-Z",
+			"uuid" : "f08d772f-9851-400f-a014-d847900458a7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "c36512",
+			"flammable" : false,
+			"name" : "obj_interactive_encryptor_destruction",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_encryptor_destruction.rend",
+			"rotationSet" : "PropZ",
+			"scripted" : 
+			{
+				"classname" : "Encryptor",
+				"data" : 
+				{
+					"activationEffect" : "Encryptor - Activation",
+					"deactivationEffect" : "Encryptor - Deactivation",
+					"encryptions" : 
+					[
+						"buildable",
+						"erasable",
+						"liftable",
+						"paintable"
+					]
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Encryptor.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z",
+			"uuid" : "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "2f97df",
+			"flammable" : false,
+			"name" : "obj_interactive_encryptor_connection",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_encryptor_connection.rend",
+			"rotationSet" : "PropZ",
+			"scripted" : 
+			{
+				"classname" : "Encryptor",
+				"data" : 
+				{
+					"activationEffect" : "Barrier - Activation",
+					"deactivationEffect" : "Barrier - Deactivation",
+					"encryptions" : 
+					[
+						"connectable"
+					]
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Encryptor.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z",
+			"uuid" : "8fd2cf31-70b3-499a-bfb0-7e3d2c580258"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 8,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"name" : "obj_craftbot_dressbot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Dressbot/char_dressbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Wardrobe",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Wardrobe.lua"
+			},
+			"sticky" : "-Y",
+			"uuid" : "767a3121-2c31-473c-a5ab-27e188fdd55a"
+		},
+		{
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_interactive_mountablespudgun_col.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 4
+			},
+			"name" : "obj_interactive_mountablespudgun",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 7,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_mountablespudgun.rend",
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "MountedPotatoGun",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/MountedPotatoGun.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z-Y+Y-X+X",
+			"uuid" : "454ad69d-bac2-4b06-9386-6267bcbfece2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "3e9ffe",
+			"flammable" : true,
+			"name" : "obj_interactive_comfybed",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_comfybed.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropFullMinusNegY",
+			"scripted" : 
+			{
+				"classname" : "Bed",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Bed.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "root_jnt",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 1.0,
+								"z" : 0.3
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Head",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : -0.2
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Shoulders",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.5,
+								"z" : 0.2
+							}
+						}
+					],
+					"enterAudio" : "event:/vehicle/seats/bed",
+					"exitAudio" : "event:/vehicle/seats/bed_getup",
+					"ragdollFile" : "$SURVIVAL_DATA/Character/bed_ragdoll.json"
+				}
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "5eb8975b-0acf-43a7-ab4e-62ce661c0df7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "e86213ff",
+			"flammable" : false,
+			"name" : "obj_interactive_beehive",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_beehive.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "InteractableBeehive",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/InteractableBeehive.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "98a85002-3b45-4fe8-b2fb-390a9953e877"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "008ae1ff",
+			"flammable" : false,
+			"name" : "obj_interactive_freezer",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_freezer.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Freezer",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Freezer.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "479e8131-cc76-48e1-9979-8053a7295d1f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : true,
+			"name" : "obj_interactive_alarmclock",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_alarmclock.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "AlarmClock",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/AlarmClock.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "d9509ce7-5a2e-4d4d-b39c-1332447cef41"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_small",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_small.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 6,
+					"maxTextWidth" : 88,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "4908ecfb-ec05-42c5-a02a-7675ccc3eb19"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_large",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_large.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 11,
+					"maxTextWidth" : 148,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "a96232ef-2778-4c23-8a11-7cbc5b1de8b0"
+		},
+		{
+			"box" : 
+			{
+				"x" : 8,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_textsign_extralarge",
+			"params" : 
+			[
+				{
+					"name" : "text",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "selected",
+					"type" : "float"
+				}
+			],
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_textsign_extralarge.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "DigitalSign",
+				"data" : 
+				{
+					"asg" : 
+					{
+						"a" : 0.0,
+						"g" : 0.9,
+						"s" : 0.0
+					},
+					"effectName" : "Textsign - Text",
+					"fontName" : "SM_IntlText",
+					"maxTextLength" : 18,
+					"maxTextWidth" : 256,
+					"offsetPosition" : 
+					{
+						"x" : -0.0,
+						"y" : 0.025,
+						"z" : 0.1517
+					},
+					"oversizeScale" : 0.625,
+					"scale" : 
+					{
+						"x" : 1.2,
+						"y" : 1.2,
+						"z" : 1.2
+					}
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/DigitalSign.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "46d85e5b-353c-4f06-8fd8-b9ddd3443245"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_soil",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "40730f13-5fdb-4785-b32e-5ca6519c162e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_potato_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_potato.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "d0084e20-90a8-4460-920c-f2dab4600c04"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_potato_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_potato_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "998c250a-e814-4c67-be0e-f8abe084ab72"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_banana_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_banana.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "2e977f44-35f1-4184-b780-3f8563e92330"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_banana_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_banana_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "7be411a0-8693-4910-800f-990122cbfca4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_blueberry_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_blueberry.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "c5e58c01-6e69-4477-ad60-02aef761ab00"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_blueberry_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_blueberry_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "b70e6fe1-26e2-4dee-bb70-ab33426379ad"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_broccoli_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_broccoli.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "1d689938-56fa-445f-a71c-eed9af0292c4"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_broccoli_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_broccoli_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "5cb58060-1221-4935-b13e-04097b61cfbe"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_carrot_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_carrot.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "5e610f08-1195-4b68-85b3-adf799efa411"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_carrot_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_carrot_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "240d38b9-af66-42f4-8c2b-7bbf26fa5f66"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_chili_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_chili.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "98a4c187-4049-4628-842b-5cc6e5dac9f5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_chili_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_chili_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "86a10654-9bf9-46e6-8f42-3c76af451d5e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_cotton_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_cotton.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "287f63c4-58dd-449d-9895-2bf9fdfef9a3"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_cotton_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_cotton_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "8b45b80d-2415-4ef4-aec4-90d0e3ee4cf5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_orange_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_orange.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "13b7b0ba-5cbb-4501-9862-5879f20306fb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_orange_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_orange_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "8e2ff26d-8856-46d5-94ff-060f9cfd4ade"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_pigmentflower_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_pigmentflower.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "99a76f79-f9ca-4c71-9098-7300ebacf1bd"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_pigmentflower_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_pigmentflower_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "f0c365f6-fcb4-4135-9769-79f7e7aba240"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_pineapple_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_pineapple.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "11ee95f2-b486-4f2d-a59b-106b79908a22"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_pineapple_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_pineapple_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "0ff9cf8f-b9b9-44cd-9de2-77508fda3318"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_redbeet_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_redbeet.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "16676910-7011-4514-891f-d1536b5cf56e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_redbeet_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_redbeet_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "7d7691d7-5059-4a43-9384-0b11905b0e3a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_tomato_sprout",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_tomato.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "e559dc2f-cbf9-47cc-95f3-42c2bb1b77a7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_tomato_mature",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed_tomato_finished.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Growbed",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Growbed.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "f2f3209d-9df3-410e-b87e-603ddd0d9918"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"color" : "733f2e",
+			"flammable" : true,
+			"name" : "obj_topdepartment_chair",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_topdepartment_chair.rend",
+			"rotationSet" : "PropY",
+			"seat" : 
+			{
+				"bones" : 
+				[
+					{
+						"name" : "Hips",
+						"offset" : 
+						{
+							"x" : 0.0,
+							"y" : -0.5,
+							"z" : 0.75
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "LeftForeArm",
+						"offset" : 
+						{
+							"x" : 1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "RightForeArm",
+						"offset" : 
+						{
+							"x" : -1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					}
+				],
+				"enterAudio" : "event:/vehicle/seats/default",
+				"exitAudio" : "event:/vehicle/seats/default",
+				"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+			},
+			"stackSize" : 5,
+			"sticky" : "-Y",
+			"uuid" : "992ae45d-63b5-42c5-bc58-3b6c207834d9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"itemStack" : {},
+			"name" : "obj_interactive_blockcontainersmall",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 1,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_blockcontainersmall.rend",
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"stackSize" : 500,
+			"uuid" : "3d127db0-da28-4483-86fd-3eeed20fb85d"
+		}
+	]
+}

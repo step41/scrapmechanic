@@ -1,0 +1,87 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"density" : 250.0,
+			"physicsMaterial" : "Plastic",
+			"preview" : 
+			{
+				"effect" : "preview"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_off.fbx",
+						"pose0" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_on.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropZ",
+			"showInInventory" : false,
+			"sticky" : "+Y-Y+Z-Z+X-X",
+			"uuid" : "681b75ce-2489-4a7b-8cb2-2903e7243e83"
+		},
+		{
+			"audioPreview" : 
+			{
+				"effect" : "event:/vehicle/horns/clownhorn"
+			},
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "0099ddff",
+			"density" : 250.0,
+			"physicsMaterial" : "Plastic",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_off.fbx",
+						"pose0" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_on.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropZ",
+			"showInInventory" : false,
+			"sticky" : "+Y-Y+Z-Z+X-X",
+			"uuid" : "1daa9b63-c1fe-4566-9a96-3232e9449471"
+		}
+	]
+}

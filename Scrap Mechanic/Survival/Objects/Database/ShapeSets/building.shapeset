@@ -1,0 +1,512 @@
+{
+	"partList" : 
+	[
+		{
+			"color" : "ee9e28",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 3,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"name" : "obj_building_barracksupport",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_baracksupport.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "9b4ea447-9cd9-4cd1-84d5-8c414890e523"
+		},
+		{
+			"color" : "ee9e28",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 5,
+				"diameter" : 3,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"name" : "obj_building_barracksupportlong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_baracksupportlong.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "e22c8acb-151f-4837-ba32-7c61896b4eec"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "ee9e28",
+			"flammable" : false,
+			"name" : "obj_building_barracksupportturn",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_baracksupportturn.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Z-Y",
+			"uuid" : "109e1514-4f3b-4bd9-8d95-2d81fdb8fb25"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "ee9e28",
+			"flammable" : false,
+			"name" : "obj_building_barracksupportholder",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_baracksupportholder.rend",
+			"rotationSet" : "PropYZm",
+			"sticky" : "-Z-Y+Y",
+			"uuid" : "1dc643c9-6f8e-478a-8ebb-4adf3cb9960f"
+		},
+		{
+			"color" : "ee9e28",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 3,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"name" : "obj_building_barracksupportbase",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 6,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_baracksupportbase.rend",
+			"rotationSet" : "PropYmmNegYmm",
+			"sticky" : "+Y-Y",
+			"uuid" : "b1c6bac0-4055-4193-8490-7704d0ea7113"
+		},
+		{
+			"color" : "ebb100",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_building_mopbucket.obj",
+				"x" : 2,
+				"y" : 7,
+				"z" : 3
+			},
+			"name" : "obj_building_mopbucket",
+			"physicsMaterial" : "Scrapmetal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 3,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_mopbucket.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "0dff60c2-f7ae-4c13-b9c4-962ec1039be8"
+		},
+		{
+			"color" : "3e9ffe",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_building_stalldoor.obj",
+				"x" : 7,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_building_stalldoor",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 6,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_stalldoor.rend",
+			"rotationSet" : "PropY",
+			"uuid" : "4c17571c-89b5-40f3-b13f-e9399591d0b4"
+		},
+		{
+			"color" : "ebb100",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_building_slippery.obj",
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"name" : "obj_building_slippery",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_slippery.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+X-X",
+			"uuid" : "ce66734b-2122-460e-94dc-ccc73d799e32"
+		},
+		{
+			"color" : "9a3535",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_building_plunger.obj",
+				"x" : 1,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_building_plunger",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_plunger.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "f092e8b5-4b10-48be-8ad1-2ac5625f49b8"
+		},
+		{
+			"color" : "3e9ffe",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_building_sink.obj",
+				"x" : 3,
+				"y" : 2,
+				"z" : 2
+			},
+			"name" : "obj_building_sink",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_building_sink.rend",
+			"rotationSet" : "PropZY",
+			"sticky" : "-Y-X+X-Z+Z",
+			"uuid" : "0ebf382a-e2e4-4c46-a48e-87808308c1e3"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "408fc7",
+			"flammable" : false,
+			"name" : "obj_office_waterdispenser",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_waterdispenser.rend",
+			"rotationSet" : "PropY",
+			"uuid" : "0c077288-d15d-45d6-8439-3dabe7144034"
+		},
+		{
+			"color" : "b43320",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_office_mugholder.obj",
+				"x" : 1,
+				"y" : 3,
+				"z" : 1
+			},
+			"name" : "obj_office_mugholder",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_mugholder.rend",
+			"rotationSet" : "PropZ",
+			"sticky" : "+Y+X-X+Z-Z",
+			"uuid" : "239c9c71-e5c7-4ccb-ad40-7bdbb32f3cc9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "408fc7",
+			"flammable" : true,
+			"name" : "obj_office_waterdispensertank",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_waterdispensertank.rend",
+			"rotationSet" : "PropYmmNegYmmZ",
+			"uuid" : "e7eae129-9e3f-45d2-997c-637865c60a5e"
+		},
+		{
+			"color" : "8c9c3f",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_office_cubicle.obj",
+				"x" : 8,
+				"y" : 8,
+				"z" : 1
+			},
+			"name" : "obj_office_cubicle",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_cubicle.rend",
+			"rotationSet" : "PropYmZX",
+			"uuid" : "b627c533-f0e7-4fa7-83e6-5c3d517568e0"
+		},
+		{
+			"color" : "79859c",
+			"flammable" : false,
+			"name" : "obj_office_cubiclefastener",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 6,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_cubiclefastener.rend",
+			"rotationSet" : "PropZ",
+			"stackSize" : 10,
+			"sticky" : "-Y+X-X-Z",
+			"uuid" : "3526de39-dcf4-484b-84ec-3336538be192",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			}
+		},
+		{
+			"color" : "8c9c3f",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_office_desk.obj",
+				"x" : 8,
+				"y" : 1,
+				"z" : 4
+			},
+			"name" : "obj_office_desk",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_desk.rend",
+			"rotationSet" : "PropZY",
+			"uuid" : "47d33078-a9b0-4e30-9610-ad0556be5fa2"
+		},
+		{
+			"color" : "8c9c3f",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_office_deskextension.obj",
+				"x" : 8,
+				"y" : 1,
+				"z" : 4
+			},
+			"name" : "obj_office_deskextension",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_deskextension.rend",
+			"rotationSet" : "PropYmNegYmZ",
+			"uuid" : "1991e0c6-4dd8-4e44-9da8-7fdf4d938fdc"
+		},
+		{
+			"color" : "8c9c3f",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_office_deskleg.obj",
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"name" : "obj_office_deskleg",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_deskleg.rend",
+			"rotationSet" : "PropYNegY",
+			"uuid" : "3de61f00-5782-40ca-923d-7efabe334572"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "8c9c3f",
+			"flammable" : true,
+			"name" : "obj_office_officechair",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_officechair.rend",
+			"rotationSet" : "PropY",
+			"seat" : 
+			{
+				"bones" : 
+				[
+					{
+						"name" : "Hips",
+						"offset" : 
+						{
+							"x" : 0.0,
+							"y" : 0.8,
+							"z" : 0.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "LeftForeArm",
+						"offset" : 
+						{
+							"x" : 1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					},
+					{
+						"freeRotation" : true,
+						"name" : "RightForeArm",
+						"offset" : 
+						{
+							"x" : -1.0,
+							"y" : 1.5,
+							"z" : 1.5
+						}
+					}
+				],
+				"enterAudio" : "Seat seated",
+				"exitAudio" : "Seat unseated",
+				"ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+			},
+			"sticky" : "-Y-Z",
+			"uuid" : "4c93de5a-72ab-40d0-a081-c41e3aa87e86"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 3
+			},
+			"color" : "8c9c3f",
+			"flammable" : false,
+			"name" : "obj_office_officechairbottom",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Building/obj_office_officechairbottom.rend",
+			"rotationSet" : "PropYNegY",
+			"sticky" : "+Y-Y",
+			"uuid" : "1f343b76-3622-4e4b-9de4-238d43d60734"
+		}
+	]
+}

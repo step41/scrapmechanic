@@ -1,0 +1,60 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "df7f01",
+			"consumable" : true,
+			"flammable" : false,
+			"name" : "obj_consumable_component",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 4,
+				"durability" : 7,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/resource/obj_resource_component.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropYZ",
+			"stackSize" : 20,
+			"uuid" : "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "ce0000",
+			"consumable" : true,
+			"flammable" : false,
+			"name" : "obj_consumable_multicomponent",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 8,
+				"durability" : 6,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/consumable/obj_consumable_multicomponentkit.rend",
+			"restrictions" : 
+			{
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"uuid" : "b41de15e-a136-425a-a730-889b58cf4466"
+		}
+	]
+}

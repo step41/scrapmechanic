@@ -1,0 +1,124 @@
+{
+	"partList" : 
+	[
+		{
+			"autoTool" : "52c1d933-5ba0-47da-b107-477b6c211a5d",
+			"color" : "0b9ade",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"name" : "obj_tool_bucket_empty",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_empty.rend",
+			"restrictions" : 
+			{
+				"destructable" : true,
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 1,
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "798c2c81-1f8e-481b-8c32-b71b5dc5511a"
+		},
+		{
+			"autoTool" : "52c1d933-5ba0-47da-b107-477b6c211a5d",
+			"color" : "0b9ade",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"name" : "obj_tool_bucket_water",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_water.rend",
+			"restrictions" : 
+			{
+				"destructable" : true,
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "103fc4e6-7e57-465e-a86d-983343415877"
+		},
+		{
+			"autoTool" : "52c1d933-5ba0-47da-b107-477b6c211a5d",
+			"color" : "0b9ade",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"name" : "obj_tool_bucket_chemical",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_chemical.rend",
+			"restrictions" : 
+			{
+				"destructable" : true,
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "2e792123-4a10-4cc6-b9ef-c5a518655cb4"
+		},
+		{
+			"autoTool" : "52c1d933-5ba0-47da-b107-477b6c211a5d",
+			"color" : "0b9ade",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 2,
+				"diameter" : 2,
+				"margin" : 0.5
+			},
+			"name" : "obj_tool_bucket_oil",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"durability" : 3,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_oil.rend",
+			"restrictions" : 
+			{
+				"destructable" : true,
+				"erasable" : true
+			},
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"stackSize" : 1,
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "cc80b6e0-f756-4036-9cd6-77af13a6de36"
+		}
+	]
+}

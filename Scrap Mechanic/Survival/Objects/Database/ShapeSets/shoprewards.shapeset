@@ -1,0 +1,936 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "ce4731",
+			"flammable" : false,
+			"name" : "obj_shoprewards_farmbotbobblehead",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_farmbotbobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"farmbot" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_farmbotbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_farmbotbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_farmbotbobblehead_nor.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_farmbotbobbleheadplate_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "4e9c67f9-602f-4df5-bcf6-939dcb18d010"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "780402",
+			"flammable" : false,
+			"name" : "obj_shoprewards_scrapmechanicbobblehead",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_scrapmechanicbobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"bobblehead" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_nor.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "30d3d0fe-a96a-4804-a0bd-8f01cf674adb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "780402",
+			"flammable" : false,
+			"name" : "obj_shoprewards_scrapmechanicbobbleheadfemale",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_scrapmechanicbobbleheadfemale.fbx",
+						"subMeshMap" : 
+						{
+							"bobblehead" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_nor.tga"
+								]
+							},
+							"femalehead" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_femalehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_femalehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_femalehead_nor.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_ao.tga"
+								]
+							},
+							"tools1" : 
+							{
+								"material" : "DifAsg",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_femaletools_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_plastic_asg.tga",
+									""
+								]
+							},
+							"tools2" : 
+							{
+								"material" : "DifAsg",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_female_connecttool_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobblehead_plastic_asg.tga",
+									""
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "0db3e749-adf2-4ba5-bb37-1cebcfb59cb2"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 3
+			},
+			"color" : "cbbfa7",
+			"flammable" : true,
+			"lever" : {},
+			"name" : "obj_shoprewards_computer",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 7,
+				"durability" : 2,
+				"friction" : 7
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_computer_off.fbx",
+						"pose0" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_computer_on.fbx",
+						"subMeshMap" : 
+						{
+							"computer" : 
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_nor.tga"
+								]
+							},
+							"screen" : 
+							{
+								"material" : "Glass",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_computer_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+X-X-Z",
+			"uuid" : "18321228-7164-4dfd-928f-fa86bad31ba1"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 4,
+				"z" : 4
+			},
+			"color" : "ac3030",
+			"flammable" : false,
+			"name" : "obj_shoprewards_synth",
+			"physicsMaterial" : "Metal",
+			"radio" : {},
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 5,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_synth_off.fbx",
+						"pose0" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_synth_on.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_synth_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_synth_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_synth_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "4f9d4c7b-c9fe-4f95-a36a-8f22654d14f5"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 1,
+				"z" : 2
+			},
+			"color" : "e4d4b1",
+			"flammable" : true,
+			"lever" : {},
+			"name" : "obj_shoprewards_gasstove",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_gasstove_off.fbx",
+						"pose0" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_gasstove_on.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "PoseAnimDifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_gasstove_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_gasstove_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_gasstove_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "3082a130-f1e4-4a7f-9856-7129f969564c"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "680000",
+			"flammable" : false,
+			"name" : "obj_shoprewards_spaceshipstatue",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_spaceshipstatue.fbx",
+						"subMeshMap" : 
+						{
+							"plate" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_shipplate_ao.tga"
+								]
+							},
+							"ship" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_spaceshipstatue_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_spaceshipstatue_plastic_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_spaceshipstatue_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_spaceshipstatue_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "488dfd3c-eb6b-4663-90b1-add00b1c2700"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "1a538c",
+			"flammable" : false,
+			"name" : "obj_shoprewards_totebotbass_bobblehead",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_totebotbass_bobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"head" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_ao.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_plate_ao.tga"
+								]
+							},
+							"robot" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "85771e42-fbb3-49f5-ab99-85167623deeb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "a9831c",
+			"flammable" : false,
+			"name" : "obj_shoprewards_totebotpercussion_bobblehead",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_totebotpercussion_bobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"head" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotpercussion_bobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotpercussion_bobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotpercussion_bobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_ao.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_plate_ao.tga"
+								]
+							},
+							"robot" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "17371481-da9e-4bc1-bbbd-438109aad552"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "7f2418",
+			"flammable" : false,
+			"name" : "obj_shoprewards_totebotsynthvoice_bobblehead",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_totebotsynthvoice_bobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"head" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotsynthvoice_bobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotsynthvoice_bobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotsynthvoice_bobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_ao.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_plate_ao.tga"
+								]
+							},
+							"robot" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "9d6992f4-8a1a-40c2-8be3-adfce6e4cfed"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "49642d",
+			"flammable" : false,
+			"name" : "obj_shoprewards_totebotblip_bobblehead",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 5,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_totebotblip_bobblehead.fbx",
+						"subMeshMap" : 
+						{
+							"head" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotblip_bobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotblip_bobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotblip_bobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_totebotbass_bobblehead_ao.tga"
+								]
+							},
+							"plate" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_plate_ao.tga"
+								]
+							},
+							"robot" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_ao.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "03ae13a9-65a9-4c2f-8640-8235a8d9ed05"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 3,
+				"z" : 1
+			},
+			"color" : "693e18",
+			"flammable" : false,
+			"name" : "obj_shoprewards_goldplatinumbearing",
+			"physicsMaterial" : "Glass",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 4
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_goldplatinumbearing.fbx",
+						"subMeshMap" : 
+						{
+							"frame" : 
+							{
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_ao.tga"
+								]
+							},
+							"glass" : 
+							{
+								"material" : "Glass",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_goldplatinumbearing_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropZ",
+			"sticky" : "-Z",
+			"uuid" : "34081f36-2cca-47aa-b252-7d49a685e759"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "7b7b7b",
+			"flammable" : false,
+			"name" : "obj_shoprewards_lowriderplaque",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 5,
+				"durability" : 7,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_lowriderplaque.fbx",
+						"subMeshList" : 
+						[
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_lowriderplaque_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_lowriderplaque_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_lowriderplaque_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "4beb69d3-ede9-434e-9535-62e7677f6982"
+		},
+		{
+			"color" : "3c3c3c",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/obj_shoprewards_fountainstatue.obj",
+				"x" : 4,
+				"y" : 5,
+				"z" : 4
+			},
+			"name" : "obj_shoprewards_fountainstatue",
+			"physicsMaterial" : "Rock",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 9,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Objects/Mesh/shoprewards/obj_shoprewards_fountainstatue.fbx",
+						"subMeshMap" : 
+						{
+							"fountain" : 
+							{
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_fountainstatue_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_fountainstatue_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_fountainstatue_nor.tga"
+								]
+							},
+							"water" : 
+							{
+								"material" : "Glass",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_water_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_water_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_water_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "bd77f76a-6c47-4107-ba4a-c340e89ad516"
+		},
+		{
+			"color" : "205e32ff",
+			"density" : 250.0,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/shoprewards/obj_shoprewards_bonsaitree_col.fbx",
+				"x" : 3,
+				"y" : 6,
+				"z" : 2
+			},
+			"name" : "obj_shoprewards_bonsaitree",
+			"flammable" : true,
+			"physicsMaterial" : "Wood",
+			"ratings" : {},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/shoprewards/obj_shoprewards_bonsaitree.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "e96e15d9-0997-4ed6-8c75-751848fb8edd"
+		}
+	]
+}

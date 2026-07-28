@@ -1,0 +1,802 @@
+{
+	"partList" : 
+	[
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/char_refinery_col.obj",
+				"x" : 10,
+				"y" : 11,
+				"z" : 6
+			},
+			"name" : "obj_interactive_mineralcrusher",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -4.0,
+						"z" : 0.5
+					}
+				],
+				"outputContainerIndex" : 0,
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_mineralcrusher/char_mineralcrusher.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "OreCrusher",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/OreCrusher.lua"
+			},
+			"sticky" : "+X-Y",
+			"uuid" : "b593a935-802a-4715-b27f-739a091a8977"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_oreprospector/obj_interactive_oreprospector_col.fbx",
+				"x" : 8,
+				"y" : 7,
+				"z" : 12
+			},
+			"name" : "obj_interactive_prospector",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "-Z",
+						"x" : 1.5,
+						"y" : 3.0,
+						"z" : -6.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-Z",
+						"x" : -1.5,
+						"y" : 3.0,
+						"z" : -6.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_oreprospector/obj_interactive_oreprospector_connections.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Prospector",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Prospector.lua"
+			},
+			"sticky" : "-Y-Z+Z-X+X",
+			"uuid" : "b46c3271-6288-4b74-a6b1-9ea946cf072b"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_col.fbx",
+				"x" : 10,
+				"y" : 8,
+				"z" : 9
+			},
+			"name" : "obj_craftbot_craftbot1",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Craftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"sticky" : "-Z+Y-Y+X-X",
+			"uuid" : "b63c6440-dfc2-4da7-acdb-3c385080b2e4"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_col.fbx",
+				"x" : 10,
+				"y" : 8,
+				"z" : 9
+			},
+			"name" : "obj_craftbot_craftbot2",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Craftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Y-Y+X-X",
+			"uuid" : "b7571f6f-9d53-44ba-99d2-3b4f05e6fd0f"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_col.fbx",
+				"x" : 10,
+				"y" : 8,
+				"z" : 9
+			},
+			"name" : "obj_craftbot_craftbot3",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Craftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Y-Y+X-X",
+			"uuid" : "1c83675f-7c77-4cbb-875b-79d4bd46100d"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_col.fbx",
+				"x" : 10,
+				"y" : 8,
+				"z" : 9
+			},
+			"name" : "obj_craftbot_craftbot4",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Craftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Y-Y+X-X",
+			"uuid" : "c69a7855-d915-4784-af81-d0a8849e458f"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_col.fbx",
+				"x" : 10,
+				"y" : 8,
+				"z" : 9
+			},
+			"name" : "obj_craftbot_craftbot5",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					},
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -5.0,
+						"y" : -2.5,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Craftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-Z+Y-Y+X-X",
+			"uuid" : "4fcb4cb8-7623-11ea-bc55-0242ac130003"
+		},
+		{
+			"carryItem" : false,
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 3,
+				"z" : 3
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_craftbot_portablecraftbot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_babycraftbot/char_babycraftbot.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"connectable" : false,
+				"convertibleToDynamic" : true,
+				"destructable" : false,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "PortableCraftbot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"stackSize" : 5,
+			"uuid" : "05900757-a49f-4907-b498-96bfd2b15176"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 7,
+				"z" : 6
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"name" : "obj_interactive_gravelcollector",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_gravelcollector.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYX",
+			"scripted" : 
+			{
+				"classname" : "GravelCollector",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GravelCollector.lua"
+			},
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "80680f7d-5f8a-4bf7-962b-ebd07481cd0a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 9,
+				"y" : 7,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"name" : "obj_interactive_sawtable1",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"directional" : true,
+				"openings" : 
+				[
+					{
+						"direction" : "input",
+						"side" : "-X",
+						"x" : -4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					},
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Sawtable/char_sawtable.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Crafter",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"sticky" : "-X+X-Y",
+			"uuid" : "0a0cc4ee-bdd7-41b1-b5cb-f34a0e6de46e"
+		},
+		{
+			"box" : 
+			{
+				"x" : 9,
+				"y" : 7,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_sawtable2",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"directional" : true,
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					},
+					{
+						"side" : "+X",
+						"x" : 4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Sawtable/char_sawtable.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Crafter",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y",
+			"uuid" : "1fd89935-122e-4751-be0c-94f2e337b674"
+		},
+		{
+			"box" : 
+			{
+				"x" : 9,
+				"y" : 7,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_sawtable3",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"directional" : true,
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					},
+					{
+						"side" : "+X",
+						"x" : 4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Sawtable/char_sawtable.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Crafter",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y",
+			"uuid" : "26a9d40f-49fd-403d-94a2-2d27b04a3156"
+		},
+		{
+			"box" : 
+			{
+				"x" : 9,
+				"y" : 7,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_sawtable4",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"directional" : true,
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					},
+					{
+						"side" : "+X",
+						"x" : 4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Sawtable/char_sawtable.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Crafter",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y",
+			"uuid" : "17844463-6664-4493-96c3-76f7f662d0bb"
+		},
+		{
+			"box" : 
+			{
+				"x" : 9,
+				"y" : 7,
+				"z" : 5
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_interactive_sawtable5",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"directional" : true,
+				"openings" : 
+				[
+					{
+						"side" : "-X",
+						"x" : -4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					},
+					{
+						"side" : "+X",
+						"x" : 4.5,
+						"y" : -2.0,
+						"z" : 0.0
+					}
+				],
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 0,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Sawtable/char_sawtable.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Crafter",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Crafter.lua"
+			},
+			"showInInventory" : false,
+			"sticky" : "-X+X-Y",
+			"uuid" : "3c2689bd-57ef-45ed-9ed6-d4eea775202a"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 8,
+				"z" : 6
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"name" : "obj_craftbot_resourcecontainer",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_resourcecontainer.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropYX",
+			"scripted" : 
+			{
+				"classname" : "ResourceContainer",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/ResourceContainer.lua"
+			},
+			"sticky" : "-Y+Y-X+X",
+			"uuid" : "a930a42f-63ed-4fb0-933e-56ce8a889cc5"
+		},
+		{
+			"carryItem" : true,
+			"color" : "df7f01",
+			"destroyTime" : 1.0,
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/char_refinery_col.obj",
+				"x" : 10,
+				"y" : 11,
+				"z" : 6
+			},
+			"name" : "obj_craftbot_refinery",
+			"physicsMaterial" : "Mechanical",
+			"pipe" : 
+			{
+				"openings" : 
+				[
+					{
+						"direction" : "output",
+						"side" : "+X",
+						"x" : 5.0,
+						"y" : -4.0,
+						"z" : 0.5
+					}
+				],
+				"outputContainerIndex" : 0,
+				"type" : "Interactable"
+			},
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Refinery/char_refinery.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "Refinery",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Refinery.lua"
+			},
+			"sticky" : "-Y+X",
+			"uuid" : "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c"
+		}
+	]
+}

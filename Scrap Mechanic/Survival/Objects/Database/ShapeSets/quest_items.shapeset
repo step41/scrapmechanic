@@ -1,0 +1,200 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "quest_phone",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/char_npc_scoutfarmer/char_npc_scoutfarmer_walkytalky.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "e1828741-2653-4a9c-8850-3f5b7eee37a9"
+		},
+		{
+			"carryItem" : true,
+			"color" : "d90505ff",
+			"flammable" : false,
+			"name" : "gyrocore",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 8,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/questitem/obj_questitem_gyrocore.rend",
+			"rotationSet" : "PropY",
+			"scripted" : 
+			{
+				"classname" : "GyroCoreCarryable",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroCoreCarryable.lua"
+			},
+			"showInInventory" : false,
+			"sphere" : 
+			{
+				"diameter" : 7
+			},
+			"uuid" : "5f5b2a0d-b629-4bea-93ca-e1f45ccac62b"
+		},
+		{
+			"box" : 
+			{
+				"x" : 22,
+				"y" : 14,
+				"z" : 2
+			},
+			"color" : "d90505ff",
+			"flammable" : false,
+			"name" : "gyroslot",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 8,
+				"density" : 8,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Character/Char_Gyrocore/char_gyrocore.rend",
+			"rotationSet" : "PropYZ",
+			"scripted" : 
+			{
+				"classname" : "GyroSlot",
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/GyroSlot.lua"
+			},
+			"showInInventory" : false,
+			"uuid" : "a5093336-af02-42c4-8afd-196f22a0917f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "quest_recording",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 3
+			},
+			"renderable" : "$SURVIVAL_DATA/Effects/Renderable/2deffectmeshes/eff_2deffectmeshes_audiolog.rend",
+			"restrictions" : 
+			{
+				"buildable" : false,
+				"erasable" : false,
+				"liftable" : false,
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"showInInventory" : false,
+			"uuid" : "44395054-ce48-40ba-aa21-03eae2298834"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 3,
+				"z" : 2
+			},
+			"name" : "obj_questitem_pictureframe",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 10,
+				"density" : 1,
+				"durability" : 10,
+				"friction" : 10
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/questitem/obj_questitem_pictureframe.rend",
+			"rotationSet" : "PropY",
+			"uuid" : "178fadc6-fff7-4bde-a052-c047e8a8fbcd"
+		},
+		{
+			"hull" : 
+			{
+				"col" : "$SURVIVAL_DATA/Objects/Collision/survivalobject/obj_survivalobject_mustache_col.fbx",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_survivalobject_mustache",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 10,
+				"density" : 1,
+				"durability" : 10,
+				"friction" : 1
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_mustache.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y",
+			"uuid" : "614e5a34-f7f5-43e0-afe1-3b561063d093"
+		},
+		{
+			"box" : 
+			{
+				"x" : 6,
+				"y" : 7,
+				"z" : 6
+			},
+			"carryItem" : true,
+			"color" : "df7f01",
+			"flammable" : false,
+			"name" : "obj_powerstation_battery",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 10,
+				"friction" : 5
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/powerstation/obj_powerstation_battery.rend",
+			"restrictions" : 
+			{
+				"liftable" : true
+			},
+			"rotationSet" : "PropYZNegX",
+			"scripted" : 
+			{
+				"classname" : "UndergroundCarryMineral",
+				"data" : 
+				{
+					"hostedEffect" : "Poweractivationstation - Battery_idleloop",
+					"hostedEffectOnCarry" : false
+				},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/UndergroundCarryMineral.lua"
+			},
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "b5ce8bc0-e8b3-418f-9267-81b85a8eba0d"
+		}
+	]
+}

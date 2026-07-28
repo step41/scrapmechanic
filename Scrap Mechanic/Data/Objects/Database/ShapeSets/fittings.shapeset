@@ -1,0 +1,1160 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"name" : "obj_fittings_ductshort",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductshort.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"stackSize" : 10,
+			"uuid" : "9d7e182f-c5d6-45e9-af21-1c24977b30c9"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 2,
+				"z" : 1
+			},
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"legacyId" : 509,
+			"name" : "obj_fittings_ductlong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductlong.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"stackSize" : 10,
+			"uuid" : "01d2298b-6cdb-4f4f-bd73-37c76cd60ca3"
+		},
+		{
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_ductbend.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 505,
+			"name" : "obj_fittings_ductbend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductbend.rend",
+			"rotationSet" : "PropYX",
+			"stackSize" : 10,
+			"sticky" : "-X+X-Y-Z",
+			"uuid" : "d97a85c5-7c0f-4bfb-9ef4-ce6ecdab9539"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"legacyId" : 507,
+			"name" : "obj_fittings_ductintersect",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 5,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductintersect.rend",
+			"rotationSet" : "StaticYZmNegZmX",
+			"stackSize" : 10,
+			"uuid" : "6f0c29d3-f8c1-4314-b13d-db637ed89061"
+		},
+		{
+			"box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"legacyId" : 506,
+			"name" : "obj_fittings_ductelevate",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductelevate.rend",
+			"rotationSet" : "StaticYmmZmmXmm",
+			"stackSize" : 10,
+			"uuid" : "b050533f-200b-4253-9532-c2cfa273f982"
+		},
+		{
+			"color" : "a4b3b7",
+			"flammable" : false,
+			"legacyId" : 508,
+			"name" : "obj_fittings_ductpipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 2,
+				"durability" : 2,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ductpipe.rend",
+			"rotationSet" : "PropYZ",
+			"stackSize" : 10,
+			"sticky" : "-Y-Z",
+			"uuid" : "fbc0fbfb-803c-42dd-aace-1ae10e55a785",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			}
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 3,
+				"z" : 2
+			},
+			"color" : "3e9ffe",
+			"flammable" : true,
+			"legacyId" : 510,
+			"name" : "obj_fittings_ac",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 4,
+				"durability" : 6,
+				"friction" : 6
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_ac.rend",
+			"rotationSet" : "PropYZ",
+			"uuid" : "1325d152-3dd1-41a1-9027-5823c5cb55c4"
+		},
+		{
+			"color" : "1c8687",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"legacyId" : 511,
+			"name" : "obj_fittings_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipe.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "-Y+Y",
+			"uuid" : "bbc5cc77-443d-4aa7-a175-ebdeb09c2df3"
+		},
+		{
+			"color" : "1c8687",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"legacyId" : 512,
+			"name" : "obj_fittings_pipelong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipelong.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "-Y+Y",
+			"uuid" : "07232236-22eb-4912-8774-ab185f368bb9"
+		},
+		{
+			"color" : "565656",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_pipebend.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 513,
+			"name" : "obj_fittings_pipebend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipebend.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "-Y-Z",
+			"uuid" : "4f1c0036-389b-432e-81de-8261cb9f9d57"
+		},
+		{
+			"color" : "1c8687",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_pipebigsplit.obj",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 514,
+			"name" : "obj_fittings_pipesplit",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipesplit.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYZm",
+			"stackSize" : 10,
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "9f37d9e9-be8d-49c8-a7ac-e59c67786083"
+		},
+		{
+			"color" : "a41717",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 1,
+				"diameter" : 1,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"legacyId" : 515,
+			"name" : "obj_fittings_pipevalve",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 1,
+				"density" : 5,
+				"durability" : 4,
+				"friction" : 4
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipevalve.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "-Y",
+			"uuid" : "04782466-eca1-4ed9-8502-036ea269aed9"
+		},
+		{
+			"color" : "b42119",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 3,
+				"diameter" : 3,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"legacyId" : 516,
+			"name" : "obj_fittings_pipebig",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipebig.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "862f6857-3050-4a84-8191-6a7cbb50bd1a"
+		},
+		{
+			"color" : "b42119",
+			"cylinder" : 
+			{
+				"axis" : "Y",
+				"depth" : 6,
+				"diameter" : 3,
+				"margin" : 0.04
+			},
+			"flammable" : false,
+			"legacyId" : 517,
+			"name" : "obj_fittings_pipebiglong",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipebiglong.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "53e8478f-517f-4ea0-be9c-f4a357400cc1"
+		},
+		{
+			"color" : "b42119",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_pipebigbend.obj",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"legacyId" : 518,
+			"name" : "obj_fittings_pipebigbend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipebigbend.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropY",
+			"sticky" : "-Y-Z",
+			"uuid" : "17153a0e-8461-442f-b172-3a899c1ae99f"
+		},
+		{
+			"color" : "b42119",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_pipebigsplit.obj",
+				"x" : 3,
+				"y" : 3,
+				"z" : 3
+			},
+			"legacyId" : 519,
+			"name" : "obj_fittings_pipebigsplit",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 5
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipebigsplit.mesh",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"metalProfile" : "DifAsgNor_LowReflection"
+								},
+								"material" : "DifAsgNor_Metal",
+								"textureList" : 
+								[
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_dif.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_asg.tga",
+									"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipesbig_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"rotationSet" : "PropYZm",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "08918d4d-29e6-427d-ad8c-1eafcc4af1f9"
+		},
+		{
+			"color" : "2b3f70",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_wireshort.obj",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 521,
+			"name" : "obj_fittings_wireshort",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_wireshort.rend",
+			"rotationSet" : "PropZmY",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "6be64f78-927b-4f61-b645-20adfbd9bfce"
+		},
+		{
+			"color" : "2b3f70",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_wire.obj",
+				"x" : 2,
+				"y" : 5,
+				"z" : 1
+			},
+			"legacyId" : 520,
+			"name" : "obj_fittings_wire",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_wire.rend",
+			"rotationSet" : "PropZmY",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "0535b90e-f0a8-491c-8c70-1fc81b939fb4"
+		},
+		{
+			"color" : "2b3f70",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_wirebend.obj",
+				"x" : 3,
+				"y" : 3,
+				"z" : 1
+			},
+			"legacyId" : 522,
+			"name" : "obj_fittings_wirebend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_wirebend.rend",
+			"rotationSet" : "PropZYNegX",
+			"sticky" : "+X-Y-Z",
+			"uuid" : "33102836-a94d-4ab3-9864-3d54d32c230d"
+		},
+		{
+			"color" : "2b3f70",
+			"flammable" : true,
+			"legacyId" : 523,
+			"name" : "obj_fittings_wireconvexbend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_wireconvexbend.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y-Z",
+			"uuid" : "f0713386-8c95-493d-b013-e8e53e32d1ed",
+			"wedge" : 
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			}
+		},
+		{
+			"color" : "2b3f70",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_wireconcavebend.obj",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"legacyId" : 524,
+			"name" : "obj_fittings_wireconcavebend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 2,
+				"durability" : 1,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_wireconcavevbend.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y-Z+Y",
+			"uuid" : "a8164438-65fa-4840-8bc2-766fad543841"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "79859c",
+			"flammable" : false,
+			"legacyId" : 525,
+			"name" : "obj_fittings_fusebox",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 4,
+				"durability" : 5,
+				"friction" : 4
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_fusebox.rend",
+			"rotationSet" : "PropZY",
+			"uuid" : "697e3b80-d3f7-4f4a-aba2-23611a45f967"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "a97700",
+			"flammable" : true,
+			"legacyId" : 526,
+			"name" : "obj_fittings_cordstraight",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_cordstraight.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y+Y",
+			"uuid" : "647296c4-41ef-4173-8a54-d2a1ae1e89c3"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 4,
+				"z" : 2
+			},
+			"color" : "a97700",
+			"flammable" : true,
+			"legacyId" : 527,
+			"name" : "obj_fittings_cordstraightlong",
+			"physicsMaterial" : "Metal",
+			"previewRotation" : 
+			[
+				0,
+				0,
+				1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_cordstraightlong.rend",
+			"rotationSet" : "StaticYmZmXm",
+			"uuid" : "2ba72fca-443a-49e4-8eb2-073c4226866e"
+		},
+		{
+			"color" : "a97700",
+			"flammable" : true,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/obj_fittings_cordbend.obj",
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"legacyId" : 528,
+			"name" : "obj_fittings_cordbend",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_cordbend.rend",
+			"rotationSet" : "PropY",
+			"sticky" : "-Y-Z",
+			"uuid" : "903b0823-4ce1-48e6-9702-aeaa7598c347"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"color" : "a97700",
+			"flammable" : true,
+			"legacyId" : 529,
+			"name" : "obj_fittings_cordjunction",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 4,
+				"density" : 4,
+				"durability" : 4,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_cordjunction.rend",
+			"rotationSet" : "PropYZm",
+			"sticky" : "-Y+Y-Z",
+			"uuid" : "885ab381-007d-4a60-99e3-c58dec54c880"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_2way_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_2way_pipe",
+			"physicsMaterial" : "Metal",
+			"previewRotation" : 
+			[
+				0,
+				0,
+				-1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_2way_pipe.rend",
+			"rotationSet" : "PropXmm",
+			"stackSize" : 10,
+			"sticky" : "-X+X",
+			"uuid" : "0dba257b-b907-4919-baaf-2fefe19f4e24"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_long_pipe.obj",
+				"margin" : 0.25,
+				"x" : 4,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_long_pipe",
+			"physicsMaterial" : "Metal",
+			"previewRotation" : 
+			[
+				0,
+				0,
+				-1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_long_pipe.rend",
+			"rotationSet" : "PropXmm",
+			"stackSize" : 10,
+			"sticky" : "-X+X",
+			"uuid" : "927d80d8-84ee-44f0-9d8b-cb7a688e0b6c"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_2wayb_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_2wayb_pipe",
+			"physicsMaterial" : "Metal",
+			"previewRotation" : 
+			[
+				0,
+				0,
+				1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_2wayb_pipe.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 10,
+			"sticky" : "+X-Y",
+			"uuid" : "8024db09-9147-4fe3-a747-00bc30ab724b"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_3way_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_3way_pipe",
+			"physicsMaterial" : "Metal",
+			"previewRotation" : 
+			[
+				0,
+				0,
+				-1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_3way_pipe.rend",
+			"rotationSet" : "PropXNegZm",
+			"stackSize" : 10,
+			"sticky" : "-X+X+Z",
+			"uuid" : "e1273b8a-945b-4080-81eb-cbf79961cccb"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_3wayb_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_3wayb_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_3wayb_pipe.rend",
+			"rotationSet" : "PropNegY",
+			"stackSize" : 10,
+			"sticky" : "-X+Z+Y",
+			"uuid" : "203fdf06-b311-49fd-933d-a1c6b671a017"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_4way_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_4way_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_4way_pipe.rend",
+			"rotationSet" : "PropZ",
+			"stackSize" : 10,
+			"sticky" : "-X+X-Z+Z",
+			"uuid" : "387095d6-5aba-45e3-abd0-098710c268f8"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_4wayb_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_4wayb_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_4wayb_pipe.rend",
+			"rotationSet" : "PropNegYX",
+			"stackSize" : 10,
+			"sticky" : "-X+X+Z+Y",
+			"uuid" : "5a106512-9284-40de-be68-2c186e903097"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_5way_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_5way_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_5way_pipe.rend",
+			"rotationSet" : "PropNegYmmX",
+			"stackSize" : 10,
+			"sticky" : "-X+X-Z+Z+Y",
+			"uuid" : "c6ebae46-8e69-4ddd-a3c0-895d887027bd"
+		},
+		{
+			"color" : "7a7a7a",
+			"flammable" : false,
+			"hull" : 
+			{
+				"col" : "$GAME_DATA/Objects/Collision/small_6way_pipe.obj",
+				"margin" : 0.25,
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"name" : "obj_small_6way_pipe",
+			"physicsMaterial" : "Metal",
+			"ratings" : 
+			{
+				"buoyancy" : 3,
+				"density" : 2,
+				"durability" : 5,
+				"friction" : 3
+			},
+			"renderable" : "$GAME_DATA/Objects/Renderable/Fittings/obj_fittings_small_6way_pipe.rend",
+			"rotationSet" : "PropXmm",
+			"stackSize" : 10,
+			"uuid" : "9c6d8dba-1783-4c42-8a02-6af1c5d63ec6"
+		}
+	]
+}
