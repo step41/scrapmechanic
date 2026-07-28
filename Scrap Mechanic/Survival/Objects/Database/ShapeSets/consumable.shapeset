@@ -164,13 +164,13 @@
 				"friction" : 4
 			},
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Consumable/obj_consumable_longsandwich.rend",
-			"restrictions" : 
+			"restrictions" :
 			{
 				"erasable" : true,
 				"paintable" : false
 			},
 			"rotationSet" : "PropY",
-			"stackSize" : 1,
+			"stackSize" : 10,
 			"sticky" : "-Y",
 			"uuid" : "e243f642-6934-42bb-8cdd-f8ff1704d411"
 		},
