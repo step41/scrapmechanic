@@ -1,0 +1,600 @@
+{
+	"07f327f2-d5cf-4162-95de-dbd4c71f06f9":
+	{
+		"title": "330000",
+		"description": ""
+	},
+	"d20400e9-efc2-4b50-9e99-eae935d6fc12":
+	{
+		"title": "660000",
+		"description": ""
+	},
+	"136f2be0-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "990000",
+		"description": ""
+	},
+	"136f2e74-a7f9-11e7-abc4-cec278b6b50a":
+	{	
+		"title": "cc0000",
+		"description": ""
+	},
+	"136f2f8c-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff0000",
+		"description": ""
+	},
+	"136f30d6-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff3333",
+		"description": ""
+	},
+	"136f3202-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff6666",
+		"description": ""
+	},
+	"136f32d4-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff9999",
+		"description": ""
+	},
+	"136f33a6-a7f9-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffcccc",
+		"description": ""
+	},
+//----------------------------------------------------
+	"63cd8ecc-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "331900",
+		"description": ""
+	},
+	"63cd9278-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "663300",
+		"description": ""
+	},
+	"63cd98c2-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "994c00",
+		"description": ""
+	},
+	"63cd9b7e-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cc6600",
+		"description": ""
+	},
+	"63cd9d90-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff8000",
+		"description": ""
+	},
+	"63cd9f52-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff9933",
+		"description": ""
+	},
+	"63cda1dc-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffb266",
+		"description": ""
+	},
+	"63cda3bc-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffcc99",
+		"description": ""
+	},
+	"63cda57e-a7fb-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffe5cc",
+		"description": ""
+	},
+//-------------------------------------------------
+	"1b34456e-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "333300",
+		"description": ""
+	},
+	"1b3452de-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "666600",
+		"description": ""
+	},
+	"1b34546e-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "999900",
+		"description": ""
+	},
+	"1b345554-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cccc00",
+		"description": ""
+	},
+	"1b345630-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffff00",
+		"description": ""
+	},
+	"1b3457b6-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffff33",
+		"description": ""
+	},
+	"1b345964-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffff66",
+		"description": ""
+	},
+	"1b345afe-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffff99",
+		"description": ""
+	},
+	"1b346800-a7fd-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffffcc",
+		"description": ""
+	},
+//------------------------------------------------------
+	"0780db54-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "193300",
+		"description": ""
+	},
+	"0780df96-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "336600",
+		"description": ""
+	},
+	"0780e66c-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "4c9900",
+		"description": ""
+	},
+	"f7fb0b9e-e95a-4bd1-9b2d-7994058ca2e5":
+	{
+		"title": "66cc00",
+		"description": ""
+	},
+	"0780eb94-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "80ff00",
+		"description": ""
+	},
+	"0780edf6-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "99ff33",
+		"description": ""
+	},
+	"0780eff4-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "b2ff66",
+		"description": ""
+	},
+	"0780f1e8-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ccff99",
+		"description": ""
+	},
+	"0780f3fa-a86b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "e5ffcc",
+		"description": ""
+	},
+//--------------------------------------------------------
+	"bf49ca75-7c2d-45fc-b076-1aeb034d8d68":
+	{
+		"title": "003300",
+		"description": ""
+	},
+	"15c97fba-68e9-4103-83bf-bebc723fd622":
+	{
+		"title": "006600",
+		"description": ""
+	},
+	"4d9247f0-5163-4ca5-b8aa-99de4dfd9495":
+	{
+		"title": "009900",
+		"description": ""
+	},
+	"e6a14d87-50b9-4336-8b2d-ca6ac1482a26":
+	{
+		"title": "00cc00",
+		"description": ""
+	},
+	"bf3ba1d4-c3d2-47a8-a27e-b1aeafd909dd":
+	{
+		"title": "00ff00",
+		"description": ""
+	},
+	"9cab8bb9-8477-4d97-b014-2451aba3427e":
+	{
+		"title": "33ff33",
+		"description": ""
+	},
+	"764438dc-a411-4279-81a1-b9d4fd6efed7":
+	{
+		"title": "66ff66",
+		"description": ""
+	},
+	"1acded3c-d3ae-45d8-b420-c2bf83b4b199":
+	{
+		"title": "99ff99",
+		"description": ""
+	},
+	"e8998c1b-9f4f-4635-930c-1d8d3a130202":
+	{
+		"title": "ccffcc",
+		"description": ""
+	},
+//---------------------------------------------------------
+	"733ca8e0-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "003319",
+		"description": ""
+	},
+	"733cacbe-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "006633",
+		"description": ""
+	},
+	"733cafe8-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00994c",
+		"description": ""
+	},
+	"733cb1fa-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00cc66",
+		"description": ""
+	},
+	"733cb3d0-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00ff80",
+		"description": ""
+	},
+	"733cb790-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00ff99",
+		"description": ""
+	},
+	"733cb934-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "66ffb2",
+		"description": ""
+	},
+	"733cbbb4-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "99ffcc",
+		"description": ""
+	},
+	"733cbde4-a86c-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ccffe5",
+		"description": ""
+	},
+//----------------------------------------------------------
+	"6e0b8e1c-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "003333",
+		"description": ""
+	},
+	"6e0b9074-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "006666",
+		"description": ""
+	},
+	"6e0b916e-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "009999",
+		"description": ""
+	},
+	"6e0b924a-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00cccc",
+		"description": ""
+	},
+	"6e0b9312-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "00ffff",
+		"description": ""
+	},
+	"6e0b93e4-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "33ffff",
+		"description": ""
+	},
+	"6e0b97fe-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "66ffff",
+		"description": ""
+	},
+	"6e0b98d0-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "99ffff",
+		"description": ""
+	},
+	"6e0b998e-a86d-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ccffff",
+		"description": ""
+	},
+//-----------------------------------------------------------
+	"26ba916c-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "001933",
+		"description": ""
+	},
+	"26ba952c-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "003366",
+		"description": ""
+	},
+	"26ba99f0-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "004c99",
+		"description": ""
+	},
+	"26ba9c34-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "0066cc",
+		"description": ""
+	},
+	"26ba9ed2-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "0080ff",
+		"description": ""
+	},
+	"26baa170-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "3399ff",
+		"description": ""
+	},
+	"26baa332-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "66b2ff",
+		"description": ""
+	},
+	"26baa698-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "99ccff",
+		"description": ""
+	},
+	"26baa83c-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cce5ff",
+		"description": ""
+	},
+//------------------------------------------------------------
+	"add9bb14-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "000033",
+		"description": ""
+	},
+	"add9bea2-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "000066",
+		"description": ""
+	},
+	"add9c046-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "000099",
+		"description": ""
+	},
+	"add9c6a4-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "0000cc",
+		"description": ""
+	},
+	"add9c866-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "0000ff",
+		"description": ""
+	},
+	"add9c9d8-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "3333ff",
+		"description": ""
+	},
+	"add9cb40-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "6666ff",
+		"description": ""
+	},
+	"add9cca8-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "9999ff",
+		"description": ""
+	},
+	"add9ce06-a876-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ccccff",
+		"description": ""
+	},
+//------------------------------------------------------------
+	"a268f316-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "190033",
+		"description": ""
+	},
+	"a268f690-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "330066",
+		"description": ""
+	},
+	"a268fc58-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "4c0099",
+		"description": ""
+	},
+	"a268fe6a-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "6600cc",
+		"description": ""
+	},
+	"a2690022-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "7f00ff",
+		"description": ""
+	},
+	"a2690194-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "9933ff",
+		"description": ""
+	},
+	"a26902fc-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "b266ff",
+		"description": ""
+	},
+	"a269046e-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cc99ff",
+		"description": ""
+	},
+	"a26908a6-a877-11e7-abc4-cec278b6b50a":
+	{
+		"title": "e5ccff",
+		"description": ""
+	},
+//------------------------------------------------------------
+	"e791fcb6-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "330033",
+		"description": ""
+	},
+	"e791ff4a-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "660066",
+		"description": ""
+	},
+	"e792004e-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "990099",
+		"description": ""
+	},
+	"e792012a-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cc00cc",
+		"description": ""
+	},
+	"e7920206-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff00ff",
+		"description": ""
+	},
+	"e79202ce-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff33ff",
+		"description": ""
+	},
+	"e79206c0-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff66ff",
+		"description": ""
+	},
+	"e792079c-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff99ff",
+		"description": ""
+	},
+	"e7920864-a878-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffccff",
+		"description": ""
+	},
+//-------------------------------------------------------------
+	"d09ebb14-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "330019",
+		"description": ""
+	},
+	"d09ec046-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "660033",
+		"description": ""
+	},
+	"d09ec528-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "99004c",
+		"description": ""
+	},
+	"d09ec690-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "cc0066",
+		"description": ""
+	},
+	"d09ec852-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff007f",
+		"description": ""
+	},
+	"d09ecadc-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff3399",
+		"description": ""
+	},
+	"d09ecbcc-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff66b2",
+		"description": ""
+	},
+	"d09ecc9e-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ff99cc",
+		"description": ""
+	},
+	"d09ecf64-a87a-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffcce5",
+		"description": ""
+	},
+//--------------------------------------------------------------
+	"4f2d9216-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "000000",
+		"description": ""
+	},
+	"4f2d9608-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "202020",
+		"description": ""
+	},
+	"4f2d9810-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "404040",
+		"description": ""
+	},
+	"4f2d9fe0-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "606060",
+		"description": ""
+	},
+	"4f2da33c-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "808080",
+		"description": ""
+	},
+	"4f2da68e-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "a0a0a0",
+		"description": ""
+	},
+	"4f2da86e-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "c0c0c0",
+		"description": ""
+	},
+	"4f2daa44-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "e0e0e0",
+		"description": ""
+	},
+	"4f2dac06-a87b-11e7-abc4-cec278b6b50a":
+	{
+		"title": "ffffff",
+		"description": ""
+	}
+	
+}

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceImageSet" name="ItemIconsSet0">
+        <Group name="ItemIcons" texture="IconMap.png" size="74 74">
+            <Index name="Empty">
+                <Frame point="0 0"/>
+            </Index>
+            <Index name="07f327f2-d5cf-4162-95de-dbd4c71f06f9">
+                <Frame point="0 0"/>
+            </Index>
+            <Index name="d20400e9-efc2-4b50-9e99-eae935d6fc12">
+                <Frame point="74 0"/>
+            </Index>
+            <Index name="136f2be0-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="148 0"/>
+            </Index>
+            <Index name="136f2e74-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="222 0"/>
+            </Index>
+            <Index name="136f2f8c-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="296 0"/>
+            </Index>
+            <Index name="136f30d6-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="370 0"/>
+            </Index>
+            <Index name="136f3202-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="444 0"/>
+            </Index>
+            <Index name="136f32d4-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="518 0"/>
+            </Index>
+            <Index name="136f33a6-a7f9-11e7-abc4-cec278b6b50a">
+                <Frame point="592 0"/>
+            </Index>
+            <Index name="63cd8ecc-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="666 0"/>
+            </Index>
+            <Index name="63cd9278-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="740 0"/>
+            </Index>
+            <Index name="63cd98c2-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="814 0"/>
+            </Index>
+            <Index name="63cd9b7e-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="888 0"/>
+            </Index>
+            <Index name="63cd9d90-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="0 74"/>
+            </Index>
+            <Index name="63cd9f52-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="74 74"/>
+            </Index>
+            <Index name="63cda1dc-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="148 74"/>
+            </Index>
+            <Index name="63cda3bc-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="222 74"/>
+            </Index>
+            <Index name="63cda57e-a7fb-11e7-abc4-cec278b6b50a">
+                <Frame point="296 74"/>
+            </Index>
+            <Index name="1b34456e-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="370 74"/>
+            </Index>
+            <Index name="1b3452de-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="444 74"/>
+            </Index>
+            <Index name="1b34546e-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="518 74"/>
+            </Index>
+            <Index name="1b345554-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="592 74"/>
+            </Index>
+            <Index name="1b345630-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="666 74"/>
+            </Index>
+            <Index name="1b3457b6-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="740 74"/>
+            </Index>
+            <Index name="1b345964-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="814 74"/>
+            </Index>
+            <Index name="1b345afe-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="888 74"/>
+            </Index>
+            <Index name="1b346800-a7fd-11e7-abc4-cec278b6b50a">
+                <Frame point="0 148"/>
+            </Index>
+            <Index name="0780db54-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="74 148"/>
+            </Index>
+            <Index name="0780df96-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="148 148"/>
+            </Index>
+            <Index name="0780e66c-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="222 148"/>
+            </Index>
+            <Index name="f7fb0b9e-e95a-4bd1-9b2d-7994058ca2e5">
+                <Frame point="296 148"/>
+            </Index>
+            <Index name="0780eb94-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="370 148"/>
+            </Index>
+            <Index name="0780edf6-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="444 148"/>
+            </Index>
+            <Index name="0780eff4-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="518 148"/>
+            </Index>
+            <Index name="0780f1e8-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="592 148"/>
+            </Index>
+            <Index name="0780f3fa-a86b-11e7-abc4-cec278b6b50a">
+                <Frame point="666 148"/>
+            </Index>
+            <Index name="bf49ca75-7c2d-45fc-b076-1aeb034d8d68">
+                <Frame point="740 148"/>
+            </Index>
+            <Index name="15c97fba-68e9-4103-83bf-bebc723fd622">
+                <Frame point="814 148"/>
+            </Index>
+            <Index name="4d9247f0-5163-4ca5-b8aa-99de4dfd9495">
+                <Frame point="888 148"/>
+            </Index>
+            <Index name="e6a14d87-50b9-4336-8b2d-ca6ac1482a26">
+                <Frame point="0 222"/>
+            </Index>
+            <Index name="bf3ba1d4-c3d2-47a8-a27e-b1aeafd909dd">
+                <Frame point="74 222"/>
+            </Index>
+            <Index name="9cab8bb9-8477-4d97-b014-2451aba3427e">
+                <Frame point="148 222"/>
+            </Index>
+            <Index name="764438dc-a411-4279-81a1-b9d4fd6efed7">
+                <Frame point="222 222"/>
+            </Index>
+            <Index name="1acded3c-d3ae-45d8-b420-c2bf83b4b199">
+                <Frame point="296 222"/>
+            </Index>
+            <Index name="e8998c1b-9f4f-4635-930c-1d8d3a130202">
+                <Frame point="370 222"/>
+            </Index>
+            <Index name="733ca8e0-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="444 222"/>
+            </Index>
+            <Index name="733cacbe-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="518 222"/>
+            </Index>
+            <Index name="733cafe8-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="592 222"/>
+            </Index>
+            <Index name="733cb1fa-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="666 222"/>
+            </Index>
+            <Index name="733cb3d0-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="740 222"/>
+            </Index>
+            <Index name="733cb790-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="814 222"/>
+            </Index>
+            <Index name="733cb934-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="888 222"/>
+            </Index>
+            <Index name="733cbbb4-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="0 296"/>
+            </Index>
+            <Index name="733cbde4-a86c-11e7-abc4-cec278b6b50a">
+                <Frame point="74 296"/>
+            </Index>
+            <Index name="6e0b8e1c-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="148 296"/>
+            </Index>
+            <Index name="6e0b9074-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="222 296"/>
+            </Index>
+            <Index name="6e0b916e-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="296 296"/>
+            </Index>
+            <Index name="6e0b924a-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="370 296"/>
+            </Index>
+            <Index name="6e0b9312-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="444 296"/>
+            </Index>
+            <Index name="6e0b93e4-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="518 296"/>
+            </Index>
+            <Index name="6e0b97fe-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="592 296"/>
+            </Index>
+            <Index name="6e0b98d0-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="666 296"/>
+            </Index>
+            <Index name="6e0b998e-a86d-11e7-abc4-cec278b6b50a">
+                <Frame point="740 296"/>
+            </Index>
+            <Index name="26ba916c-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="814 296"/>
+            </Index>
+            <Index name="26ba952c-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="888 296"/>
+            </Index>
+            <Index name="26ba99f0-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="0 370"/>
+            </Index>
+            <Index name="26ba9c34-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="74 370"/>
+            </Index>
+            <Index name="26ba9ed2-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="148 370"/>
+            </Index>
+            <Index name="26baa170-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="222 370"/>
+            </Index>
+            <Index name="26baa332-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="296 370"/>
+            </Index>
+            <Index name="26baa698-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="370 370"/>
+            </Index>
+            <Index name="26baa83c-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="444 370"/>
+            </Index>
+            <Index name="add9bb14-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="518 370"/>
+            </Index>
+            <Index name="add9bea2-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="592 370"/>
+            </Index>
+            <Index name="add9c046-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="666 370"/>
+            </Index>
+            <Index name="add9c6a4-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="740 370"/>
+            </Index>
+            <Index name="add9c866-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="814 370"/>
+            </Index>
+            <Index name="add9c9d8-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="888 370"/>
+            </Index>
+            <Index name="add9cb40-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="0 444"/>
+            </Index>
+            <Index name="add9cca8-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="74 444"/>
+            </Index>
+            <Index name="add9ce06-a876-11e7-abc4-cec278b6b50a">
+                <Frame point="148 444"/>
+            </Index>
+            <Index name="a268f316-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="222 444"/>
+            </Index>
+            <Index name="a268f690-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="296 444"/>
+            </Index>
+            <Index name="a268fc58-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="370 444"/>
+            </Index>
+            <Index name="a268fe6a-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="444 444"/>
+            </Index>
+            <Index name="a2690022-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="518 444"/>
+            </Index>
+            <Index name="a2690194-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="592 444"/>
+            </Index>
+            <Index name="a26902fc-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="666 444"/>
+            </Index>
+            <Index name="a269046e-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="740 444"/>
+            </Index>
+            <Index name="a26908a6-a877-11e7-abc4-cec278b6b50a">
+                <Frame point="814 444"/>
+            </Index>
+            <Index name="e791fcb6-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="888 444"/>
+            </Index>
+            <Index name="e791ff4a-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="0 518"/>
+            </Index>
+            <Index name="e792004e-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="74 518"/>
+            </Index>
+            <Index name="e792012a-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="148 518"/>
+            </Index>
+            <Index name="e7920206-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="222 518"/>
+            </Index>
+            <Index name="e79202ce-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="296 518"/>
+            </Index>
+            <Index name="e79206c0-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="370 518"/>
+            </Index>
+            <Index name="e792079c-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="444 518"/>
+            </Index>
+            <Index name="e7920864-a878-11e7-abc4-cec278b6b50a">
+                <Frame point="518 518"/>
+            </Index>
+            <Index name="d09ebb14-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="592 518"/>
+            </Index>
+            <Index name="d09ec046-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="666 518"/>
+            </Index>
+            <Index name="d09ec528-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="740 518"/>
+            </Index>
+            <Index name="d09ec690-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="814 518"/>
+            </Index>
+            <Index name="d09ec852-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="888 518"/>
+            </Index>
+            <Index name="d09ecadc-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="0 592"/>
+            </Index>
+            <Index name="d09ecbcc-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="74 592"/>
+            </Index>
+            <Index name="d09ecc9e-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="148 592"/>
+            </Index>
+            <Index name="d09ecf64-a87a-11e7-abc4-cec278b6b50a">
+                <Frame point="222 592"/>
+            </Index>
+            <Index name="4f2d9216-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="296 592"/>
+            </Index>
+            <Index name="4f2d9608-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="370 592"/>
+            </Index>
+            <Index name="4f2d9810-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="444 592"/>
+            </Index>
+            <Index name="4f2d9fe0-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="518 592"/>
+            </Index>
+            <Index name="4f2da33c-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="592 592"/>
+            </Index>
+            <Index name="4f2da68e-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="666 592"/>
+            </Index>
+            <Index name="4f2da86e-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="740 592"/>
+            </Index>
+            <Index name="4f2daa44-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="814 592"/>
+            </Index>
+            <Index name="4f2dac06-a87b-11e7-abc4-cec278b6b50a">
+                <Frame point="888 592"/>
+            </Index>
+        </Group>
+    </Resource>
+</MyGUI>

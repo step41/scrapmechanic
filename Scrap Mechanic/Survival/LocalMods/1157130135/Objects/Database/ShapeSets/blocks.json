@@ -1,0 +1,1187 @@
+{
+	"blockList":
+	[
+		{
+			"uuid": "07f327f2-d5cf-4162-95de-dbd4c71f06f9",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "330000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d20400e9-efc2-4b50-9e99-eae935d6fc12",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "660000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{	
+			"uuid": "136f2be0-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "990000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f2e74-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cc0000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f2f8c-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff0000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f30d6-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff3333",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f3202-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff6666",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f32d4-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff9999",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "136f33a6-a7f9-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffcccc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//--------------------------------------------------------------------------------------------------------		
+		{
+			"uuid": "63cd8ecc-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "331900",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cd9278-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "663300",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{	
+			"uuid": "63cd98c2-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "994c00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cd9b7e-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cc6600",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cd9d90-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff8000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cd9f52-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff9933",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cda1dc-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffb266",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cda3bc-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffcc99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "63cda57e-a7fb-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffe5cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//---------------------------------------------------------------------------------
+		{
+			"uuid": "1b34456e-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "333300",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b3452de-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "666600",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b34546e-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "999900",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b345554-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cccc00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b345630-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffff00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b3457b6-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffff33",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b345964-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffff66",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b345afe-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffff99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1b346800-a7fd-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffffcc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//---------------------------------------------------------------------------------
+		{
+			"uuid": "0780db54-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "193300",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780df96-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "336600",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780e66c-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "4c9900",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "f7fb0b9e-e95a-4bd1-9b2d-7994058ca2e5",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "66cc00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780eb94-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "80ff00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780edf6-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99ff33",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780eff4-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "b2ff66",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780f1e8-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ccff99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "0780f3fa-a86b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "e5ffcc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},	
+//---------------------------------------------------------------------------------
+		{
+			"uuid": "bf49ca75-7c2d-45fc-b076-1aeb034d8d68",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "003300",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "15c97fba-68e9-4103-83bf-bebc723fd622",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "006600",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4d9247f0-5163-4ca5-b8aa-99de4dfd9495",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "009900",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e6a14d87-50b9-4336-8b2d-ca6ac1482a26",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00cc00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "bf3ba1d4-c3d2-47a8-a27e-b1aeafd909dd",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00ff00",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "9cab8bb9-8477-4d97-b014-2451aba3427e",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "33ff33",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "764438dc-a411-4279-81a1-b9d4fd6efed7",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "66ff66",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "1acded3c-d3ae-45d8-b420-c2bf83b4b199",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99ff99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e8998c1b-9f4f-4635-930c-1d8d3a130202",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ccffcc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//-----------------------------------------------------------------------------
+		{
+			"uuid": "733ca8e0-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "003319",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cacbe-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "006633",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cafe8-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00994c",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cb1fa-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00cc66",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cb3d0-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00ff80",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cb790-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "33ff99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cb934-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "66ffb2",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cbbb4-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99ffcc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "733cbde4-a86c-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ccffe5",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//----------------------------------------------------------------------------------
+		{
+			"uuid": "6e0b8e1c-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "003333",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b9074-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "006666",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b916e-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "009999",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b924a-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00cccc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b9312-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00ffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b93e4-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "33ffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b97fe-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "66ffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b98d0-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99ffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "6e0b998e-a86d-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ccffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//---------------------------------------------------------------------------------
+		{
+			"uuid": "26ba916c-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "001933",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26ba952c-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "003366",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26ba99f0-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "004c99",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26ba9c34-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "0066cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26ba9ed2-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "0080ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26baa170-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "3399ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26baa332-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "66b2ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26baa698-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99ccff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "26baa83c-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cce5ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//------------------------------------------------------------------------------
+		{
+			"uuid": "add9bb14-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "000033",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9bea2-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "000066",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9c046-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "000099",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9c6a4-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "0000cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9c866-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "0000ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9c9d8-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "3333ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9cb40-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "6666ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9cca8-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "9999ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "add9ce06-a876-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ccccff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//----------------------------------------------------------------------------------
+		{
+			"uuid": "a268f316-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "190033",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a268f690-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "330066",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a268fc58-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "4c0099",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a268fe6a-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "6600cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a2690022-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "7f00ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a2690194-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "9933ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a26902fc-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "b266ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a269046e-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cc99ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "a26908a6-a877-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "e5ccff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//--------------------------------------------------------------------------------
+		{
+			"uuid": "e791fcb6-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "330033",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e791ff4a-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "660066",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e792004e-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "990099",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e792012a-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cc00cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e7920206-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff00ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e79202ce-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff33ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e79206c0-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff66ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e792079c-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff99ff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "e7920864-a878-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffccff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//-----------------------------------------------------------------------------------
+		{
+			"uuid": "d09ebb14-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "330019",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ec046-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "660033",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ec528-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "99004c",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ec690-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "cc0066",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ec852-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff007f",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ecadc-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff3399",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ecbcc-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff66b2",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ecc9e-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ff99cc",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "d09ecf64-a87a-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffcce5",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+//-----------------------------------------------------------------------------------
+		{
+			"uuid": "4f2d9216-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "000000",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2d9608-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "202020",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2d9810-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "404040",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2d9fe0-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "606060",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2da33c-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "808080",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2da68e-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "a0a0a0",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2da86e-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "c0c0c0",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2daa44-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "e0e0e0",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		},
+		{
+			"uuid": "4f2dac06-a87b-11e7-abc4-cec278b6b50a",
+			"dif": "$MOD_DATA/Objects/Textures/White_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/White_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "ffffff",
+			"density": 250,
+			"tiling": 4,
+			"physicsMaterial": "Rock"
+		}
+	]
+}
