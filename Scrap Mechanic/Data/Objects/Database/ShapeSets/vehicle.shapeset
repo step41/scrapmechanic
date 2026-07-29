@@ -19,7 +19,7 @@
 				"buoyancy" : 6,
 				"density" : 7,
 				"durability" : 10,
-				"friction" : 10
+				"friction" : 5
 			},
 			"renderable" : "$GAME_DATA/Objects/Renderable/vehicle/obj_vehicle_smallwheel.rend",
 			"rotationSet" : "PropZ",
@@ -45,7 +45,7 @@
 				"buoyancy" : 6,
 				"density" : 4,
 				"durability" : 10,
-				"friction" : 10
+				"friction" : 5
 			},
 			"renderable" : "$GAME_DATA/Objects/Renderable/vehicle/obj_vehicle_bigwheel.rend",
 			"rotationSet" : "PropZ",
