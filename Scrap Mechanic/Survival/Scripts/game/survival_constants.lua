@@ -190,15 +190,16 @@ LIMITED_LOOT_DEFAULT_LIMIT = 5
 -- Ordered HexStr colors selectable from the paint-tool
 -- CONFIRMED (in-game test): the paint tool does NOT read this array - a bright magenta swap on
 -- the first entry, with a full game restart and confirmed-updated files on disk, produced no
--- change at all. Whatever the tool actually reads from, it isn't this. Left at 128 entries as a
--- data point in case a real consumer is found later, but do not expect this to affect anything
--- in-game right now.
+-- change at all. The real source is Data/Render/PaintPalette/{primary,accent}.paintpalette -
+-- also confirmed the tool only ever displays the first 40 entries of those files regardless of
+-- how many more are appended. Kept in sync with the first 40 of those files for consistency, but
+-- do not expect editing this array alone to affect anything in-game.
 PAINT_COLORS =
 {
-	"eeeeeeff", "f5f071ff", "cbf66fff", "68ff88ff", "7eededff", "4c6fe3ff", "ae79f0ff", "ee7bf0ff", "f06767ff", "eeaf5cff",
-	"7f7f7fff", "e2db13ff", "a0ea00ff", "19e753ff", "2ce6e6ff", "0a3ee2ff", "7514edff", "cf11d2ff", "d02525ff", "df7f00ff",
-	"4a4a4aff", "817c00ff", "577d07ff", "0e8031ff", "118787ff", "0f2e91ff", "500aa6ff", "720a74ff", "7c0000ff", "673b00ff",
-	"222222ff", "323000ff", "375000ff", "064023ff", "0a4444ff", "0a1d5aff", "35086cff", "520653ff", "560202ff", "472800ff",
+	"eeeeeeff", "bfcda2ff", "a7c69fff", "dbd4b3ff", "decdbaff", "c8a993ff", "c29989ff", "a1aebaff", "c69e95ff", "d3d4afff",
+	"7f7f7fff", "83a145ff", "559146ff", "baab5eff", "c49c6eff", "ab7349ff", "9f5b41ff", "5c748aff", "a75644ff", "aeaf5aff",
+	"4a4a4aff", "576a2fff", "3a5e31ff", "83783fff", "946e42ff", "714d33ff", "6b3e2eff", "3d4d5cff", "723d31ff", "78793eff",
+	"222222ff", "283017ff", "1b2b17ff", "423d24ff", "513f2aff", "37271bff", "342018ff", "1d242bff", "371f1aff", "3d3e23ff",
 
 	-- Jungle / desert / military vehicle tones (24)
 	"4b5320ff", "3b4226ff", "4d5d23ff", "2f3b24ff", "434829ff", "6c541eff", "4b3621ff", "738678ff", "5b6f55ff", "3e4a2eff",
