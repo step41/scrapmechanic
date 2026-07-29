@@ -40,7 +40,6 @@
 				"friction": 10,
 				"buoyancy": 6
 			},
-			"friction": 50000,
 			"stackSize": 256
 		},
 		{
