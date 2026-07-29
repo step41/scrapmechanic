@@ -73,6 +73,7 @@
 			"color": "df7f00",
 			"cylinder": { "diameter": 5, "depth": 2, "margin": 0.5, "axis": "Z" },
 			"physicsMaterial": "Plastic",
+			"flammable": false,
 			"sticky": "-Z+Z",
 			"qualityLevel": 3,
 			"ratings": {
