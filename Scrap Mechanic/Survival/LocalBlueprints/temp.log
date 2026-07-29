@@ -1,0 +1,57 @@
+This was the error for Carrier:
+
+22:51:20 (6219138/194951) [Logic Task:11596] ERROR: ShapeManager.cpp:1878 Failed to find shape with UUID: {d739fdf9-2c61-47ea-88ab-beac6a6c35c0(<Unnamed>)}
+22:51:20 (6219138/194951) [Logic Task:11596] ERROR: ASSERT: 'itrStackWalk != m_vecLastMethodStack.rend()' : LuaVM.cpp:716
+22:51:20 (6219138/194951) [Logic Task:11596] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:51:20 (6219138/194951) [Logic Task:11596] ERROR: CreationImporter.cpp:419 Failed to import child shapes
+22:51:20 (6219138/194951) [Logic Task:11596] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:51:20 (6219138/194951) [Logic Task:11596] ERROR: CreationImporter.cpp:760 Failed to import bodies!
+22:51:20 (6219138/194951) [Logic Task:11596] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:51:20 (6219138/194951) [Logic Task:11596] ERROR: CreationImporter.cpp:203 Failed to import
+22:51:20 (6219138/194951) [Logic Task:11596] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:51:25 (6219346/195192) [Main:16524] [Window] WM_ACTIVATE FALSE
+22:51:25 (6219346/195192) [Main:16524] [Window] Contraption::setActive false
+22:51:25 (6219346/195192) [Main:16524] [Window] WM_ACTIVATEAPP FALSE
+22:51:25 (6219346/195192) [Main:16524] [Window] Contraption::setActive false
+
+
+This was the error for Tanker:
+
+22:53:10 (6223514/199822) [Logic Task:14160] [Default] Failed to load data cache for '$SURVIVAL_DATA/LocalBlueprints/LunarMastodonTanker.blueprint' Settings: '23' CacheName: '$CACHE_DATA/Data/lunarmastodontanker_3E0BA2432D2FE029.dco' error code: 13
+22:53:10 (6223514/199822) [Logic Task:14160] ERROR: ShapeManager.cpp:1878 Failed to find shape with UUID: {d739fdf9-2c61-47ea-88ab-beac6a6c35c0(<Unnamed>)}
+22:53:10 (6223514/199822) [Logic Task:14160] ERROR: ASSERT: 'itrStackWalk != m_vecLastMethodStack.rend()' : LuaVM.cpp:716
+22:53:10 (6223514/199822) [Logic Task:14160] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:53:10 (6223514/199822) [Logic Task:14160] ERROR: CreationImporter.cpp:419 Failed to import child shapes
+22:53:10 (6223514/199822) [Logic Task:14160] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:53:10 (6223514/199822) [Logic Task:14160] ERROR: CreationImporter.cpp:760 Failed to import bodies!
+22:53:10 (6223514/199822) [Logic Task:14160] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:53:10 (6223514/199822) [Logic Task:14160] ERROR: CreationImporter.cpp:203 Failed to import
+22:53:10 (6223514/199822) [Logic Task:14160] [Lua] ----- Lua Error Traceback -----
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1171: in function 'sv_importCreation' (Lua entered on line number: 1170)
+        [C]: in function 'pcall'
+        $SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1170: in function <$SURVIVAL_DATA/Scripts/game/SurvivalGame.lua:1168>
+22:53:13 (6223640/199968) [Main:16524] [Window] WM_ACTIVATE FALSE
+22:53:13 (6223640/199968) [Main:16524] [Window] Contraption::setActive false
+22:53:13 (6223640/199968) [Main:16524] [Window] WM_ACTIVATEAPP FALSE
+22:53:13 (6223640/199968) [Main:16524] [Window] Contraption::setActive false
