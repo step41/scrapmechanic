@@ -1204,7 +1204,10 @@ end
 
 function SurvivalGame.sv_deleteCreation( self, params )
 	local success, err = pcall( function()
-		params.body:destroy()
+		local shapes = params.body:getShapes()
+		for _, shape in ipairs( shapes ) do
+			shape:destroyShape()
+		end
 	end )
 	if success then
 		self.network:sendToClient( params.player, "client_showMessage", "Creation deleted" )
