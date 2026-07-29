@@ -277,16 +277,16 @@
 					}
 				]
 			},
-			"restrictions" : 
+			"restrictions" :
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"uuid" : "1df6f1af-fd39-443a-9fd7-dd389e0ba5c8"
@@ -311,16 +311,16 @@
 				"friction" : 3
 			},
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_interiorwedgelong.rend",
-			"restrictions" : 
+			"restrictions" :
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYX",
 			"sticky" : "-Y-Z+X-X",
@@ -345,16 +345,16 @@
 				"friction" : 3
 			},
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_interiorboxmedium.rend",
-			"restrictions" : 
+			"restrictions" :
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZX",
 			"uuid" : "10079046-6400-42fd-bcd6-f66af6cfd8b8"
@@ -378,16 +378,16 @@
 				"friction" : 6
 			},
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_interiorboxlarge.rend",
-			"restrictions" : 
+			"restrictions" :
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZmX",
 			"uuid" : "98ef8fca-d4a3-4b9a-8699-0630b003b9fa"
