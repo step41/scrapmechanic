@@ -188,12 +188,14 @@ WAREHOUSE_DESTRUCTION_TICKS = 40 * 60 * 5 -- 5 minutes
 LIMITED_LOOT_DEFAULT_LIMIT = 5
 
 -- Ordered HexStr colors selectable from the paint-tool
--- NOTE: first entry is a deliberate egregious test color (bright magenta) standing in for the
--- original "eeeeeeff" - confirms in-game whether the paint tool is actually reading this array
--- at all before we trust the 88 newly appended colors below. Revert to "eeeeeeff" once confirmed.
+-- CONFIRMED (in-game test): the paint tool does NOT read this array - a bright magenta swap on
+-- the first entry, with a full game restart and confirmed-updated files on disk, produced no
+-- change at all. Whatever the tool actually reads from, it isn't this. Left at 128 entries as a
+-- data point in case a real consumer is found later, but do not expect this to affect anything
+-- in-game right now.
 PAINT_COLORS =
 {
-	"ff00ffff", "f5f071ff", "cbf66fff", "68ff88ff", "7eededff", "4c6fe3ff", "ae79f0ff", "ee7bf0ff", "f06767ff", "eeaf5cff",
+	"eeeeeeff", "f5f071ff", "cbf66fff", "68ff88ff", "7eededff", "4c6fe3ff", "ae79f0ff", "ee7bf0ff", "f06767ff", "eeaf5cff",
 	"7f7f7fff", "e2db13ff", "a0ea00ff", "19e753ff", "2ce6e6ff", "0a3ee2ff", "7514edff", "cf11d2ff", "d02525ff", "df7f00ff",
 	"4a4a4aff", "817c00ff", "577d07ff", "0e8031ff", "118787ff", "0f2e91ff", "500aa6ff", "720a74ff", "7c0000ff", "673b00ff",
 	"222222ff", "323000ff", "375000ff", "064023ff", "0a4444ff", "0a1d5aff", "35086cff", "520653ff", "560202ff", "472800ff",
