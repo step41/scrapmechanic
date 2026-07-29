@@ -75,6 +75,7 @@
 		"$SURVIVAL_DATA/Objects/Database/ShapeSets/moltenorb.shapeset",
 		"$SURVIVAL_DATA/Objects/Database/ShapeSets/castedpart.shapeset",
 		"$SURVIVAL_DATA/Objects/Database/ShapeSets/harvests_nonepart.shapeset",
-		"$SURVIVAL_DATA/Objects/Database/ShapeSets/harvests_crystal.shapeset"
+		"$SURVIVAL_DATA/Objects/Database/ShapeSets/harvests_crystal.shapeset",
+		"$SURVIVAL_DATA/Objects/Database/ShapeSets/custom.json"
 	]
 }
