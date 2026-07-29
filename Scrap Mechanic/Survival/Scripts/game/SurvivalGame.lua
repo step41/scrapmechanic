@@ -276,6 +276,7 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/import", { { "string", "name", false } }, "cl_onChatCommand", "Imports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/export", { { "string", "name", false } }, "cl_onChatCommand", "Exports blueprint $SURVIVAL_DATA/LocalBlueprints/<name>.blueprint" )
 		sm.game.bindChatCommand( "/exportbylog", {}, "cl_onChatCommand", "Exports blueprint by writing it to log" )
+		sm.game.bindChatCommand( "/delete", {}, "cl_onChatCommand", "Deletes the creation you are looking at - CANNOT be undone" )
 		
 
 
@@ -660,6 +661,17 @@ function SurvivalGame.cl_onChatCommand( self, params )
 				player = sm.localPlayer.getPlayer()
 			}
 			self.network:sendToServer( "sv_importCreation", importParams )
+		end
+	elseif params[1] == "/delete" then
+		local rayCastValid, rayCastResult = sm.localPlayer.getRaycast( 100 )
+		if rayCastValid and rayCastResult.type == "body" then
+			local deleteParams = {
+				body = rayCastResult:getBody(),
+				player = sm.localPlayer.getPlayer()
+			}
+			self.network:sendToServer( "sv_deleteCreation", deleteParams )
+		else
+			self:client_showMessage( "Delete failed: look directly at a free-floating creation (not connected to the world)" )
 		end
 
 
@@ -1187,6 +1199,18 @@ function SurvivalGame.sv_exportbylogCreation( self, params )
 	else
 		sm.log.error( "sv_exportbylogCreation failed: "..tostring( err ) )
 		self.network:sendToClients( "client_showMessage", "Export to log failed - check the log for details" )
+	end
+end
+
+function SurvivalGame.sv_deleteCreation( self, params )
+	local success, err = pcall( function()
+		params.body:destroy()
+	end )
+	if success then
+		self.network:sendToClient( params.player, "client_showMessage", "Creation deleted" )
+	else
+		sm.log.error( "sv_deleteCreation failed: "..tostring( err ) )
+		self.network:sendToClient( params.player, "client_showMessage", "Delete failed - check the log for details" )
 	end
 end
 
