@@ -42,13 +42,13 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
 				"usable" : true
 			},
 			"rotationSet" : "PropFullMinusNegY",
@@ -160,13 +160,13 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
 				"usable" : true
 			},
 			"rotationSet" : "PropFullMinusNegY",
@@ -413,14 +413,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall08.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -441,14 +441,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall08_damaged.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -469,14 +469,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall02.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -497,14 +497,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall02_damaged.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -525,14 +525,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall01.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -553,14 +553,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall03.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -582,14 +582,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall04.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -611,14 +611,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall12.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -640,14 +640,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall12_damaged.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -669,14 +669,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall06.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -697,14 +697,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_wall05.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -725,14 +725,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_corner01.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZX",
 			"showInInventory" : false,
@@ -754,14 +754,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_corner01_damaged.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZX",
 			"showInInventory" : false,
@@ -783,14 +783,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_corner02.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZX",
 			"showInInventory" : false,
@@ -812,14 +812,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_corner03.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZX",
 			"showInInventory" : false,
@@ -848,13 +848,13 @@
 			"restrictions" : 
 			{
 				"buildable" : true,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -882,13 +882,13 @@
 			"restrictions" : 
 			{
 				"buildable" : true,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -916,13 +916,13 @@
 			"restrictions" : 
 			{
 				"buildable" : true,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZ",
 			"showInInventory" : false,
@@ -969,14 +969,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropNegYX",
 			"showInInventory" : false,
@@ -1023,14 +1023,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropNegYX",
 			"showInInventory" : false,
@@ -1077,14 +1077,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropNegYXNegX",
 			"showInInventory" : false,
@@ -1111,14 +1111,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame01.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegYZ",
 			"showInInventory" : false,
@@ -1140,14 +1140,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame02.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegYZ",
 			"showInInventory" : false,
@@ -1169,14 +1169,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame05.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegYZ",
 			"showInInventory" : false,
@@ -1198,14 +1198,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame03.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegY",
 			"showInInventory" : false,
@@ -1226,14 +1226,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame04.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegYZNegX",
 			"uuid" : "a79a2bc9-1015-4c25-ab4b-0d4cb715db47"
@@ -1253,14 +1253,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_frame06.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYNegYZX",
 			"sticky" : "+Y-Y-Z-X",
@@ -1307,14 +1307,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropY",
 			"sticky" : "+Y-Y",
@@ -1336,13 +1336,13 @@
 			"restrictions" : 
 			{
 				"buildable" : true,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropZ",
 			"showInInventory" : false,
@@ -1363,14 +1363,14 @@
 			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/Spaceship/obj_spaceship_infoboard.rend",
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYZNegZNegX",
 			"uuid" : "1f5d8b77-183c-4f8b-83d7-a3940d090926"
@@ -1416,14 +1416,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropYXmNegXm",
 			"sticky" : "+Y-Y+X-X",
@@ -1481,13 +1481,13 @@
 			"restrictions" : 
 			{
 				"buildable" : true,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropZNegY",
 			"sticky" : "+Y-Z-X+X",
@@ -1546,14 +1546,14 @@
 			},
 			"restrictions" : 
 			{
-				"buildable" : false,
-				"connectable" : false,
-				"convertibleToDynamic" : false,
-				"destructable" : false,
-				"erasable" : false,
-				"liftable" : false,
-				"paintable" : false,
-				"usable" : false
+				"buildable" : true,
+				"connectable" : true,
+				"convertibleToDynamic" : true,
+				"destructable" : true,
+				"erasable" : true,
+				"liftable" : true,
+				"paintable" : true,
+				"usable" : true
 			},
 			"rotationSet" : "PropY",
 			"spotlight" : 
